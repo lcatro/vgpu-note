@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Foundry>
+<VM>
+<VMId type="string">52 fd 66 bb c1 a1 56 ac-0a 7e 02 7d 70 bf ea b1</VMId>
+<ClientMetaData>
+<clientMetaDataAttributes/>
+<HistoryEventList/></ClientMetaData>
+<vmxPathName type="string">noscreen-cursor.vmx</vmxPathName></VM></Foundry>

@@ -1,0 +1,455 @@
+INFO: Seed: 3148466302
+INFO: Loaded 1 modules   (9467 inline 8-bit counters): 9467 [0x74c6a0, 0x74eb9b), 
+INFO: Loaded 1 PC tables (9467 PCs): 9467 [0x6a2648,0x6c75f8), 
+INFO: -max_len is not provided; libFuzzer will not generate inputs larger than 4096 bytes
+INFO: A corpus is not provided, starting from an empty corpus
+#2	INITED cov: 2 ft: 2 corp: 1/1b exec/s: 0 rss: 144Mb
+	NEW_FUNC[1/36]: 0x554200 in fuzzer_create_gl_context (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x554200)
+	NEW_FUNC[2/36]: 0x554440 in fuzzer_destroy_gl_context (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x554440)
+#51685	NEW    cov: 127 ft: 128 corp: 2/518b lim: 517 exec/s: 0 rss: 196Mb L: 517/517 MS: 2 CopyPart-CrossOver-
+	NEW_FUNC[1/1]: 0x55cf00 in vrend_decode_dummy (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x55cf00)
+#51829	NEW    cov: 130 ft: 131 corp: 3/1035b lim: 517 exec/s: 51829 rss: 271Mb L: 517/517 MS: 4 ChangeBit-ChangeBit-CopyPart-CrossOver-
+	NEW_FUNC[1/4]: 0x55f5a0 in vrend_decode_bind_object (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x55f5a0)
+	NEW_FUNC[2/4]: 0x5646b0 in vrend_decode_destroy_sub_ctx (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5646b0)
+#51857	NEW    cov: 138 ft: 139 corp: 4/1552b lim: 517 exec/s: 51857 rss: 271Mb L: 517/517 MS: 3 ShuffleBytes-ShuffleBytes-CrossOver-
+	NEW_FUNC[1/6]: 0x560940 in vrend_decode_draw_vbo (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x560940)
+	NEW_FUNC[2/6]: 0x5630d0 in vrend_decode_bind_sampler_states (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5630d0)
+#51875	NEW    cov: 150 ft: 153 corp: 5/2069b lim: 517 exec/s: 25937 rss: 271Mb L: 517/517 MS: 3 ChangeBinInt-ChangeBit-CrossOver-
+	NEW_FUNC[1/3]: 0x561b70 in vrend_decode_set_stencil_ref (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x561b70)
+	NEW_FUNC[2/3]: 0x564290 in vrend_decode_set_render_condition (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x564290)
+#51924	NEW    cov: 156 ft: 160 corp: 6/2586b lim: 517 exec/s: 25962 rss: 271Mb L: 517/517 MS: 4 ChangeBinInt-CopyPart-ShuffleBytes-ChangeByte-
+#52003	NEW    cov: 157 ft: 161 corp: 7/3103b lim: 517 exec/s: 17334 rss: 271Mb L: 517/517 MS: 4 EraseBytes-InsertRepeatedBytes-ChangeBinInt-CrossOver-
+#52077	NEW    cov: 157 ft: 170 corp: 8/3618b lim: 517 exec/s: 13019 rss: 271Mb L: 515/517 MS: 4 CopyPart-EraseBytes-CrossOver-EraseBytes-
+#52099	NEW    cov: 158 ft: 171 corp: 9/4134b lim: 517 exec/s: 13024 rss: 271Mb L: 516/517 MS: 2 ShuffleBytes-CopyPart-
+	NEW_FUNC[1/6]: 0x55f780 in vrend_decode_set_viewport_state (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x55f780)
+	NEW_FUNC[2/6]: 0x5611e0 in vrend_decode_resource_inline_write (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5611e0)
+#52115	NEW    cov: 169 ft: 182 corp: 10/4651b lim: 517 exec/s: 13028 rss: 271Mb L: 517/517 MS: 1 CrossOver-
+	NEW_FUNC[1/5]: 0x560710 in vrend_decode_clear (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x560710)
+	NEW_FUNC[2/5]: 0x561ab0 in vrend_decode_set_constant_buffer (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x561ab0)
+#52494	NEW    cov: 179 ft: 192 corp: 11/5168b lim: 517 exec/s: 6561 rss: 271Mb L: 517/517 MS: 4 ChangeByte-ShuffleBytes-InsertByte-CrossOver-
+#52592	NEW    cov: 181 ft: 204 corp: 12/5682b lim: 517 exec/s: 5843 rss: 271Mb L: 514/517 MS: 3 ChangeByte-ChangeByte-CrossOver-
+#53404	NEW    cov: 184 ft: 211 corp: 13/6196b lim: 517 exec/s: 2966 rss: 271Mb L: 514/517 MS: 2 CMP-EraseBytes- DE: "\xff\x01\x00\x00\x00\x00\x00\x00"-
+#53675	NEW    cov: 184 ft: 213 corp: 14/6711b lim: 517 exec/s: 2555 rss: 271Mb L: 515/517 MS: 1 EraseBytes-
+#53723	NEW    cov: 184 ft: 222 corp: 15/7225b lim: 517 exec/s: 2441 rss: 271Mb L: 514/517 MS: 3 ShuffleBytes-CMP-PersAutoDict- DE: "GL_ARB_vertex_arr"-"\xff\x01\x00\x00\x00\x00\x00\x00"-
+#54190	NEW    cov: 184 ft: 224 corp: 16/7742b lim: 517 exec/s: 2007 rss: 271Mb L: 517/517 MS: 2 CrossOver-ChangeBit-
+	NEW_FUNC[1/2]: 0x5631c0 in vrend_decode_begin_query (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5631c0)
+	NEW_FUNC[2/2]: 0x565570 in vrend_decode_set_atomic_buffers (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x565570)
+#54296	NEW    cov: 188 ft: 228 corp: 17/8259b lim: 517 exec/s: 1939 rss: 271Mb L: 517/517 MS: 1 CrossOver-
+	NEW_FUNC[1/1]: 0x575020 in vrend_set_constants (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x575020)
+#54899	NEW    cov: 191 ft: 231 corp: 18/8776b lim: 517 exec/s: 1568 rss: 271Mb L: 517/517 MS: 3 PersAutoDict-ChangeBit-CMP- DE: "GL_ARB_vertex_arr"-"\x04\x00\x00\x00"-
+	NEW_FUNC[1/5]: 0x560560 in vrend_decode_set_vertex_buffers (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x560560)
+	NEW_FUNC[2/5]: 0x562350 in vrend_decode_blit (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x562350)
+#55807	NEW    cov: 200 ft: 254 corp: 19/9301b lim: 526 exec/s: 1268 rss: 271Mb L: 525/525 MS: 3 ChangeBit-ChangeBinInt-CopyPart-
+	NEW_FUNC[1/2]: 0x564a40 in vrend_decode_set_shader_buffers (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x564a40)
+	NEW_FUNC[2/2]: 0x566d90 in vrend_decode_pipe_resource_set_type (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x566d90)
+#55808	NEW    cov: 205 ft: 259 corp: 20/9824b lim: 526 exec/s: 1268 rss: 271Mb L: 523/525 MS: 1 InsertRepeatedBytes-
+#55829	NEW    cov: 205 ft: 260 corp: 21/10342b lim: 526 exec/s: 1240 rss: 271Mb L: 518/525 MS: 1 PersAutoDict- DE: "\x04\x00\x00\x00"-
+	NEW_FUNC[1/1]: 0x59fda0 in vrend_renderer_set_sub_ctx (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x59fda0)
+#55841	NEW    cov: 209 ft: 266 corp: 22/10860b lim: 526 exec/s: 1240 rss: 271Mb L: 518/525 MS: 2 ChangeByte-InsertByte-
+#55852	NEW    cov: 210 ft: 267 corp: 23/11382b lim: 526 exec/s: 1241 rss: 271Mb L: 522/525 MS: 1 InsertRepeatedBytes-
+#55857	NEW    cov: 210 ft: 268 corp: 24/11904b lim: 526 exec/s: 1241 rss: 271Mb L: 522/525 MS: 5 ChangeBinInt-ChangeByte-ChangeBit-ChangeBinInt-InsertRepeatedBytes-
+#55860	NEW    cov: 211 ft: 270 corp: 25/12430b lim: 526 exec/s: 1241 rss: 271Mb L: 526/526 MS: 3 ChangeBit-CopyPart-CrossOver-
+#55861	NEW    cov: 211 ft: 273 corp: 26/12955b lim: 526 exec/s: 1241 rss: 271Mb L: 525/526 MS: 1 PersAutoDict- DE: "\xff\x01\x00\x00\x00\x00\x00\x00"-
+#55865	NEW    cov: 213 ft: 275 corp: 27/13478b lim: 526 exec/s: 1241 rss: 271Mb L: 523/526 MS: 4 ShuffleBytes-PersAutoDict-ChangeByte-InsertByte- DE: "\x04\x00\x00\x00"-
+	NEW_FUNC[1/1]: 0x5637b0 in vrend_decode_set_sample_mask (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5637b0)
+#55875	NEW    cov: 216 ft: 278 corp: 28/14003b lim: 526 exec/s: 1241 rss: 271Mb L: 525/526 MS: 5 ShuffleBytes-ShuffleBytes-InsertByte-ChangeBinInt-CopyPart-
+	NEW_FUNC[1/1]: 0x5c9a40 in vrend_renderer_get_meminfo (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5c9a40)
+#55879	NEW    cov: 220 ft: 282 corp: 29/14529b lim: 526 exec/s: 1241 rss: 271Mb L: 526/526 MS: 4 CopyPart-CopyPart-CopyPart-CrossOver-
+	NEW_FUNC[1/1]: 0x578bf0 in vrend_memory_barrier (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x578bf0)
+#55907	NEW    cov: 234 ft: 298 corp: 30/15055b lim: 526 exec/s: 1242 rss: 271Mb L: 526/526 MS: 3 CMP-ChangeByte-CrossOver- DE: "\x01\x00\x00\x00\x00\x00\x02\x00"-
+	NEW_FUNC[1/1]: 0x564810 in vrend_decode_set_tess_state (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x564810)
+#55963	NEW    cov: 236 ft: 300 corp: 31/15578b lim: 526 exec/s: 1216 rss: 271Mb L: 523/526 MS: 1 InsertRepeatedBytes-
+	NEW_FUNC[1/3]: 0x55c640 in vrend_debug_can_override (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x55c640)
+	NEW_FUNC[2/3]: 0x565780 in vrend_decode_set_debug_mask (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x565780)
+#56131	NEW    cov: 241 ft: 305 corp: 32/16103b lim: 526 exec/s: 1169 rss: 271Mb L: 525/526 MS: 3 CopyPart-InsertByte-InsertByte-
+#56132	NEW    cov: 242 ft: 306 corp: 33/16Kb lim: 526 exec/s: 1169 rss: 271Mb L: 526/526 MS: 1 CrossOver-
+#56154	NEW    cov: 242 ft: 307 corp: 34/16Kb lim: 526 exec/s: 1169 rss: 271Mb L: 526/526 MS: 2 CopyPart-CrossOver-
+#56155	NEW    cov: 243 ft: 308 corp: 35/17Kb lim: 526 exec/s: 1169 rss: 271Mb L: 526/526 MS: 1 CrossOver-
+	NEW_FUNC[1/1]: 0x5617b0 in vrend_decode_set_sampler_views (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5617b0)
+#56224	NEW    cov: 245 ft: 310 corp: 36/17Kb lim: 526 exec/s: 1147 rss: 271Mb L: 526/526 MS: 4 ChangeByte-ChangeBinInt-ChangeBit-CrossOver-
+#56291	NEW    cov: 245 ft: 314 corp: 37/18Kb lim: 526 exec/s: 1125 rss: 271Mb L: 521/526 MS: 2 PersAutoDict-PersAutoDict- DE: "GL_ARB_vertex_arr"-"\x04\x00\x00\x00"-
+#56322	NEW    cov: 245 ft: 318 corp: 38/18Kb lim: 526 exec/s: 1126 rss: 271Mb L: 523/526 MS: 1 CopyPart-
+#56323	NEW    cov: 246 ft: 319 corp: 39/19Kb lim: 526 exec/s: 1126 rss: 271Mb L: 526/526 MS: 1 InsertRepeatedBytes-
+	NEW_FUNC[1/1]: 0x5ca0b0 in vrend_context_emit_string_marker (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5ca0b0)
+#56341	NEW    cov: 249 ft: 322 corp: 40/19Kb lim: 526 exec/s: 1126 rss: 271Mb L: 517/526 MS: 2 CMP-PersAutoDict- DE: "\x01\x1b"-"\x01\x00\x00\x00\x00\x00\x02\x00"-
+	NEW_FUNC[1/1]: 0x5b01a0 in vrend_set_stencil_ref (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5b01a0)
+#56394	NEW    cov: 252 ft: 325 corp: 41/20Kb lim: 526 exec/s: 1105 rss: 271Mb L: 526/526 MS: 3 ShuffleBytes-PersAutoDict-CopyPart- DE: "\xff\x01\x00\x00\x00\x00\x00\x00"-
+#56401	NEW    cov: 252 ft: 328 corp: 42/20Kb lim: 526 exec/s: 1105 rss: 271Mb L: 525/526 MS: 2 InsertByte-CopyPart-
+	NEW_FUNC[1/1]: 0x565a00 in vrend_decode_transfer3d (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x565a00)
+#56453	NEW    cov: 254 ft: 330 corp: 43/21Kb lim: 526 exec/s: 1085 rss: 271Mb L: 526/526 MS: 2 InsertRepeatedBytes-CrossOver-
+#56463	REDUCE cov: 254 ft: 330 corp: 43/21Kb lim: 526 exec/s: 1085 rss: 271Mb L: 515/526 MS: 5 ShuffleBytes-PersAutoDict-CopyPart-EraseBytes-InsertRepeatedBytes- DE: "\xff\x01\x00\x00\x00\x00\x00\x00"-
+	NEW_FUNC[1/1]: 0x5b27a0 in vrend_set_sample_mask (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5b27a0)
+#56707	NEW    cov: 257 ft: 333 corp: 44/21Kb lim: 526 exec/s: 1031 rss: 271Mb L: 526/526 MS: 4 CopyPart-ShuffleBytes-ChangeByte-CopyPart-
+	NEW_FUNC[1/1]: 0x578ed0 in vrend_texture_barrier (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x578ed0)
+#56777	NEW    cov: 261 ft: 337 corp: 45/22Kb lim: 526 exec/s: 1013 rss: 271Mb L: 526/526 MS: 4 PersAutoDict-InsertByte-InsertRepeatedBytes-CrossOver- DE: "\x01\x1b"-
+#56805	NEW    cov: 261 ft: 339 corp: 46/22Kb lim: 526 exec/s: 1014 rss: 271Mb L: 526/526 MS: 3 ShuffleBytes-InsertByte-PersAutoDict- DE: "GL_ARB_vertex_arr"-
+	NEW_FUNC[1/3]: 0x55f6e0 in vrend_decode_destroy_object (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x55f6e0)
+	NEW_FUNC[2/3]: 0x56ba70 in vrend_object_remove (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x56ba70)
+#56953	NEW    cov: 267 ft: 345 corp: 47/23Kb lim: 526 exec/s: 981 rss: 271Mb L: 526/526 MS: 3 ShuffleBytes-CMP-CrossOver- DE: ">\xff\xff\xff"-
+	NEW_FUNC[1/4]: 0x55cf10 in vrend_decode_create_object (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x55cf10)
+	NEW_FUNC[2/4]: 0x561ec0 in vrend_decode_set_scissor_state (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x561ec0)
+#57014	REDUCE cov: 275 ft: 353 corp: 48/23Kb lim: 526 exec/s: 966 rss: 271Mb L: 523/526 MS: 1 InsertRepeatedBytes-
+#57130	NEW    cov: 275 ft: 355 corp: 49/24Kb lim: 526 exec/s: 936 rss: 271Mb L: 525/526 MS: 1 InsertRepeatedBytes-
+#57133	NEW    cov: 276 ft: 356 corp: 50/24Kb lim: 526 exec/s: 936 rss: 271Mb L: 526/526 MS: 3 ChangeByte-CopyPart-CopyPart-
+#57410	REDUCE cov: 277 ft: 357 corp: 51/25Kb lim: 526 exec/s: 883 rss: 271Mb L: 517/526 MS: 2 ChangeBit-PersAutoDict- DE: "\x01\x1b"-
+#57509	NEW    cov: 278 ft: 358 corp: 52/25Kb lim: 526 exec/s: 871 rss: 271Mb L: 526/526 MS: 4 ChangeByte-CopyPart-ShuffleBytes-CrossOver-
+#57594	NEW    cov: 278 ft: 360 corp: 53/26Kb lim: 526 exec/s: 859 rss: 271Mb L: 526/526 MS: 5 ChangeBit-ShuffleBytes-ChangeBinInt-ChangeBinInt-ChangeByte-
+#57741	NEW    cov: 280 ft: 362 corp: 54/26Kb lim: 526 exec/s: 836 rss: 271Mb L: 523/526 MS: 2 CopyPart-PersAutoDict- DE: "\x04\x00\x00\x00"-
+#57762	NEW    cov: 280 ft: 363 corp: 55/27Kb lim: 526 exec/s: 837 rss: 271Mb L: 526/526 MS: 1 ShuffleBytes-
+#57769	NEW    cov: 280 ft: 368 corp: 56/28Kb lim: 526 exec/s: 837 rss: 271Mb L: 526/526 MS: 2 CopyPart-PersAutoDict- DE: "\xff\x01\x00\x00\x00\x00\x00\x00"-
+#57775	NEW    cov: 281 ft: 369 corp: 57/28Kb lim: 526 exec/s: 837 rss: 271Mb L: 526/526 MS: 1 CMP- DE: "GL_KHR_blend_equation"-
+#57799	NEW    cov: 282 ft: 371 corp: 58/29Kb lim: 526 exec/s: 825 rss: 271Mb L: 526/526 MS: 4 CMP-CopyPart-ChangeBinInt-ChangeBit- DE: "GL_ARB_texture"-
+#57840	NEW    cov: 287 ft: 376 corp: 59/29Kb lim: 526 exec/s: 826 rss: 271Mb L: 526/526 MS: 1 CrossOver-
+	NEW_FUNC[1/1]: 0x5619a0 in vrend_decode_set_index_buffer (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5619a0)
+#57859	NEW    cov: 289 ft: 378 corp: 60/30Kb lim: 526 exec/s: 826 rss: 271Mb L: 525/526 MS: 4 ChangeBinInt-CMP-ChangeBinInt-CopyPart- DE: "GL_KHR_blend_equati"-
+#57865	NEW    cov: 290 ft: 379 corp: 61/30Kb lim: 526 exec/s: 826 rss: 271Mb L: 526/526 MS: 1 CopyPart-
+#58152	NEW    cov: 291 ft: 380 corp: 62/31Kb lim: 526 exec/s: 785 rss: 271Mb L: 526/526 MS: 2 ChangeByte-PersAutoDict- DE: "GL_KHR_blend_equati"-
+	NEW_FUNC[1/1]: 0x564750 in vrend_decode_bind_shader (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x564750)
+#58389	NEW    cov: 293 ft: 382 corp: 63/31Kb lim: 526 exec/s: 758 rss: 271Mb L: 526/526 MS: 2 ChangeByte-PersAutoDict- DE: "GL_ARB_texture"-
+#58405	NEW    cov: 295 ft: 384 corp: 64/32Kb lim: 526 exec/s: 758 rss: 271Mb L: 526/526 MS: 1 CopyPart-
+#58711	NEW    cov: 295 ft: 386 corp: 65/32Kb lim: 526 exec/s: 724 rss: 271Mb L: 526/526 MS: 1 CrossOver-
+#58787	NEW    cov: 296 ft: 387 corp: 66/33Kb lim: 526 exec/s: 716 rss: 271Mb L: 526/526 MS: 1 ChangeBit-
+	NEW_FUNC[1/2]: 0x56baa0 in vrend_object_lookup (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x56baa0)
+	NEW_FUNC[2/2]: 0x5bdf90 in vrend_end_query (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5bdf90)
+#59059	NEW    cov: 301 ft: 392 corp: 67/33Kb lim: 526 exec/s: 686 rss: 271Mb L: 526/526 MS: 2 PersAutoDict-ChangeByte- DE: "GL_ARB_vertex_arr"-
+#59249	NEW    cov: 302 ft: 393 corp: 68/34Kb lim: 526 exec/s: 673 rss: 271Mb L: 526/526 MS: 5 ChangeBit-EraseBytes-ChangeByte-ChangeByte-CrossOver-
+#59848	NEW    cov: 306 ft: 439 corp: 69/34Kb lim: 526 exec/s: 629 rss: 271Mb L: 526/526 MS: 4 CrossOver-EraseBytes-PersAutoDict-CrossOver- DE: "GL_ARB_vertex_arr"-
+#59895	NEW    cov: 307 ft: 440 corp: 70/35Kb lim: 526 exec/s: 623 rss: 271Mb L: 526/526 MS: 2 CopyPart-CrossOver-
+#59981	NEW    cov: 307 ft: 442 corp: 71/35Kb lim: 526 exec/s: 618 rss: 271Mb L: 526/526 MS: 1 CrossOver-
+	NEW_FUNC[1/1]: 0x5c7290 in vrend_renderer_destroy_sub_ctx (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5c7290)
+#60307	NEW    cov: 311 ft: 446 corp: 72/36Kb lim: 526 exec/s: 597 rss: 272Mb L: 526/526 MS: 1 ChangeBinInt-
+#60326	NEW    cov: 311 ft: 448 corp: 73/36Kb lim: 526 exec/s: 597 rss: 272Mb L: 526/526 MS: 4 ChangeBit-ChangeBit-CrossOver-ChangeBinInt-
+#60345	NEW    cov: 311 ft: 449 corp: 74/37Kb lim: 526 exec/s: 597 rss: 272Mb L: 526/526 MS: 4 CopyPart-CrossOver-ChangeASCIIInt-PersAutoDict- DE: ">\xff\xff\xff"-
+#60588	NEW    cov: 311 ft: 450 corp: 75/37Kb lim: 526 exec/s: 577 rss: 273Mb L: 526/526 MS: 3 ShuffleBytes-PersAutoDict-PersAutoDict- DE: "GL_KHR_blend_equati"-"GL_KHR_blend_equation"-
+#60824	NEW    cov: 311 ft: 454 corp: 76/38Kb lim: 526 exec/s: 568 rss: 273Mb L: 526/526 MS: 1 ChangeBit-
+#60925	NEW    cov: 312 ft: 455 corp: 77/38Kb lim: 526 exec/s: 558 rss: 273Mb L: 526/526 MS: 1 CrossOver-
+#61461	NEW    cov: 313 ft: 456 corp: 78/39Kb lim: 526 exec/s: 529 rss: 273Mb L: 526/526 MS: 1 CrossOver-
+	NEW_FUNC[1/1]: 0x55fad0 in vrend_decode_set_framebuffer_state (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x55fad0)
+#61631	NEW    cov: 315 ft: 458 corp: 79/39Kb lim: 526 exec/s: 522 rss: 273Mb L: 518/526 MS: 5 ChangeBit-CopyPart-CrossOver-PersAutoDict-InsertByte- DE: ">\xff\xff\xff"-
+#61676	NEW    cov: 316 ft: 459 corp: 80/40Kb lim: 526 exec/s: 522 rss: 273Mb L: 526/526 MS: 5 ChangeBinInt-CopyPart-ChangeBinInt-PersAutoDict-PersAutoDict- DE: "GL_KHR_blend_equati"-"GL_KHR_blend_equati"-
+#61859	REDUCE cov: 316 ft: 459 corp: 80/40Kb lim: 526 exec/s: 515 rss: 273Mb L: 514/526 MS: 3 EraseBytes-InsertByte-CopyPart-
+	NEW_FUNC[1/1]: 0x576100 in vrend_set_num_vbo (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x576100)
+#62037	NEW    cov: 320 ft: 463 corp: 81/40Kb lim: 526 exec/s: 504 rss: 273Mb L: 526/526 MS: 3 ChangeByte-ChangeByte-ChangeBinInt-
+	NEW_FUNC[1/1]: 0x564c70 in vrend_decode_set_shader_images (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x564c70)
+#62048	NEW    cov: 322 ft: 465 corp: 82/41Kb lim: 526 exec/s: 504 rss: 273Mb L: 526/526 MS: 1 CMP- DE: "GL_KHR_blend_equation"-
+#62195	REDUCE cov: 322 ft: 465 corp: 82/41Kb lim: 526 exec/s: 497 rss: 273Mb L: 518/526 MS: 2 ShuffleBytes-EraseBytes-
+#62236	NEW    cov: 323 ft: 466 corp: 83/41Kb lim: 526 exec/s: 493 rss: 273Mb L: 526/526 MS: 1 ChangeBit-
+#62484	NEW    cov: 323 ft: 467 corp: 84/42Kb lim: 526 exec/s: 484 rss: 273Mb L: 526/526 MS: 3 ShuffleBytes-ShuffleBytes-CMP- DE: "GL_EXT_robustness"-
+#62876	REDUCE cov: 323 ft: 467 corp: 84/42Kb lim: 526 exec/s: 469 rss: 273Mb L: 518/526 MS: 2 EraseBytes-InsertRepeatedBytes-
+#62903	NEW    cov: 323 ft: 469 corp: 85/42Kb lim: 526 exec/s: 469 rss: 273Mb L: 526/526 MS: 2 ChangeASCIIInt-CopyPart-
+#63075	NEW    cov: 324 ft: 470 corp: 86/43Kb lim: 526 exec/s: 460 rss: 273Mb L: 526/526 MS: 2 PersAutoDict-CrossOver- DE: "GL_ARB_texture"-
+#63251	NEW    cov: 325 ft: 471 corp: 87/43Kb lim: 526 exec/s: 455 rss: 273Mb L: 526/526 MS: 1 ShuffleBytes-
+#63299	NEW    cov: 325 ft: 472 corp: 88/44Kb lim: 526 exec/s: 452 rss: 273Mb L: 526/526 MS: 3 CopyPart-CopyPart-CopyPart-
+#63532	NEW    cov: 326 ft: 473 corp: 89/44Kb lim: 526 exec/s: 444 rss: 273Mb L: 526/526 MS: 3 EraseBytes-ChangeBit-CrossOver-
+	NEW_FUNC[1/1]: 0x5bdb90 in vrend_begin_query (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5bdb90)
+#63728	NEW    cov: 329 ft: 476 corp: 90/45Kb lim: 526 exec/s: 439 rss: 273Mb L: 526/526 MS: 1 CopyPart-
+	NEW_FUNC[1/3]: 0x59ffc0 in vrend_renderer_resource_create (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x59ffc0)
+	NEW_FUNC[2/3]: 0x5a2430 in vrend_resource_create (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5a2430)
+#63933	NEW    cov: 336 ft: 483 corp: 91/45Kb lim: 526 exec/s: 434 rss: 273Mb L: 526/526 MS: 5 ChangeByte-ChangeBinInt-CopyPart-ChangeBit-CrossOver-
+#64626	NEW    cov: 337 ft: 484 corp: 92/46Kb lim: 526 exec/s: 414 rss: 273Mb L: 523/526 MS: 3 EraseBytes-ShuffleBytes-CopyPart-
+	NEW_FUNC[1/1]: 0x565f90 in vrend_decode_copy_transfer3d (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x565f90)
+#64891	NEW    cov: 339 ft: 486 corp: 93/46Kb lim: 526 exec/s: 408 rss: 273Mb L: 526/526 MS: 5 ChangeASCIIInt-ChangeBit-ShuffleBytes-ChangeBit-CrossOver-
+	NEW_FUNC[1/1]: 0x59b460 in vrend_set_streamout_targets (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x59b460)
+#65399	NEW    cov: 356 ft: 504 corp: 94/47Kb lim: 526 exec/s: 393 rss: 273Mb L: 526/526 MS: 3 CrossOver-ShuffleBytes-CMP- DE: "\x01\x00e\x10"-
+#65429	REDUCE cov: 356 ft: 504 corp: 94/47Kb lim: 526 exec/s: 391 rss: 273Mb L: 514/526 MS: 5 CMP-InsertRepeatedBytes-InsertByte-ShuffleBytes-EraseBytes- DE: "\x00\x00\x00\x00\x00\x00\x02\x0e"-
+	NEW_FUNC[1/1]: 0x575580 in vrend_set_index_buffer (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x575580)
+#65501	NEW    cov: 359 ft: 507 corp: 95/48Kb lim: 526 exec/s: 389 rss: 273Mb L: 526/526 MS: 2 ShuffleBytes-CopyPart-
+#65536	pulse  cov: 359 ft: 507 corp: 95/48Kb lim: 526 exec/s: 390 rss: 273Mb
+#65851	NEW    cov: 359 ft: 508 corp: 96/48Kb lim: 526 exec/s: 382 rss: 273Mb L: 526/526 MS: 5 ShuffleBytes-ChangeBinInt-ShuffleBytes-ChangeBinInt-ChangeByte-
+	NEW_FUNC[1/4]: 0x555980 in virgl_resource_lookup (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x555980)
+	NEW_FUNC[2/4]: 0x626b30 in virgl_renderer_resource_create (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x626b30)
+#66758	NEW    cov: 366 ft: 515 corp: 97/49Kb lim: 535 exec/s: 364 rss: 273Mb L: 535/535 MS: 2 ChangeBinInt-CrossOver-
+#66764	NEW    cov: 366 ft: 518 corp: 98/49Kb lim: 535 exec/s: 362 rss: 273Mb L: 527/535 MS: 1 InsertByte-
+#66794	NEW    cov: 366 ft: 520 corp: 99/50Kb lim: 535 exec/s: 363 rss: 273Mb L: 527/535 MS: 5 ChangeBinInt-ChangeByte-ChangeBinInt-CopyPart-InsertByte-
+#66816	NEW    cov: 367 ft: 521 corp: 100/50Kb lim: 535 exec/s: 363 rss: 273Mb L: 534/535 MS: 2 ChangeBit-InsertRepeatedBytes-
+#67029	NEW    cov: 368 ft: 522 corp: 101/51Kb lim: 535 exec/s: 358 rss: 273Mb L: 535/535 MS: 3 InsertRepeatedBytes-ChangeBinInt-CrossOver-
+#68217	NEW    cov: 368 ft: 526 corp: 102/51Kb lim: 544 exec/s: 339 rss: 273Mb L: 542/542 MS: 3 ChangeASCIIInt-ChangeBit-InsertRepeatedBytes-
+#68257	REDUCE cov: 368 ft: 526 corp: 102/51Kb lim: 544 exec/s: 339 rss: 273Mb L: 514/542 MS: 5 InsertRepeatedBytes-ChangeByte-ShuffleBytes-ChangeBit-EraseBytes-
+#68493	NEW    cov: 368 ft: 528 corp: 103/52Kb lim: 544 exec/s: 335 rss: 273Mb L: 526/542 MS: 1 CopyPart-
+#68579	REDUCE cov: 368 ft: 528 corp: 103/52Kb lim: 544 exec/s: 334 rss: 273Mb L: 534/542 MS: 1 CrossOver-
+#69407	NEW    cov: 369 ft: 529 corp: 104/52Kb lim: 544 exec/s: 327 rss: 273Mb L: 538/542 MS: 3 InsertByte-InsertByte-InsertByte-
+#70316	NEW    cov: 370 ft: 540 corp: 105/53Kb lim: 553 exec/s: 319 rss: 273Mb L: 553/553 MS: 4 EraseBytes-ChangeBinInt-ChangeBinInt-CrossOver-
+#70347	NEW    cov: 370 ft: 545 corp: 106/53Kb lim: 553 exec/s: 318 rss: 273Mb L: 553/553 MS: 1 CrossOver-
+#70447	NEW    cov: 372 ft: 547 corp: 107/54Kb lim: 553 exec/s: 317 rss: 273Mb L: 553/553 MS: 5 CMP-CMP-ChangeByte-ShuffleBytes-CopyPart- DE: "\x00\x02\x00\x00\x00\x00\x00\x00"-"\x87\xe3"-
+#70593	NEW    cov: 372 ft: 551 corp: 108/54Kb lim: 553 exec/s: 316 rss: 273Mb L: 526/553 MS: 1 CopyPart-
+#70656	REDUCE cov: 372 ft: 551 corp: 108/54Kb lim: 553 exec/s: 315 rss: 273Mb L: 550/553 MS: 3 ShuffleBytes-EraseBytes-CopyPart-
+#70786	REDUCE cov: 373 ft: 552 corp: 109/55Kb lim: 553 exec/s: 313 rss: 273Mb L: 523/553 MS: 5 ChangeBinInt-PersAutoDict-PersAutoDict-ChangeBit-InsertByte- DE: "\x04\x00\x00\x00"-"\x00\x00\x00\x00\x00\x00\x02\x0e"-
+#71044	REDUCE cov: 373 ft: 552 corp: 109/55Kb lim: 553 exec/s: 310 rss: 273Mb L: 529/553 MS: 3 InsertByte-InsertRepeatedBytes-EraseBytes-
+	NEW_FUNC[1/1]: 0x575b30 in vrend_set_single_vbo (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x575b30)
+#71513	NEW    cov: 382 ft: 563 corp: 110/55Kb lim: 553 exec/s: 304 rss: 273Mb L: 526/553 MS: 4 ShuffleBytes-ChangeBinInt-PersAutoDict-ChangeBinInt- DE: "GL_KHR_blend_equation"-
+#71565	NEW    cov: 382 ft: 564 corp: 111/56Kb lim: 553 exec/s: 303 rss: 273Mb L: 526/553 MS: 2 ChangeBinInt-CopyPart-
+#71690	NEW    cov: 383 ft: 565 corp: 112/56Kb lim: 553 exec/s: 302 rss: 273Mb L: 537/553 MS: 5 PersAutoDict-ChangeByte-PersAutoDict-ShuffleBytes-InsertRepeatedBytes- DE: "\xff\x01\x00\x00\x00\x00\x00\x00"-">\xff\xff\xff"-
+#71952	NEW    cov: 383 ft: 567 corp: 113/57Kb lim: 553 exec/s: 298 rss: 273Mb L: 553/553 MS: 2 CopyPart-PersAutoDict- DE: "\xff\x01\x00\x00\x00\x00\x00\x00"-
+#72098	REDUCE cov: 383 ft: 567 corp: 113/57Kb lim: 553 exec/s: 296 rss: 273Mb L: 522/553 MS: 1 EraseBytes-
+#72526	NEW    cov: 383 ft: 568 corp: 114/57Kb lim: 553 exec/s: 291 rss: 273Mb L: 526/553 MS: 3 ChangeBit-ShuffleBytes-ChangeBit-
+#73105	NEW    cov: 385 ft: 570 corp: 115/58Kb lim: 553 exec/s: 285 rss: 273Mb L: 542/553 MS: 4 InsertRepeatedBytes-CMP-ChangeBinInt-InsertByte- DE: "\xff\xff\xff\xff\xff\xff\xff\xff"-
+#73504	NEW    cov: 385 ft: 582 corp: 116/58Kb lim: 553 exec/s: 281 rss: 273Mb L: 542/553 MS: 4 ShuffleBytes-InsertRepeatedBytes-CopyPart-InsertByte-
+#73563	REDUCE cov: 385 ft: 582 corp: 116/58Kb lim: 553 exec/s: 280 rss: 273Mb L: 549/553 MS: 4 EraseBytes-InsertRepeatedBytes-CMP-InsertByte- DE: "\x00\x00\x00\x00\x00\x00\x02\x00"-
+#73578	NEW    cov: 385 ft: 585 corp: 117/59Kb lim: 553 exec/s: 280 rss: 273Mb L: 538/553 MS: 5 CopyPart-InsertRepeatedBytes-CopyPart-InsertByte-InsertByte-
+#73880	NEW    cov: 386 ft: 589 corp: 118/60Kb lim: 553 exec/s: 277 rss: 273Mb L: 550/553 MS: 2 InsertRepeatedBytes-InsertRepeatedBytes-
+#74572	NEW    cov: 386 ft: 591 corp: 119/60Kb lim: 553 exec/s: 272 rss: 273Mb L: 553/553 MS: 2 InsertByte-CrossOver-
+#74815	REDUCE cov: 386 ft: 593 corp: 120/61Kb lim: 553 exec/s: 270 rss: 273Mb L: 527/553 MS: 3 CrossOver-EraseBytes-CopyPart-
+#75138	NEW    cov: 399 ft: 606 corp: 121/61Kb lim: 553 exec/s: 267 rss: 273Mb L: 553/553 MS: 3 CMP-CrossOver-CrossOver- DE: "\xff\x01\x00\x00\x00\x00\x00\x00"-
+#75976	NEW    cov: 400 ft: 607 corp: 122/62Kb lim: 553 exec/s: 261 rss: 273Mb L: 526/553 MS: 3 ChangeBit-ChangeByte-ChangeBinInt-
+#75992	NEW    cov: 400 ft: 609 corp: 123/62Kb lim: 553 exec/s: 261 rss: 273Mb L: 526/553 MS: 1 CopyPart-
+#76550	REDUCE cov: 400 ft: 609 corp: 123/62Kb lim: 553 exec/s: 257 rss: 273Mb L: 549/553 MS: 3 ChangeByte-ChangeByte-EraseBytes-
+#76572	NEW    cov: 401 ft: 610 corp: 124/63Kb lim: 553 exec/s: 256 rss: 273Mb L: 553/553 MS: 2 ShuffleBytes-CrossOver-
+#77208	NEW    cov: 401 ft: 611 corp: 125/63Kb lim: 553 exec/s: 253 rss: 273Mb L: 526/553 MS: 1 PersAutoDict- DE: "\xff\xff\xff\xff\xff\xff\xff\xff"-
+#77620	NEW    cov: 401 ft: 613 corp: 126/64Kb lim: 553 exec/s: 251 rss: 273Mb L: 526/553 MS: 2 ShuffleBytes-CopyPart-
+#77677	NEW    cov: 402 ft: 614 corp: 127/64Kb lim: 553 exec/s: 250 rss: 273Mb L: 526/553 MS: 2 ChangeBinInt-PersAutoDict- DE: "\x00\x00\x00\x00\x00\x00\x02\x00"-
+#77706	NEW    cov: 403 ft: 615 corp: 128/65Kb lim: 553 exec/s: 250 rss: 273Mb L: 525/553 MS: 4 ShuffleBytes-CopyPart-ChangeBinInt-PersAutoDict- DE: "\x00\x00\x00\x00\x00\x00\x02\x0e"-
+#78240	REDUCE cov: 403 ft: 615 corp: 128/65Kb lim: 553 exec/s: 247 rss: 273Mb L: 550/553 MS: 4 ChangeBinInt-EraseBytes-ChangeByte-InsertRepeatedBytes-
+#78711	NEW    cov: 403 ft: 616 corp: 129/65Kb lim: 553 exec/s: 243 rss: 273Mb L: 526/553 MS: 1 PersAutoDict- DE: "\x00\x00\x00\x00\x00\x00\x02\x00"-
+#81297	NEW    cov: 404 ft: 617 corp: 130/66Kb lim: 571 exec/s: 230 rss: 273Mb L: 534/553 MS: 1 CMP- DE: "z\x01\x00\x00\x00\x00\x00\x00"-
+#81791	NEW    cov: 404 ft: 618 corp: 131/66Kb lim: 571 exec/s: 228 rss: 273Mb L: 542/553 MS: 4 InsertByte-InsertRepeatedBytes-ShuffleBytes-PersAutoDict- DE: "\x87\xe3"-
+#82172	REDUCE cov: 404 ft: 618 corp: 131/66Kb lim: 571 exec/s: 226 rss: 273Mb L: 522/553 MS: 1 CrossOver-
+#82848	NEW    cov: 404 ft: 620 corp: 132/67Kb lim: 571 exec/s: 223 rss: 273Mb L: 550/553 MS: 1 InsertRepeatedBytes-
+#83147	NEW    cov: 405 ft: 622 corp: 133/67Kb lim: 571 exec/s: 222 rss: 273Mb L: 558/558 MS: 3 CopyPart-ShuffleBytes-CopyPart-
+#83811	NEW    cov: 405 ft: 623 corp: 134/68Kb lim: 571 exec/s: 219 rss: 274Mb L: 551/558 MS: 3 ChangeBit-CMP-InsertByte- DE: "GL_OES_vertex_half_float"-
+#83813	REDUCE cov: 405 ft: 623 corp: 134/68Kb lim: 571 exec/s: 219 rss: 274Mb L: 531/558 MS: 2 CrossOver-InsertRepeatedBytes-
+#83845	REDUCE cov: 405 ft: 623 corp: 134/68Kb lim: 571 exec/s: 219 rss: 274Mb L: 533/558 MS: 2 EraseBytes-CopyPart-
+	NEW_FUNC[1/1]: 0x566620 in vrend_decode_clear_texture (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x566620)
+#84512	NEW    cov: 407 ft: 625 corp: 135/68Kb lim: 571 exec/s: 217 rss: 274Mb L: 571/571 MS: 2 CopyPart-CrossOver-
+#85393	NEW    cov: 408 ft: 626 corp: 136/69Kb lim: 571 exec/s: 212 rss: 274Mb L: 554/571 MS: 1 CMP- DE: "\x01\x00\x00\x1e"-
+#85475	REDUCE cov: 408 ft: 626 corp: 136/69Kb lim: 571 exec/s: 212 rss: 274Mb L: 530/571 MS: 2 CMP-EraseBytes- DE: "GL_ARB_transfo"-
+	NEW_FUNC[1/6]: 0x555450 in virgl_resource_create_from_pipe (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x555450)
+	NEW_FUNC[2/6]: 0x55c9d0 in vrend_decode_ctx_attach_resource (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x55c9d0)
+#86347	NEW    cov: 423 ft: 642 corp: 137/70Kb lim: 571 exec/s: 209 rss: 274Mb L: 553/571 MS: 2 ChangeBit-ChangeByte-
+	NEW_FUNC[1/3]: 0x5552e0 in virgl_resource_destroy_func (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5552e0)
+	NEW_FUNC[2/3]: 0x595220 in vrend_pipe_resource_unref (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x595220)
+#86598	NEW    cov: 433 ft: 652 corp: 138/70Kb lim: 571 exec/s: 208 rss: 274Mb L: 553/571 MS: 1 ShuffleBytes-
+#86692	NEW    cov: 434 ft: 653 corp: 139/71Kb lim: 571 exec/s: 207 rss: 274Mb L: 559/571 MS: 4 InsertByte-ChangeBinInt-CMP-InsertByte- DE: "?\x00\x00\x00"-
+#87185	NEW    cov: 435 ft: 654 corp: 140/71Kb lim: 571 exec/s: 206 rss: 274Mb L: 554/571 MS: 1 InsertByte-
+#87367	REDUCE cov: 435 ft: 654 corp: 140/71Kb lim: 571 exec/s: 205 rss: 274Mb L: 549/571 MS: 2 CMP-CrossOver- DE: "\x8e\x00"-
+#87460	REDUCE cov: 435 ft: 654 corp: 140/71Kb lim: 571 exec/s: 205 rss: 274Mb L: 551/571 MS: 2 EraseBytes-InsertRepeatedBytes-
+#87478	REDUCE cov: 436 ft: 655 corp: 141/72Kb lim: 571 exec/s: 204 rss: 274Mb L: 559/571 MS: 3 ChangeByte-CMP-CopyPart- DE: "\x00\x00\x00\x00\x00\x00\x00\x03"-
+#87767	REDUCE cov: 436 ft: 655 corp: 141/72Kb lim: 571 exec/s: 204 rss: 274Mb L: 522/571 MS: 4 ChangeBinInt-InsertByte-CMP-EraseBytes- DE: "\xff\xff\xff\xff\xff\xff\x01\x0e"-
+#88370	NEW    cov: 437 ft: 656 corp: 142/72Kb lim: 571 exec/s: 201 rss: 274Mb L: 555/571 MS: 2 ShuffleBytes-CMP- DE: "\x01\x00"-
+#88502	REDUCE cov: 437 ft: 656 corp: 142/72Kb lim: 571 exec/s: 201 rss: 274Mb L: 569/569 MS: 2 EraseBytes-InsertRepeatedBytes-
+#88533	NEW    cov: 440 ft: 661 corp: 143/73Kb lim: 571 exec/s: 201 rss: 274Mb L: 526/569 MS: 1 CMP- DE: "\x19\x02\x00\x00\x00\x00\x00\x00"-
+#88809	REDUCE cov: 440 ft: 661 corp: 143/73Kb lim: 571 exec/s: 200 rss: 274Mb L: 553/569 MS: 1 CrossOver-
+#89651	NEW    cov: 440 ft: 663 corp: 144/73Kb lim: 571 exec/s: 197 rss: 274Mb L: 526/569 MS: 3 ChangeBit-CopyPart-ChangeBit-
+#89953	NEW    cov: 440 ft: 670 corp: 145/74Kb lim: 571 exec/s: 196 rss: 274Mb L: 570/570 MS: 1 InsertRepeatedBytes-
+	NEW_FUNC[1/2]: 0x5649a0 in vrend_decode_set_min_samples (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5649a0)
+	NEW_FUNC[2/2]: 0x5b2840 in vrend_set_min_samples (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5b2840)
+#90976	REDUCE cov: 445 ft: 675 corp: 146/74Kb lim: 580 exec/s: 193 rss: 274Mb L: 554/570 MS: 2 InsertRepeatedBytes-PersAutoDict- DE: "GL_KHR_blend_equation"-
+#91572	NEW    cov: 446 ft: 676 corp: 147/75Kb lim: 580 exec/s: 193 rss: 274Mb L: 550/570 MS: 1 CopyPart-
+#92973	REDUCE cov: 447 ft: 677 corp: 148/75Kb lim: 589 exec/s: 190 rss: 274Mb L: 589/589 MS: 1 CrossOver-
+#93034	NEW    cov: 447 ft: 678 corp: 149/76Kb lim: 589 exec/s: 190 rss: 274Mb L: 538/589 MS: 1 ChangeByte-
+#94806	REDUCE cov: 447 ft: 678 corp: 149/76Kb lim: 598 exec/s: 185 rss: 274Mb L: 523/589 MS: 4 ChangeBit-EraseBytes-ChangeByte-InsertByte-
+#95930	NEW    cov: 447 ft: 679 corp: 150/77Kb lim: 607 exec/s: 183 rss: 274Mb L: 558/589 MS: 1 CopyPart-
+#96291	NEW    cov: 447 ft: 681 corp: 151/77Kb lim: 607 exec/s: 182 rss: 274Mb L: 598/598 MS: 1 InsertRepeatedBytes-
+#96548	NEW    cov: 447 ft: 682 corp: 152/78Kb lim: 607 exec/s: 182 rss: 274Mb L: 607/607 MS: 4 ShuffleBytes-ChangeBit-ChangeBit-CrossOver-
+#97375	NEW    cov: 447 ft: 683 corp: 153/78Kb lim: 607 exec/s: 179 rss: 274Mb L: 607/607 MS: 2 CopyPart-CrossOver-
+	NEW_FUNC[1/1]: 0x5afde0 in vrend_renderer_copy_transfer3d (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5afde0)
+#97659	REDUCE cov: 450 ft: 686 corp: 154/79Kb lim: 607 exec/s: 179 rss: 274Mb L: 578/607 MS: 4 PersAutoDict-PersAutoDict-ShuffleBytes-CopyPart- DE: "\x8e\x00"-"?\x00\x00\x00"-
+#98157	REDUCE cov: 450 ft: 686 corp: 154/79Kb lim: 607 exec/s: 178 rss: 274Mb L: 550/607 MS: 3 CMP-CMP-EraseBytes- DE: "\xff2"-"\x00\x00\x00\x00\x00\x00\x00\xbc"-
+	NEW_FUNC[1/1]: 0x57a1c0 in vrend_bind_shader (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x57a1c0)
+#98170	REDUCE cov: 453 ft: 689 corp: 155/79Kb lim: 607 exec/s: 178 rss: 274Mb L: 586/607 MS: 3 CopyPart-CopyPart-PersAutoDict- DE: "GL_EXT_robustness"-
+	NEW_FUNC[1/1]: 0x5b0570 in vrend_set_scissor_state (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5b0570)
+#98668	NEW    cov: 457 ft: 693 corp: 156/80Kb lim: 607 exec/s: 177 rss: 274Mb L: 526/607 MS: 2 ShuffleBytes-CMP- DE: "GL_EXT_EGL_image_storage"-
+#99036	REDUCE cov: 457 ft: 694 corp: 157/80Kb lim: 607 exec/s: 176 rss: 274Mb L: 607/607 MS: 3 InsertByte-ChangeBit-CrossOver-
+#99435	REDUCE cov: 457 ft: 694 corp: 157/80Kb lim: 607 exec/s: 175 rss: 274Mb L: 521/607 MS: 4 ChangeBit-EraseBytes-ChangeBinInt-InsertRepeatedBytes-
+#100403	NEW    cov: 458 ft: 697 corp: 158/81Kb lim: 616 exec/s: 173 rss: 274Mb L: 607/607 MS: 3 ChangeBinInt-ChangeBit-PersAutoDict- DE: "\x00\x00\x00\x00\x00\x00\x00\x03"-
+#100706	REDUCE cov: 458 ft: 697 corp: 158/81Kb lim: 616 exec/s: 173 rss: 274Mb L: 535/607 MS: 3 EraseBytes-CopyPart-InsertRepeatedBytes-
+#101813	NEW    cov: 458 ft: 698 corp: 159/82Kb lim: 625 exec/s: 171 rss: 274Mb L: 542/607 MS: 3 ChangeBit-ChangeBit-InsertRepeatedBytes-
+#102169	NEW    cov: 458 ft: 699 corp: 160/82Kb lim: 625 exec/s: 170 rss: 274Mb L: 558/607 MS: 2 InsertRepeatedBytes-CMP- DE: "\x00\x00\x00\x00\x00\x00\x01\xb0"-
+#103631	REDUCE cov: 458 ft: 701 corp: 161/83Kb lim: 634 exec/s: 168 rss: 274Mb L: 550/607 MS: 3 ChangeBinInt-ChangeASCIIInt-CopyPart-
+#104019	NEW    cov: 460 ft: 703 corp: 162/83Kb lim: 634 exec/s: 168 rss: 274Mb L: 534/607 MS: 3 CMP-ShuffleBytes-PersAutoDict- DE: "\xff\xff\xff\xff\xff\xff\x01\x0f"-"\x00\x02\x00\x00\x00\x00\x00\x00"-
+#104452	REDUCE cov: 460 ft: 703 corp: 162/83Kb lim: 634 exec/s: 167 rss: 274Mb L: 549/607 MS: 3 InsertByte-InsertRepeatedBytes-EraseBytes-
+#105208	REDUCE cov: 460 ft: 703 corp: 162/83Kb lim: 634 exec/s: 166 rss: 274Mb L: 545/607 MS: 5 EraseBytes-ShuffleBytes-ChangeByte-CMP-InsertRepeatedBytes- DE: "GL_OES_primitive_bounding_b"-
+#105595	REDUCE cov: 460 ft: 703 corp: 162/83Kb lim: 634 exec/s: 166 rss: 274Mb L: 546/607 MS: 1 EraseBytes-
+#106955	NEW    cov: 460 ft: 704 corp: 163/84Kb lim: 643 exec/s: 165 rss: 274Mb L: 554/607 MS: 3 ShuffleBytes-ChangeBinInt-CopyPart-
+#107225	REDUCE cov: 462 ft: 706 corp: 164/84Kb lim: 643 exec/s: 164 rss: 274Mb L: 637/637 MS: 3 ChangeBinInt-InsertRepeatedBytes-InsertByte-
+#107454	REDUCE cov: 462 ft: 706 corp: 164/84Kb lim: 643 exec/s: 164 rss: 274Mb L: 518/637 MS: 4 InsertByte-ChangeByte-EraseBytes-InsertRepeatedBytes-
+#108621	REDUCE cov: 462 ft: 706 corp: 164/84Kb lim: 652 exec/s: 163 rss: 274Mb L: 550/637 MS: 1 EraseBytes-
+#108978	REDUCE cov: 462 ft: 706 corp: 164/84Kb lim: 652 exec/s: 163 rss: 274Mb L: 542/637 MS: 2 ChangeByte-EraseBytes-
+#109942	REDUCE cov: 462 ft: 706 corp: 164/84Kb lim: 661 exec/s: 162 rss: 274Mb L: 522/637 MS: 4 ShuffleBytes-ChangeByte-CopyPart-EraseBytes-
+#110875	NEW    cov: 462 ft: 711 corp: 165/85Kb lim: 670 exec/s: 161 rss: 274Mb L: 654/654 MS: 2 ChangeBit-InsertRepeatedBytes-
+#111122	NEW    cov: 462 ft: 712 corp: 166/85Kb lim: 670 exec/s: 161 rss: 274Mb L: 654/654 MS: 2 ChangeByte-ChangeBit-
+#111151	REDUCE cov: 462 ft: 712 corp: 166/85Kb lim: 670 exec/s: 161 rss: 274Mb L: 559/654 MS: 4 CopyPart-InsertRepeatedBytes-ChangeByte-EraseBytes-
+#111302	NEW    cov: 462 ft: 713 corp: 167/86Kb lim: 670 exec/s: 161 rss: 274Mb L: 654/654 MS: 1 ChangeBit-
+#111342	NEW    cov: 462 ft: 714 corp: 168/87Kb lim: 670 exec/s: 161 rss: 274Mb L: 590/654 MS: 5 ChangeByte-ShuffleBytes-ChangeBinInt-CMP-InsertRepeatedBytes- DE: "\xb2\x00\x00\x00\x00\x00\x00\x00"-
+	NEW_FUNC[1/1]: 0x573540 in vrend_set_viewport_states (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x573540)
+#111380	REDUCE cov: 465 ft: 717 corp: 169/87Kb lim: 670 exec/s: 161 rss: 274Mb L: 670/670 MS: 3 InsertRepeatedBytes-ShuffleBytes-CrossOver-
+	NEW_FUNC[1/1]: 0x578220 in vrend_set_single_image_view (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x578220)
+#112051	NEW    cov: 469 ft: 721 corp: 170/88Kb lim: 670 exec/s: 160 rss: 274Mb L: 670/670 MS: 4 EraseBytes-CopyPart-CrossOver-CMP- DE: "o\xc8\x01\x00"-
+#112313	NEW    cov: 469 ft: 722 corp: 171/89Kb lim: 670 exec/s: 160 rss: 274Mb L: 654/670 MS: 1 ChangeBinInt-
+#112616	REDUCE cov: 469 ft: 722 corp: 171/89Kb lim: 670 exec/s: 160 rss: 274Mb L: 613/670 MS: 3 PersAutoDict-EraseBytes-CopyPart- DE: "\x00\x02\x00\x00\x00\x00\x00\x00"-
+#112655	NEW    cov: 469 ft: 723 corp: 172/89Kb lim: 670 exec/s: 160 rss: 274Mb L: 670/670 MS: 4 InsertRepeatedBytes-CopyPart-CMP-InsertByte- DE: "\x0e\x02\x00\x00\x00\x00\x00\x00"-
+#112820	REDUCE cov: 469 ft: 723 corp: 172/89Kb lim: 670 exec/s: 160 rss: 274Mb L: 566/670 MS: 5 ChangeBit-InsertByte-InsertRepeatedBytes-InsertRepeatedBytes-EraseBytes-
+#114066	REDUCE cov: 469 ft: 723 corp: 172/89Kb lim: 679 exec/s: 158 rss: 274Mb L: 518/670 MS: 4 ChangeBit-ChangeBinInt-EraseBytes-CopyPart-
+#114351	REDUCE cov: 469 ft: 723 corp: 172/89Kb lim: 679 exec/s: 158 rss: 274Mb L: 527/670 MS: 5 InsertByte-ChangeBit-EraseBytes-ChangeByte-CopyPart-
+#114790	REDUCE cov: 469 ft: 723 corp: 172/89Kb lim: 679 exec/s: 158 rss: 274Mb L: 518/670 MS: 2 CopyPart-CrossOver-
+#114835	REDUCE cov: 469 ft: 723 corp: 172/89Kb lim: 679 exec/s: 158 rss: 274Mb L: 543/670 MS: 5 PersAutoDict-ChangeBit-ChangeBinInt-PersAutoDict-EraseBytes- DE: "GL_ARB_transfo"-"z\x01\x00\x00\x00\x00\x00\x00"-
+#115271	REDUCE cov: 469 ft: 723 corp: 172/89Kb lim: 679 exec/s: 157 rss: 274Mb L: 538/670 MS: 1 EraseBytes-
+#115931	REDUCE cov: 469 ft: 723 corp: 172/89Kb lim: 679 exec/s: 157 rss: 274Mb L: 559/670 MS: 3 ChangeByte-EraseBytes-InsertRepeatedBytes-
+#116292	NEW    cov: 469 ft: 724 corp: 173/90Kb lim: 679 exec/s: 156 rss: 274Mb L: 679/679 MS: 1 CrossOver-
+#116736	REDUCE cov: 469 ft: 724 corp: 173/90Kb lim: 679 exec/s: 156 rss: 274Mb L: 666/679 MS: 3 EraseBytes-PersAutoDict-InsertByte- DE: "\x01\x00e\x10"-
+#117021	REDUCE cov: 469 ft: 724 corp: 173/90Kb lim: 679 exec/s: 156 rss: 274Mb L: 642/679 MS: 5 ChangeByte-InsertByte-InsertRepeatedBytes-InsertByte-EraseBytes-
+#117098	NEW    cov: 469 ft: 725 corp: 174/90Kb lim: 679 exec/s: 156 rss: 274Mb L: 542/679 MS: 1 PersAutoDict- DE: "\x04\x00\x00\x00"-
+#117384	NEW    cov: 469 ft: 726 corp: 175/91Kb lim: 679 exec/s: 156 rss: 274Mb L: 662/679 MS: 1 PersAutoDict- DE: "\x00\x02\x00\x00\x00\x00\x00\x00"-
+#117910	REDUCE cov: 469 ft: 726 corp: 175/91Kb lim: 679 exec/s: 155 rss: 274Mb L: 550/679 MS: 1 EraseBytes-
+#118514	REDUCE cov: 472 ft: 729 corp: 176/91Kb lim: 679 exec/s: 154 rss: 274Mb L: 567/679 MS: 4 PersAutoDict-CMP-ChangeBit-CMP- DE: "\xff2"-"\xff\x1f"-"GL_OES_texture_storage_mult"-
+#118667	REDUCE cov: 472 ft: 729 corp: 176/91Kb lim: 679 exec/s: 154 rss: 274Mb L: 522/679 MS: 3 CopyPart-ChangeBit-EraseBytes-
+#118983	REDUCE cov: 472 ft: 729 corp: 176/91Kb lim: 679 exec/s: 154 rss: 274Mb L: 518/679 MS: 1 EraseBytes-
+#119110	NEW    cov: 472 ft: 731 corp: 177/92Kb lim: 679 exec/s: 154 rss: 274Mb L: 526/679 MS: 2 ShuffleBytes-ChangeBit-
+#119456	REDUCE cov: 472 ft: 731 corp: 177/92Kb lim: 679 exec/s: 154 rss: 274Mb L: 522/679 MS: 5 ChangeBit-InsertByte-InsertRepeatedBytes-EraseBytes-PersAutoDict- DE: "GL_KHR_blend_equati"-
+#119490	NEW    cov: 474 ft: 733 corp: 178/92Kb lim: 679 exec/s: 154 rss: 274Mb L: 678/679 MS: 4 ChangeBinInt-InsertRepeatedBytes-ChangeBinInt-CopyPart-
+#119495	REDUCE cov: 474 ft: 737 corp: 179/93Kb lim: 679 exec/s: 154 rss: 274Mb L: 586/679 MS: 5 CopyPart-EraseBytes-CrossOver-ShuffleBytes-InsertRepeatedBytes-
+#119496	REDUCE cov: 474 ft: 737 corp: 179/93Kb lim: 679 exec/s: 154 rss: 274Mb L: 582/679 MS: 1 CrossOver-
+#120881	NEW    cov: 475 ft: 738 corp: 180/93Kb lim: 688 exec/s: 153 rss: 274Mb L: 670/679 MS: 1 CopyPart-
+#121059	REDUCE cov: 475 ft: 738 corp: 180/93Kb lim: 688 exec/s: 153 rss: 274Mb L: 518/679 MS: 3 CMP-InsertRepeatedBytes-EraseBytes- DE: "\x01\x00\x00\x02"-
+#121297	NEW    cov: 475 ft: 739 corp: 181/94Kb lim: 688 exec/s: 152 rss: 274Mb L: 670/679 MS: 3 ChangeBinInt-InsertByte-InsertRepeatedBytes-
+#121751	REDUCE cov: 475 ft: 739 corp: 181/94Kb lim: 688 exec/s: 152 rss: 274Mb L: 558/679 MS: 4 ChangeByte-ChangeByte-EraseBytes-InsertRepeatedBytes-
+#121977	REDUCE cov: 475 ft: 740 corp: 182/95Kb lim: 688 exec/s: 152 rss: 274Mb L: 582/679 MS: 1 CopyPart-
+#122031	NEW    cov: 476 ft: 741 corp: 183/95Kb lim: 688 exec/s: 152 rss: 274Mb L: 526/679 MS: 4 ChangeByte-ChangeByte-PersAutoDict-InsertByte- DE: "\x19\x02\x00\x00\x00\x00\x00\x00"-
+#122904	REDUCE cov: 476 ft: 741 corp: 183/95Kb lim: 688 exec/s: 152 rss: 274Mb L: 518/679 MS: 5 ShuffleBytes-PersAutoDict-InsertRepeatedBytes-ChangeByte-CrossOver- DE: "GL_ARB_texture"-
+#122985	REDUCE cov: 476 ft: 744 corp: 184/96Kb lim: 688 exec/s: 152 rss: 274Mb L: 518/679 MS: 1 PersAutoDict- DE: "z\x01\x00\x00\x00\x00\x00\x00"-
+#123006	REDUCE cov: 476 ft: 744 corp: 184/96Kb lim: 688 exec/s: 152 rss: 274Mb L: 522/679 MS: 1 EraseBytes-
+#123746	NEW    cov: 476 ft: 747 corp: 185/96Kb lim: 688 exec/s: 151 rss: 274Mb L: 519/679 MS: 3 InsertByte-CMP-ChangeBinInt- DE: "\xff\x01\x00\x00\x00\x00\x00\x00"-
+#125130	NEW    cov: 477 ft: 748 corp: 186/97Kb lim: 697 exec/s: 151 rss: 274Mb L: 603/679 MS: 1 InsertRepeatedBytes-
+#125537	NEW    cov: 478 ft: 749 corp: 187/97Kb lim: 697 exec/s: 150 rss: 274Mb L: 635/679 MS: 2 InsertRepeatedBytes-InsertByte-
+#125634	NEW    cov: 478 ft: 750 corp: 188/98Kb lim: 697 exec/s: 150 rss: 274Mb L: 649/679 MS: 2 ChangeByte-CopyPart-
+#125640	NEW    cov: 478 ft: 753 corp: 189/99Kb lim: 697 exec/s: 150 rss: 274Mb L: 697/697 MS: 1 CrossOver-
+#127360	NEW    cov: 478 ft: 754 corp: 190/99Kb lim: 706 exec/s: 149 rss: 274Mb L: 670/697 MS: 2 ChangeBinInt-ChangeBinInt-
+#127594	NEW    cov: 481 ft: 762 corp: 191/100Kb lim: 706 exec/s: 149 rss: 274Mb L: 670/697 MS: 2 EraseBytes-CopyPart-
+#127828	NEW    cov: 481 ft: 763 corp: 192/100Kb lim: 706 exec/s: 148 rss: 274Mb L: 547/697 MS: 5 EraseBytes-ShuffleBytes-InsertRepeatedBytes-InsertRepeatedBytes-InsertRepeatedBytes-
+#128044	NEW    cov: 481 ft: 764 corp: 193/101Kb lim: 706 exec/s: 148 rss: 274Mb L: 701/701 MS: 1 InsertRepeatedBytes-
+#128649	REDUCE cov: 481 ft: 766 corp: 194/102Kb lim: 706 exec/s: 148 rss: 274Mb L: 574/701 MS: 5 ShuffleBytes-PersAutoDict-ChangeBit-InsertRepeatedBytes-InsertByte- DE: "GL_KHR_blend_equation"-
+#128766	NEW    cov: 482 ft: 767 corp: 195/102Kb lim: 706 exec/s: 148 rss: 274Mb L: 569/701 MS: 2 EraseBytes-InsertByte-
+#128779	REDUCE cov: 482 ft: 767 corp: 195/102Kb lim: 706 exec/s: 148 rss: 274Mb L: 521/701 MS: 3 ShuffleBytes-EraseBytes-EraseBytes-
+#129212	REDUCE cov: 482 ft: 767 corp: 195/102Kb lim: 706 exec/s: 148 rss: 274Mb L: 693/697 MS: 2 PersAutoDict-EraseBytes- DE: ">\xff\xff\xff"-
+#129390	REDUCE cov: 482 ft: 767 corp: 195/102Kb lim: 706 exec/s: 148 rss: 274Mb L: 621/697 MS: 3 ShuffleBytes-CopyPart-EraseBytes-
+#129688	NEW    cov: 483 ft: 768 corp: 196/103Kb lim: 706 exec/s: 147 rss: 274Mb L: 686/697 MS: 3 ChangeBit-ChangeBinInt-CMP- DE: "\x00\x00\x00\x00\x00\x00\x02\xa6"-
+#129824	NEW    cov: 483 ft: 770 corp: 197/103Kb lim: 706 exec/s: 147 rss: 274Mb L: 667/697 MS: 1 InsertRepeatedBytes-
+#129999	NEW    cov: 483 ft: 772 corp: 198/104Kb lim: 706 exec/s: 147 rss: 274Mb L: 606/697 MS: 5 ChangeBinInt-InsertByte-InsertByte-CMP-CopyPart- DE: "5S\x02\x00"-
+#130020	NEW    cov: 483 ft: 773 corp: 199/105Kb lim: 706 exec/s: 147 rss: 274Mb L: 698/698 MS: 1 InsertRepeatedBytes-
+#130642	NEW    cov: 483 ft: 774 corp: 200/105Kb lim: 706 exec/s: 147 rss: 274Mb L: 654/698 MS: 1 ChangeBit-
+#130671	NEW    cov: 485 ft: 776 corp: 201/106Kb lim: 706 exec/s: 147 rss: 274Mb L: 699/699 MS: 4 ChangeBit-InsertRepeatedBytes-InsertRepeatedBytes-PersAutoDict- DE: "\x01\x1b"-
+#131072	pulse  cov: 485 ft: 776 corp: 201/106Kb lim: 706 exec/s: 147 rss: 274Mb
+#131689	REDUCE cov: 485 ft: 776 corp: 201/106Kb lim: 715 exec/s: 146 rss: 274Mb L: 537/699 MS: 3 CMP-ChangeBit-EraseBytes- DE: "\x01\x00\x00\x00\x00\x00\x02\x0e"-
+#132214	REDUCE cov: 485 ft: 776 corp: 201/106Kb lim: 715 exec/s: 146 rss: 274Mb L: 514/699 MS: 5 PersAutoDict-ChangeBit-ChangeBit-ChangeBinInt-EraseBytes- DE: "\xff\xff\xff\xff\xff\xff\xff\xff"-
+#132489	REDUCE cov: 486 ft: 777 corp: 202/107Kb lim: 715 exec/s: 146 rss: 274Mb L: 622/699 MS: 2 ChangeByte-InsertByte-
+#132680	NEW    cov: 487 ft: 778 corp: 203/107Kb lim: 715 exec/s: 146 rss: 274Mb L: 526/699 MS: 1 CMP- DE: "\x84h\x02\x00"-
+#133022	NEW    cov: 487 ft: 780 corp: 204/108Kb lim: 715 exec/s: 146 rss: 274Mb L: 698/699 MS: 2 CopyPart-InsertByte-
+#133336	REDUCE cov: 487 ft: 780 corp: 204/108Kb lim: 715 exec/s: 145 rss: 274Mb L: 550/699 MS: 4 CopyPart-EraseBytes-ShuffleBytes-CopyPart-
+#133545	REDUCE cov: 487 ft: 780 corp: 204/108Kb lim: 715 exec/s: 145 rss: 274Mb L: 673/698 MS: 4 ShuffleBytes-EraseBytes-ShuffleBytes-InsertRepeatedBytes-
+#133792	NEW    cov: 488 ft: 781 corp: 205/108Kb lim: 715 exec/s: 145 rss: 274Mb L: 567/698 MS: 1 ChangeByte-
+#133903	NEW    cov: 488 ft: 783 corp: 206/109Kb lim: 715 exec/s: 145 rss: 274Mb L: 678/698 MS: 1 InsertRepeatedBytes-
+#134694	NEW    cov: 489 ft: 784 corp: 207/110Kb lim: 715 exec/s: 144 rss: 274Mb L: 689/698 MS: 5 InsertByte-PersAutoDict-ChangeBit-CMP-InsertByte- DE: "GL_KHR_blend_equati"-"\x00\x00\x00\x00\x00\x00\x00\x02"-
+#134809	REDUCE cov: 489 ft: 784 corp: 207/110Kb lim: 715 exec/s: 144 rss: 274Mb L: 603/698 MS: 5 InsertRepeatedBytes-ChangeBit-ChangeBit-ChangeBit-EraseBytes-
+#135067	REDUCE cov: 489 ft: 786 corp: 208/110Kb lim: 715 exec/s: 144 rss: 274Mb L: 522/698 MS: 3 ShuffleBytes-CopyPart-ChangeBinInt-
+#135347	NEW    cov: 489 ft: 789 corp: 209/111Kb lim: 715 exec/s: 144 rss: 274Mb L: 542/698 MS: 5 InsertRepeatedBytes-InsertByte-CMP-ShuffleBytes-PersAutoDict- DE: "4\x00\x00\x00"-"?\x00\x00\x00"-
+#135519	REDUCE cov: 489 ft: 789 corp: 209/110Kb lim: 715 exec/s: 144 rss: 274Mb L: 517/698 MS: 2 CopyPart-EraseBytes-
+#136064	NEW    cov: 490 ft: 792 corp: 210/111Kb lim: 715 exec/s: 144 rss: 274Mb L: 538/698 MS: 5 CMP-ChangeBinInt-ChangeByte-ChangeBinInt-PersAutoDict- DE: "\xfe\xff\xff?"-"\xff\xff\xff\xff\xff\xff\x01\x0f"-
+#136201	REDUCE cov: 490 ft: 792 corp: 210/111Kb lim: 715 exec/s: 144 rss: 274Mb L: 515/698 MS: 2 ShuffleBytes-EraseBytes-
+#136334	REDUCE cov: 490 ft: 792 corp: 210/111Kb lim: 715 exec/s: 144 rss: 274Mb L: 517/698 MS: 3 InsertByte-ChangeBit-EraseBytes-
+#137098	NEW    cov: 492 ft: 794 corp: 211/112Kb lim: 715 exec/s: 143 rss: 274Mb L: 575/698 MS: 4 ChangeBinInt-ChangeByte-PersAutoDict-CMP- DE: "\x01\x00\x00\x00\x00\x00\x02\x00"-"\xff\x01\x8c3"-
+#137145	REDUCE cov: 492 ft: 794 corp: 211/111Kb lim: 715 exec/s: 143 rss: 274Mb L: 630/698 MS: 2 ChangeBinInt-CrossOver-
+#137203	NEW    cov: 493 ft: 795 corp: 212/112Kb lim: 715 exec/s: 143 rss: 274Mb L: 546/698 MS: 3 CMP-ChangeBit-PersAutoDict- DE: "\x01\x00\x00\x00"-"\x0e\x02\x00\x00\x00\x00\x00\x00"-
+#137822	REDUCE cov: 493 ft: 795 corp: 212/112Kb lim: 715 exec/s: 143 rss: 274Mb L: 562/698 MS: 2 InsertByte-EraseBytes-
+#138129	REDUCE cov: 493 ft: 795 corp: 212/112Kb lim: 715 exec/s: 142 rss: 274Mb L: 542/698 MS: 2 EraseBytes-CMP- DE: "GL_ARB_vertex_buf"-
+#138631	REDUCE cov: 493 ft: 795 corp: 212/112Kb lim: 715 exec/s: 142 rss: 274Mb L: 522/698 MS: 2 CrossOver-InsertByte-
+#138994	NEW    cov: 493 ft: 796 corp: 213/112Kb lim: 715 exec/s: 142 rss: 274Mb L: 654/698 MS: 5 ShuffleBytes-ChangeBit-ChangeASCIIInt-ChangeBit-ChangeBinInt-
+#139335	REDUCE cov: 493 ft: 796 corp: 213/112Kb lim: 715 exec/s: 142 rss: 274Mb L: 591/698 MS: 5 ShuffleBytes-PersAutoDict-ShuffleBytes-InsertRepeatedBytes-EraseBytes- DE: "\x8e\x00"-
+#139968	REDUCE cov: 493 ft: 796 corp: 213/112Kb lim: 715 exec/s: 142 rss: 274Mb L: 622/698 MS: 1 EraseBytes-
+#144087	REDUCE cov: 493 ft: 796 corp: 213/112Kb lim: 751 exec/s: 140 rss: 274Mb L: 637/698 MS: 5 ChangeByte-ChangeByte-ChangeByte-ChangeBit-EraseBytes-
+#144263	REDUCE cov: 494 ft: 798 corp: 214/113Kb lim: 751 exec/s: 140 rss: 274Mb L: 566/698 MS: 1 CMP- DE: "GL_OES_vertex_half_float"-
+#144514	REDUCE cov: 494 ft: 798 corp: 214/113Kb lim: 751 exec/s: 140 rss: 274Mb L: 577/698 MS: 1 EraseBytes-
+#144804	REDUCE cov: 494 ft: 798 corp: 214/113Kb lim: 751 exec/s: 140 rss: 274Mb L: 574/698 MS: 5 PersAutoDict-PersAutoDict-ShuffleBytes-CrossOver-CMP- DE: "\x01\x00\x00\x00\x00\x00\x02\x00"-"\x01\x00\x00\x02"-"\x15\x00"-
+#145609	NEW    cov: 495 ft: 799 corp: 215/113Kb lim: 751 exec/s: 140 rss: 274Mb L: 575/698 MS: 2 ChangeBinInt-ChangeByte-
+#145939	NEW    cov: 496 ft: 800 corp: 216/114Kb lim: 751 exec/s: 139 rss: 274Mb L: 622/698 MS: 5 ChangeByte-CopyPart-CrossOver-EraseBytes-CMP- DE: "GL_EXT_EGL_image_storage"-
+#146081	REDUCE cov: 496 ft: 800 corp: 216/114Kb lim: 751 exec/s: 139 rss: 274Mb L: 573/698 MS: 2 EraseBytes-CMP- DE: "GL_OES_texture_half_float_l"-
+#146903	NEW    cov: 497 ft: 801 corp: 217/115Kb lim: 751 exec/s: 139 rss: 274Mb L: 526/698 MS: 2 CMP-ShuffleBytes- DE: "GL_OES_copy_image"-
+#147813	REDUCE cov: 497 ft: 801 corp: 217/115Kb lim: 760 exec/s: 139 rss: 274Mb L: 571/698 MS: 5 ChangeByte-ChangeBit-CopyPart-CMP-EraseBytes- DE: "\x18\x02\x00\x00\x00\x00\x00\x00"-
+	NEW_FUNC[1/1]: 0x5b6800 in vrend_renderer_blit (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5b6800)
+#147860	NEW    cov: 500 ft: 805 corp: 218/115Kb lim: 760 exec/s: 139 rss: 274Mb L: 734/734 MS: 2 EraseBytes-CopyPart-
+#148412	REDUCE cov: 500 ft: 805 corp: 218/115Kb lim: 760 exec/s: 139 rss: 274Mb L: 613/734 MS: 2 ChangeByte-EraseBytes-
+#148513	REDUCE cov: 500 ft: 805 corp: 218/115Kb lim: 760 exec/s: 139 rss: 274Mb L: 654/734 MS: 1 EraseBytes-
+#148644	REDUCE cov: 500 ft: 805 corp: 218/115Kb lim: 760 exec/s: 139 rss: 274Mb L: 534/734 MS: 3 ShuffleBytes-InsertByte-EraseBytes-
+	NEW_FUNC[1/1]: 0x5a6dc0 in vrend_renderer_transfer_iov (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5a6dc0)
+#148952	REDUCE cov: 503 ft: 808 corp: 219/116Kb lim: 760 exec/s: 139 rss: 274Mb L: 595/734 MS: 2 CMP-CMP- DE: "GL_OES_viewport_array"-"\x01\x00\x00\x00\x00\x00\x00>"-
+	NEW_FUNC[1/1]: 0x57e1e0 in vrend_draw_vbo (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x57e1e0)
+#150329	NEW    cov: 519 ft: 824 corp: 220/116Kb lim: 769 exec/s: 139 rss: 274Mb L: 526/734 MS: 1 ChangeByte-
+#152376	REDUCE cov: 519 ft: 824 corp: 220/116Kb lim: 787 exec/s: 138 rss: 274Mb L: 549/734 MS: 1 EraseBytes-
+#152876	NEW    cov: 519 ft: 825 corp: 221/117Kb lim: 787 exec/s: 138 rss: 274Mb L: 745/745 MS: 5 InsertRepeatedBytes-ChangeBit-CMP-ChangeByte-ChangeBinInt- DE: "\xff\xff\xff2"-
+#155692	REDUCE cov: 519 ft: 833 corp: 222/118Kb lim: 814 exec/s: 137 rss: 274Mb L: 807/807 MS: 4 ShuffleBytes-CrossOver-InsertRepeatedBytes-CopyPart-
+#156022	REDUCE cov: 519 ft: 833 corp: 222/118Kb lim: 814 exec/s: 137 rss: 274Mb L: 517/807 MS: 5 InsertRepeatedBytes-InsertRepeatedBytes-ChangeBit-InsertByte-EraseBytes-
+#156430	REDUCE cov: 519 ft: 833 corp: 222/118Kb lim: 814 exec/s: 137 rss: 274Mb L: 554/807 MS: 1 EraseBytes-
+#157199	REDUCE cov: 519 ft: 833 corp: 222/118Kb lim: 814 exec/s: 137 rss: 274Mb L: 602/807 MS: 3 EraseBytes-ChangeASCIIInt-InsertByte-
+#157416	REDUCE cov: 519 ft: 835 corp: 223/118Kb lim: 814 exec/s: 137 rss: 274Mb L: 814/814 MS: 2 InsertRepeatedBytes-CrossOver-
+#157491	REDUCE cov: 519 ft: 835 corp: 223/118Kb lim: 814 exec/s: 137 rss: 274Mb L: 527/814 MS: 5 ChangeByte-ChangeByte-PersAutoDict-EraseBytes-InsertRepeatedBytes- DE: "GL_ARB_vertex_arr"-
+#157587	REDUCE cov: 519 ft: 835 corp: 223/118Kb lim: 814 exec/s: 137 rss: 274Mb L: 550/814 MS: 1 EraseBytes-
+#157886	NEW    cov: 519 ft: 839 corp: 224/119Kb lim: 814 exec/s: 137 rss: 274Mb L: 557/814 MS: 4 ChangeBit-EraseBytes-ChangeBinInt-InsertByte-
+#158247	NEW    cov: 519 ft: 843 corp: 225/120Kb lim: 814 exec/s: 137 rss: 274Mb L: 814/814 MS: 2 CrossOver-CrossOver-
+#159165	REDUCE cov: 519 ft: 843 corp: 225/120Kb lim: 823 exec/s: 136 rss: 274Mb L: 522/814 MS: 1 CrossOver-
+#161686	REDUCE cov: 519 ft: 843 corp: 225/120Kb lim: 841 exec/s: 136 rss: 274Mb L: 530/814 MS: 3 ChangeBinInt-CMP-EraseBytes- DE: "\x01\x0f"-
+#162586	REDUCE cov: 519 ft: 843 corp: 225/119Kb lim: 841 exec/s: 136 rss: 274Mb L: 558/814 MS: 1 EraseBytes-
+#162818	NEW    cov: 519 ft: 845 corp: 226/120Kb lim: 841 exec/s: 136 rss: 274Mb L: 574/814 MS: 4 CMP-EraseBytes-InsertRepeatedBytes-InsertByte- DE: "\x01\x03X\x06"-
+#163596	NEW    cov: 519 ft: 847 corp: 227/121Kb lim: 841 exec/s: 136 rss: 274Mb L: 622/814 MS: 1 InsertRepeatedBytes-
+	NEW_FUNC[1/2]: 0x5763a0 in vrend_set_single_sampler_view (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5763a0)
+	NEW_FUNC[2/2]: 0x577e10 in vrend_set_num_sampler_views (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x577e10)
+#163959	REDUCE cov: 530 ft: 860 corp: 228/121Kb lim: 841 exec/s: 136 rss: 274Mb L: 534/814 MS: 3 CMP-ShuffleBytes-CMP- DE: "\x00\x00\x00\x00\x00\x00\x02\x0e"-"\x00\x03af"-
+#164169	NEW    cov: 530 ft: 864 corp: 229/122Kb lim: 841 exec/s: 136 rss: 274Mb L: 726/814 MS: 5 ChangeBit-ChangeBinInt-ChangeByte-ShuffleBytes-InsertRepeatedBytes-
+#164381	REDUCE cov: 530 ft: 864 corp: 229/122Kb lim: 841 exec/s: 136 rss: 274Mb L: 545/814 MS: 2 ShuffleBytes-EraseBytes-
+#165926	NEW    cov: 530 ft: 868 corp: 230/123Kb lim: 850 exec/s: 136 rss: 274Mb L: 686/814 MS: 1 InsertRepeatedBytes-
+#166307	REDUCE cov: 530 ft: 868 corp: 230/123Kb lim: 850 exec/s: 136 rss: 274Mb L: 543/814 MS: 1 EraseBytes-
+#166702	REDUCE cov: 530 ft: 868 corp: 230/123Kb lim: 850 exec/s: 136 rss: 274Mb L: 522/814 MS: 3 EraseBytes-CopyPart-InsertByte-
+#167650	REDUCE cov: 532 ft: 870 corp: 231/123Kb lim: 859 exec/s: 136 rss: 274Mb L: 575/814 MS: 3 CopyPart-ChangeBit-PersAutoDict- DE: "\x01\x03X\x06"-
+#167803	NEW    cov: 532 ft: 871 corp: 232/124Kb lim: 859 exec/s: 136 rss: 274Mb L: 622/814 MS: 3 InsertByte-ChangeBinInt-InsertRepeatedBytes-
+#167916	REDUCE cov: 532 ft: 872 corp: 233/124Kb lim: 859 exec/s: 136 rss: 274Mb L: 550/814 MS: 3 ChangeByte-PersAutoDict-InsertByte- DE: "\x01\x00\x00\x00"-
+#168220	REDUCE cov: 532 ft: 872 corp: 233/124Kb lim: 859 exec/s: 136 rss: 274Mb L: 606/814 MS: 2 ChangeByte-EraseBytes-
+#168475	REDUCE cov: 532 ft: 872 corp: 233/124Kb lim: 859 exec/s: 136 rss: 274Mb L: 515/814 MS: 5 EraseBytes-CopyPart-ChangeBinInt-CMP-InsertByte- DE: "\x00\x00\x00\x00\x00\x00\x02o"-
+#169275	REDUCE cov: 532 ft: 872 corp: 233/124Kb lim: 859 exec/s: 136 rss: 274Mb L: 545/814 MS: 4 InsertByte-EraseBytes-ChangeASCIIInt-PersAutoDict- DE: "\xb2\x00\x00\x00\x00\x00\x00\x00"-
+#169861	NEW    cov: 532 ft: 874 corp: 234/125Kb lim: 859 exec/s: 136 rss: 274Mb L: 826/826 MS: 2 PersAutoDict-PersAutoDict- DE: "\x01\x00\x00\x00\x00\x00\x00>"-">\xff\xff\xff"-
+#170323	REDUCE cov: 532 ft: 874 corp: 234/125Kb lim: 859 exec/s: 136 rss: 274Mb L: 558/826 MS: 3 ChangeByte-ChangeASCIIInt-CrossOver-
+#171069	REDUCE cov: 532 ft: 874 corp: 234/125Kb lim: 859 exec/s: 136 rss: 274Mb L: 574/826 MS: 2 ShuffleBytes-EraseBytes-
+#171999	REDUCE cov: 532 ft: 874 corp: 234/125Kb lim: 868 exec/s: 136 rss: 274Mb L: 531/826 MS: 2 ChangeByte-EraseBytes-
+#172182	REDUCE cov: 532 ft: 874 corp: 234/125Kb lim: 868 exec/s: 136 rss: 274Mb L: 569/826 MS: 3 InsertByte-InsertRepeatedBytes-EraseBytes-
+#172736	NEW    cov: 532 ft: 875 corp: 235/125Kb lim: 868 exec/s: 136 rss: 610Mb L: 815/826 MS: 3 CMP-ChangeBinInt-PersAutoDict- DE: ")\x02\x00\x00\x00\x00\x00\x00"-"\x0e\x02\x00\x00\x00\x00\x00\x00"-
+#174516	REDUCE cov: 532 ft: 875 corp: 235/125Kb lim: 877 exec/s: 136 rss: 913Mb L: 809/826 MS: 4 ChangeBit-ChangeBit-ChangeBinInt-EraseBytes-
+#174692	REDUCE cov: 532 ft: 876 corp: 236/126Kb lim: 877 exec/s: 136 rss: 913Mb L: 654/826 MS: 1 CopyPart-
+#175200	REDUCE cov: 532 ft: 876 corp: 236/126Kb lim: 877 exec/s: 136 rss: 913Mb L: 541/826 MS: 3 EraseBytes-ShuffleBytes-InsertRepeatedBytes-
+	NEW_FUNC[1/1]: 0x573350 in vrend_set_framebuffer_state_no_attach (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x573350)
+#175626	NEW    cov: 535 ft: 879 corp: 237/127Kb lim: 877 exec/s: 136 rss: 913Mb L: 526/826 MS: 1 ChangeBinInt-
+#175854	REDUCE cov: 535 ft: 879 corp: 237/126Kb lim: 877 exec/s: 136 rss: 913Mb L: 609/826 MS: 3 ShuffleBytes-ChangeASCIIInt-EraseBytes-
+#176279	REDUCE cov: 535 ft: 879 corp: 237/126Kb lim: 877 exec/s: 136 rss: 915Mb L: 675/826 MS: 4 EraseBytes-ChangeByte-ChangeBit-InsertRepeatedBytes-
+#176448	REDUCE cov: 535 ft: 879 corp: 237/126Kb lim: 877 exec/s: 136 rss: 915Mb L: 615/826 MS: 4 InsertRepeatedBytes-CopyPart-ShuffleBytes-EraseBytes-
+#176740	REDUCE cov: 535 ft: 879 corp: 237/126Kb lim: 877 exec/s: 136 rss: 915Mb L: 530/826 MS: 2 ChangeBit-EraseBytes-
+#176882	NEW    cov: 536 ft: 880 corp: 238/127Kb lim: 877 exec/s: 136 rss: 915Mb L: 877/877 MS: 3 InsertRepeatedBytes-InsertByte-CrossOver-
+#177391	REDUCE cov: 536 ft: 880 corp: 238/127Kb lim: 877 exec/s: 136 rss: 915Mb L: 673/877 MS: 4 InsertRepeatedBytes-ChangeBinInt-InsertRepeatedBytes-EraseBytes-
+#178117	NEW    cov: 536 ft: 881 corp: 239/128Kb lim: 877 exec/s: 136 rss: 915Mb L: 574/877 MS: 1 CopyPart-
+#178654	REDUCE cov: 536 ft: 881 corp: 239/128Kb lim: 877 exec/s: 136 rss: 915Mb L: 519/877 MS: 2 ShuffleBytes-EraseBytes-
+#179341	REDUCE cov: 536 ft: 881 corp: 239/128Kb lim: 877 exec/s: 136 rss: 915Mb L: 551/877 MS: 2 ChangeByte-EraseBytes-
+#179667	REDUCE cov: 536 ft: 881 corp: 239/128Kb lim: 877 exec/s: 136 rss: 915Mb L: 619/877 MS: 1 EraseBytes-
+#180114	REDUCE cov: 537 ft: 882 corp: 240/128Kb lim: 877 exec/s: 136 rss: 915Mb L: 526/877 MS: 1 PersAutoDict- DE: "\x84h\x02\x00"-
+#180167	REDUCE cov: 537 ft: 882 corp: 240/128Kb lim: 877 exec/s: 136 rss: 915Mb L: 559/877 MS: 3 CopyPart-ShuffleBytes-EraseBytes-
+#180234	REDUCE cov: 537 ft: 882 corp: 240/128Kb lim: 877 exec/s: 136 rss: 915Mb L: 590/877 MS: 2 EraseBytes-CopyPart-
+#180805	REDUCE cov: 537 ft: 882 corp: 240/128Kb lim: 877 exec/s: 136 rss: 915Mb L: 761/826 MS: 4 CopyPart-EraseBytes-ChangeBinInt-EraseBytes-
+	NEW_FUNC[1/1]: 0x5bfee0 in vrend_render_condition (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5bfee0)
+#182199	REDUCE cov: 540 ft: 885 corp: 241/128Kb lim: 886 exec/s: 135 rss: 1229Mb L: 606/826 MS: 2 InsertRepeatedBytes-InsertByte-
+#182970	REDUCE cov: 540 ft: 885 corp: 241/128Kb lim: 886 exec/s: 135 rss: 1991Mb L: 514/826 MS: 2 ShuffleBytes-EraseBytes-
+#183491	REDUCE cov: 540 ft: 885 corp: 241/128Kb lim: 886 exec/s: 135 rss: 1991Mb L: 541/826 MS: 1 EraseBytes-
+#183867	REDUCE cov: 540 ft: 885 corp: 241/128Kb lim: 886 exec/s: 135 rss: 1991Mb L: 574/826 MS: 3 ChangeBinInt-EraseBytes-InsertRepeatedBytes-
+#184137	REDUCE cov: 540 ft: 885 corp: 241/128Kb lim: 886 exec/s: 135 rss: 1991Mb L: 545/826 MS: 3 EraseBytes-ChangeBinInt-InsertRepeatedBytes-
+#184647	REDUCE cov: 540 ft: 885 corp: 241/128Kb lim: 886 exec/s: 135 rss: 1991Mb L: 518/826 MS: 5 EraseBytes-CopyPart-ChangeByte-ShuffleBytes-CMP- DE: "H\x00\x00\x00\x00\x00\x00\x00"-
+#185364	NEW    cov: 541 ft: 886 corp: 242/129Kb lim: 886 exec/s: 135 rss: 1991Mb L: 886/886 MS: 2 CopyPart-InsertByte-
+#185883	REDUCE cov: 541 ft: 886 corp: 242/129Kb lim: 886 exec/s: 135 rss: 1991Mb L: 542/886 MS: 4 ChangeBinInt-ChangeBinInt-ChangeByte-EraseBytes-
+#186492	REDUCE cov: 541 ft: 886 corp: 242/129Kb lim: 886 exec/s: 135 rss: 1991Mb L: 678/886 MS: 4 ChangeByte-ChangeBit-CMP-EraseBytes- DE: "GL_ARB_framebuffer_"-
+#186779	NEW    cov: 541 ft: 887 corp: 243/130Kb lim: 886 exec/s: 135 rss: 1991Mb L: 814/886 MS: 3 CopyPart-ShuffleBytes-CopyPart-
+#186899	REDUCE cov: 541 ft: 887 corp: 243/130Kb lim: 886 exec/s: 134 rss: 1991Mb L: 551/886 MS: 3 InsertRepeatedBytes-CopyPart-EraseBytes-
+#186915	NEW    cov: 541 ft: 889 corp: 244/130Kb lim: 886 exec/s: 134 rss: 1991Mb L: 526/886 MS: 1 ChangeBit-
+#190073	NEW    cov: 541 ft: 890 corp: 245/131Kb lim: 913 exec/s: 134 rss: 1991Mb L: 606/886 MS: 3 ChangeBinInt-InsertByte-InsertRepeatedBytes-
+#190588	REDUCE cov: 541 ft: 890 corp: 245/131Kb lim: 913 exec/s: 134 rss: 1991Mb L: 559/886 MS: 3 ChangeBit-PersAutoDict-EraseBytes- DE: "\x01\x00\x00\x00\x00\x00\x02\x00"-
+==169610== ERROR: libFuzzer: out-of-memory (used: 2151Mb; limit: 2048Mb)
+   To change the out-of-memory limit use -rss_limit_mb=<N>
+
+Live Heap Allocations: 2486271673 bytes in 10609 chunks; quarantined: 257140897 bytes in 25808 chunks; 64060 other chunks; total chunks: 100477; showing top 95% (at most 8 unique contexts)
+2450850320 byte(s) (98%) in 11 allocation(s)
+    #0 0x523e67 in posix_memalign (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x523e67)
+    #1 0x7fef45de9924  (/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so+0x7fe924)
+
+MS: 4 InsertRepeatedBytes-ChangeByte-ChangeByte-PersAutoDict- DE: "\x19\x02\x00\x00\x00\x00\x00\x00"-; base unit: 7c9877fed55c935f5615b2f7ecc858e507c53c2c
+artifact_prefix='./'; Test unit written to ./oom-db696a9fd9390ba42d447090b379cfb04b015a05
+SUMMARY: libFuzzer: out-of-memory

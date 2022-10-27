@@ -1,0 +1,1239 @@
+INFO: Seed: 3148449461
+INFO: Loaded 1 modules   (9467 inline 8-bit counters): 9467 [0x74c6a0, 0x74eb9b), 
+INFO: Loaded 1 PC tables (9467 PCs): 9467 [0x6a2648,0x6c75f8), 
+INFO: -max_len is not provided; libFuzzer will not generate inputs larger than 4096 bytes
+INFO: A corpus is not provided, starting from an empty corpus
+#2	INITED cov: 2 ft: 2 corp: 1/1b exec/s: 0 rss: 144Mb
+	NEW_FUNC[1/36]: 0x554200 in fuzzer_create_gl_context (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x554200)
+	NEW_FUNC[2/36]: 0x554440 in fuzzer_destroy_gl_context (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x554440)
+#51685	NEW    cov: 127 ft: 128 corp: 2/518b lim: 517 exec/s: 0 rss: 196Mb L: 517/517 MS: 2 InsertRepeatedBytes-CrossOver-
+	NEW_FUNC[1/5]: 0x560940 in vrend_decode_draw_vbo (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x560940)
+	NEW_FUNC[2/5]: 0x5630d0 in vrend_decode_bind_sampler_states (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5630d0)
+#51826	NEW    cov: 137 ft: 138 corp: 3/1035b lim: 517 exec/s: 51826 rss: 271Mb L: 517/517 MS: 1 CrossOver-
+	NEW_FUNC[1/1]: 0x55cf00 in vrend_decode_dummy (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x55cf00)
+#51863	NEW    cov: 140 ft: 141 corp: 4/1552b lim: 517 exec/s: 25931 rss: 271Mb L: 517/517 MS: 2 ChangeByte-CrossOver-
+#52051	NEW    cov: 141 ft: 142 corp: 5/2064b lim: 517 exec/s: 17350 rss: 271Mb L: 512/517 MS: 3 CrossOver-CrossOver-CopyPart-
+#52081	NEW    cov: 141 ft: 152 corp: 6/2577b lim: 517 exec/s: 13020 rss: 271Mb L: 513/517 MS: 5 ChangeBinInt-ChangeBinInt-CopyPart-ShuffleBytes-InsertByte-
+	NEW_FUNC[1/3]: 0x563260 in vrend_decode_end_query (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x563260)
+	NEW_FUNC[2/3]: 0x564810 in vrend_decode_set_tess_state (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x564810)
+#52102	NEW    cov: 147 ft: 161 corp: 7/3094b lim: 517 exec/s: 13025 rss: 271Mb L: 517/517 MS: 1 CrossOver-
+#52153	NEW    cov: 147 ft: 169 corp: 8/3609b lim: 517 exec/s: 13038 rss: 271Mb L: 515/517 MS: 1 CopyPart-
+	NEW_FUNC[1/2]: 0x560560 in vrend_decode_set_vertex_buffers (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x560560)
+	NEW_FUNC[2/2]: 0x565860 in vrend_decode_get_query_result_qbo (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x565860)
+#52350	NEW    cov: 151 ft: 173 corp: 9/4126b lim: 517 exec/s: 7478 rss: 271Mb L: 517/517 MS: 2 ChangeBinInt-CrossOver-
+#52372	NEW    cov: 153 ft: 185 corp: 10/4640b lim: 517 exec/s: 7481 rss: 271Mb L: 514/517 MS: 2 ShuffleBytes-InsertByte-
+	NEW_FUNC[1/1]: 0x564290 in vrend_decode_set_render_condition (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x564290)
+#52585	NEW    cov: 155 ft: 190 corp: 11/5157b lim: 517 exec/s: 5842 rss: 271Mb L: 517/517 MS: 3 ShuffleBytes-CopyPart-CrossOver-
+	NEW_FUNC[1/1]: 0x594e80 in vrend_bind_sampler_states (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x594e80)
+#53051	NEW    cov: 158 ft: 193 corp: 12/5674b lim: 517 exec/s: 3789 rss: 271Mb L: 517/517 MS: 1 CrossOver-
+	NEW_FUNC[1/2]: 0x5637b0 in vrend_decode_set_sample_mask (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5637b0)
+	NEW_FUNC[2/2]: 0x5b27a0 in vrend_set_sample_mask (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5b27a0)
+#53398	NEW    cov: 162 ft: 197 corp: 13/6188b lim: 517 exec/s: 2966 rss: 271Mb L: 514/517 MS: 2 ChangeBit-ChangeByte-
+	NEW_FUNC[1/1]: 0x561ab0 in vrend_decode_set_constant_buffer (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x561ab0)
+#53511	NEW    cov: 165 ft: 200 corp: 14/6705b lim: 517 exec/s: 2675 rss: 271Mb L: 517/517 MS: 3 ChangeBinInt-ShuffleBytes-ChangeBit-
+	NEW_FUNC[1/5]: 0x55fad0 in vrend_decode_set_framebuffer_state (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x55fad0)
+	NEW_FUNC[2/5]: 0x560710 in vrend_decode_clear (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x560710)
+#53524	NEW    cov: 174 ft: 209 corp: 15/7222b lim: 517 exec/s: 2676 rss: 271Mb L: 517/517 MS: 3 ShuffleBytes-ChangeBit-CrossOver-
+#53597	NEW    cov: 175 ft: 210 corp: 16/7736b lim: 517 exec/s: 2552 rss: 271Mb L: 514/517 MS: 3 CopyPart-ChangeBit-ChangeASCIIInt-
+	NEW_FUNC[1/3]: 0x55f780 in vrend_decode_set_viewport_state (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x55f780)
+	NEW_FUNC[2/3]: 0x563570 in vrend_decode_set_clip_state (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x563570)
+#53865	NEW    cov: 181 ft: 216 corp: 17/8253b lim: 517 exec/s: 2244 rss: 271Mb L: 517/517 MS: 3 ChangeBit-CopyPart-ChangeByte-
+	NEW_FUNC[1/3]: 0x55f5a0 in vrend_decode_bind_object (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x55f5a0)
+	NEW_FUNC[2/3]: 0x55f6e0 in vrend_decode_destroy_object (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x55f6e0)
+#54729	NEW    cov: 187 ft: 222 corp: 18/8770b lim: 517 exec/s: 1609 rss: 271Mb L: 517/517 MS: 4 ChangeByte-ChangeBinInt-EraseBytes-CrossOver-
+	NEW_FUNC[1/1]: 0x5617b0 in vrend_decode_set_sampler_views (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5617b0)
+#54790	NEW    cov: 189 ft: 224 corp: 19/9284b lim: 517 exec/s: 1565 rss: 271Mb L: 514/517 MS: 1 ChangeBinInt-
+	NEW_FUNC[1/1]: 0x562350 in vrend_decode_blit (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x562350)
+#54858	NEW    cov: 191 ft: 226 corp: 20/9801b lim: 517 exec/s: 1567 rss: 271Mb L: 517/517 MS: 3 ChangeByte-CopyPart-CMP- DE: "\xd2\x15"-
+	NEW_FUNC[1/3]: 0x564750 in vrend_decode_bind_shader (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x564750)
+	NEW_FUNC[2/3]: 0x5649a0 in vrend_decode_set_min_samples (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5649a0)
+#55046	NEW    cov: 197 ft: 232 corp: 21/10318b lim: 517 exec/s: 1487 rss: 271Mb L: 517/517 MS: 3 ChangeBinInt-CopyPart-CrossOver-
+	NEW_FUNC[1/1]: 0x59fda0 in vrend_renderer_set_sub_ctx (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x59fda0)
+#55953	NEW    cov: 203 ft: 239 corp: 22/10844b lim: 526 exec/s: 1165 rss: 271Mb L: 526/526 MS: 2 EraseBytes-CrossOver-
+#55956	NEW    cov: 203 ft: 242 corp: 23/11363b lim: 526 exec/s: 1165 rss: 271Mb L: 519/526 MS: 3 ChangeByte-PersAutoDict-InsertRepeatedBytes- DE: "\xd2\x15"-
+	NEW_FUNC[1/2]: 0x56baa0 in vrend_object_lookup (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x56baa0)
+	NEW_FUNC[2/2]: 0x5bdb90 in vrend_begin_query (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5bdb90)
+#55960	NEW    cov: 209 ft: 248 corp: 24/11881b lim: 526 exec/s: 1165 rss: 271Mb L: 518/526 MS: 4 ChangeByte-CopyPart-ShuffleBytes-CopyPart-
+#55966	NEW    cov: 209 ft: 249 corp: 25/12399b lim: 526 exec/s: 1165 rss: 271Mb L: 518/526 MS: 1 InsertByte-
+	NEW_FUNC[1/1]: 0x5bdf90 in vrend_end_query (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5bdf90)
+#55971	NEW    cov: 212 ft: 252 corp: 26/12925b lim: 526 exec/s: 1142 rss: 271Mb L: 526/526 MS: 5 CrossOver-PersAutoDict-EraseBytes-PersAutoDict-CrossOver- DE: "\xd2\x15"-"\xd2\x15"-
+	NEW_FUNC[1/2]: 0x575b30 in vrend_set_single_vbo (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x575b30)
+	NEW_FUNC[2/2]: 0x576100 in vrend_set_num_vbo (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x576100)
+#56009	NEW    cov: 221 ft: 263 corp: 27/13447b lim: 526 exec/s: 1143 rss: 271Mb L: 522/526 MS: 3 InsertByte-ShuffleBytes-PersAutoDict- DE: "\xd2\x15"-
+#56032	NEW    cov: 221 ft: 264 corp: 28/13973b lim: 526 exec/s: 1143 rss: 271Mb L: 526/526 MS: 3 CMP-InsertRepeatedBytes-CrossOver- DE: "\x01\x00\x00\x00\x00\x00\x02\x0e"-
+#56041	NEW    cov: 222 ft: 275 corp: 29/14494b lim: 526 exec/s: 1143 rss: 271Mb L: 521/526 MS: 4 InsertByte-ChangeBit-ChangeByte-InsertRepeatedBytes-
+#56043	NEW    cov: 222 ft: 277 corp: 30/15015b lim: 526 exec/s: 1143 rss: 271Mb L: 521/526 MS: 2 ShuffleBytes-CMP- DE: "\xff\xff\xff\x06"-
+	NEW_FUNC[1/1]: 0x566d90 in vrend_decode_pipe_resource_set_type (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x566d90)
+#56044	NEW    cov: 225 ft: 281 corp: 31/15537b lim: 526 exec/s: 1143 rss: 271Mb L: 522/526 MS: 1 CopyPart-
+#56045	NEW    cov: 227 ft: 287 corp: 32/16059b lim: 526 exec/s: 1143 rss: 271Mb L: 522/526 MS: 1 PersAutoDict- DE: "\x01\x00\x00\x00\x00\x00\x02\x0e"-
+#56051	NEW    cov: 227 ft: 290 corp: 33/16Kb lim: 526 exec/s: 1121 rss: 271Mb L: 523/526 MS: 1 InsertRepeatedBytes-
+#56059	NEW    cov: 227 ft: 291 corp: 34/16Kb lim: 526 exec/s: 1121 rss: 271Mb L: 525/526 MS: 3 ChangeBit-InsertByte-InsertByte-
+	NEW_FUNC[1/1]: 0x5c9a40 in vrend_renderer_get_meminfo (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5c9a40)
+#56087	NEW    cov: 232 ft: 304 corp: 35/17Kb lim: 526 exec/s: 1121 rss: 271Mb L: 526/526 MS: 3 ShuffleBytes-EraseBytes-CrossOver-
+	NEW_FUNC[1/1]: 0x5643a0 in vrend_decode_set_uniform_buffer (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5643a0)
+#56094	NEW    cov: 234 ft: 306 corp: 36/17Kb lim: 526 exec/s: 1121 rss: 271Mb L: 526/526 MS: 2 ShuffleBytes-CrossOver-
+#56109	NEW    cov: 235 ft: 307 corp: 37/18Kb lim: 526 exec/s: 1122 rss: 271Mb L: 526/526 MS: 5 InsertByte-ChangeBinInt-PersAutoDict-CrossOver-CopyPart- DE: "\xff\xff\xff\x06"-
+	NEW_FUNC[1/3]: 0x566550 in vrend_decode_set_tweaks (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x566550)
+	NEW_FUNC[2/3]: 0x56bc20 in vrend_get_context_tweaks (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x56bc20)
+#56126	NEW    cov: 240 ft: 312 corp: 38/18Kb lim: 526 exec/s: 1100 rss: 271Mb L: 523/526 MS: 2 ShuffleBytes-CopyPart-
+	NEW_FUNC[1/1]: 0x5654d0 in vrend_decode_texture_barrier (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5654d0)
+#56165	NEW    cov: 242 ft: 314 corp: 39/19Kb lim: 526 exec/s: 1101 rss: 271Mb L: 521/526 MS: 4 CopyPart-PersAutoDict-PersAutoDict-InsertByte- DE: "\xd2\x15"-"\xd2\x15"-
+	NEW_FUNC[1/1]: 0x5619a0 in vrend_decode_set_index_buffer (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5619a0)
+#56167	NEW    cov: 244 ft: 316 corp: 40/19Kb lim: 526 exec/s: 1101 rss: 271Mb L: 519/526 MS: 2 PersAutoDict-CopyPart- DE: "\xff\xff\xff\x06"-
+	NEW_FUNC[1/1]: 0x575580 in vrend_set_index_buffer (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x575580)
+#56168	NEW    cov: 247 ft: 321 corp: 41/20Kb lim: 526 exec/s: 1101 rss: 271Mb L: 526/526 MS: 1 PersAutoDict- DE: "\xff\xff\xff\x06"-
+	NEW_FUNC[1/2]: 0x5633c0 in vrend_decode_set_polygon_stipple (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5633c0)
+	NEW_FUNC[2/2]: 0x5646b0 in vrend_decode_destroy_sub_ctx (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5646b0)
+#56171	NEW    cov: 251 ft: 325 corp: 42/20Kb lim: 526 exec/s: 1101 rss: 271Mb L: 523/526 MS: 3 CopyPart-ChangeByte-InsertByte-
+#56172	NEW    cov: 251 ft: 332 corp: 43/21Kb lim: 526 exec/s: 1101 rss: 271Mb L: 526/526 MS: 1 CrossOver-
+	NEW_FUNC[1/1]: 0x565570 in vrend_decode_set_atomic_buffers (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x565570)
+#56190	NEW    cov: 253 ft: 334 corp: 44/21Kb lim: 526 exec/s: 1101 rss: 271Mb L: 525/526 MS: 3 ChangeByte-ChangeBit-CopyPart-
+#56230	NEW    cov: 254 ft: 335 corp: 45/22Kb lim: 526 exec/s: 1081 rss: 271Mb L: 523/526 MS: 5 ShuffleBytes-CopyPart-CopyPart-ShuffleBytes-InsertByte-
+#56285	NEW    cov: 254 ft: 336 corp: 46/22Kb lim: 526 exec/s: 1061 rss: 271Mb L: 526/526 MS: 5 CMP-CrossOver-ShuffleBytes-ChangeBinInt-PersAutoDict- DE: "\x00\x00\x00\x03"-"\xff\xff\xff\x06"-
+#56374	NEW    cov: 254 ft: 338 corp: 47/23Kb lim: 526 exec/s: 1063 rss: 271Mb L: 515/526 MS: 4 InsertByte-ChangeBit-EraseBytes-CopyPart-
+	NEW_FUNC[1/1]: 0x562c70 in vrend_decode_resource_copy_region (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x562c70)
+#56423	NEW    cov: 258 ft: 342 corp: 48/23Kb lim: 526 exec/s: 1044 rss: 271Mb L: 519/526 MS: 4 EraseBytes-InsertByte-ChangeBit-InsertRepeatedBytes-
+	NEW_FUNC[1/2]: 0x561b70 in vrend_decode_set_stencil_ref (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x561b70)
+	NEW_FUNC[2/2]: 0x5b01a0 in vrend_set_stencil_ref (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5b01a0)
+#56489	NEW    cov: 263 ft: 347 corp: 49/24Kb lim: 526 exec/s: 1027 rss: 271Mb L: 526/526 MS: 1 CrossOver-
+#56509	NEW    cov: 263 ft: 348 corp: 50/24Kb lim: 526 exec/s: 1027 rss: 271Mb L: 526/526 MS: 5 CopyPart-ChangeByte-ChangeBinInt-CrossOver-ChangeBinInt-
+	NEW_FUNC[1/1]: 0x578bf0 in vrend_memory_barrier (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x578bf0)
+#56566	NEW    cov: 276 ft: 361 corp: 51/25Kb lim: 526 exec/s: 1010 rss: 271Mb L: 526/526 MS: 2 ShuffleBytes-ChangeByte-
+#56599	NEW    cov: 277 ft: 362 corp: 52/25Kb lim: 526 exec/s: 1010 rss: 271Mb L: 526/526 MS: 3 ShuffleBytes-CopyPart-CMP- DE: "?\xff\xff\xff"-
+	NEW_FUNC[1/1]: 0x561ec0 in vrend_decode_set_scissor_state (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x561ec0)
+#56605	NEW    cov: 279 ft: 364 corp: 53/26Kb lim: 526 exec/s: 1010 rss: 271Mb L: 525/526 MS: 1 InsertRepeatedBytes-
+#56713	NEW    cov: 279 ft: 369 corp: 54/26Kb lim: 526 exec/s: 977 rss: 271Mb L: 525/526 MS: 3 ShuffleBytes-InsertRepeatedBytes-ChangeBinInt-
+#56728	NEW    cov: 279 ft: 370 corp: 55/27Kb lim: 526 exec/s: 978 rss: 271Mb L: 526/526 MS: 5 ShuffleBytes-ChangeASCIIInt-CMP-ShuffleBytes-CopyPart- DE: "\xff\x01\x00\x00\x00\x00\x00\x00"-
+#56796	NEW    cov: 279 ft: 371 corp: 56/27Kb lim: 526 exec/s: 962 rss: 271Mb L: 526/526 MS: 3 ShuffleBytes-ChangeBit-PersAutoDict- DE: "\xff\xff\xff\x06"-
+#56840	NEW    cov: 281 ft: 373 corp: 57/28Kb lim: 526 exec/s: 963 rss: 271Mb L: 526/526 MS: 4 CrossOver-ChangeBinInt-PersAutoDict-CrossOver- DE: "\xff\xff\xff\x06"-
+	NEW_FUNC[1/1]: 0x564a40 in vrend_decode_set_shader_buffers (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x564a40)
+#56841	NEW    cov: 283 ft: 375 corp: 58/28Kb lim: 526 exec/s: 963 rss: 271Mb L: 525/526 MS: 1 InsertRepeatedBytes-
+#56984	NEW    cov: 284 ft: 376 corp: 59/29Kb lim: 526 exec/s: 934 rss: 271Mb L: 526/526 MS: 3 CopyPart-CopyPart-CopyPart-
+#57062	REDUCE cov: 284 ft: 376 corp: 59/29Kb lim: 526 exec/s: 920 rss: 271Mb L: 513/526 MS: 3 ChangeBit-PersAutoDict-EraseBytes- DE: "\x00\x00\x00\x03"-
+#57083	NEW    cov: 284 ft: 378 corp: 60/30Kb lim: 526 exec/s: 920 rss: 271Mb L: 526/526 MS: 1 CrossOver-
+#57163	NEW    cov: 285 ft: 379 corp: 61/30Kb lim: 526 exec/s: 907 rss: 271Mb L: 526/526 MS: 5 ChangeByte-ShuffleBytes-ChangeBit-ChangeByte-CrossOver-
+#57247	NEW    cov: 288 ft: 388 corp: 62/31Kb lim: 526 exec/s: 894 rss: 271Mb L: 526/526 MS: 4 ChangeBit-ChangeByte-CopyPart-CopyPart-
+#57278	NEW    cov: 289 ft: 390 corp: 63/31Kb lim: 526 exec/s: 894 rss: 271Mb L: 526/526 MS: 1 CrossOver-
+	NEW_FUNC[1/1]: 0x563850 in vrend_decode_set_streamout_targets (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x563850)
+#57287	NEW    cov: 291 ft: 392 corp: 64/32Kb lim: 526 exec/s: 881 rss: 271Mb L: 526/526 MS: 4 ChangeByte-CopyPart-InsertByte-CMP- DE: "GL_OES_surfaceless_context"-
+#57319	NEW    cov: 292 ft: 393 corp: 65/32Kb lim: 526 exec/s: 881 rss: 271Mb L: 526/526 MS: 2 ChangeBit-CopyPart-
+#57379	NEW    cov: 294 ft: 395 corp: 66/33Kb lim: 526 exec/s: 869 rss: 271Mb L: 526/526 MS: 5 CrossOver-ChangeBinInt-ChangeASCIIInt-ChangeBit-CrossOver-
+#57384	NEW    cov: 294 ft: 396 corp: 67/33Kb lim: 526 exec/s: 869 rss: 271Mb L: 526/526 MS: 5 ChangeBinInt-CrossOver-ChangeBit-CopyPart-CrossOver-
+#57435	NEW    cov: 294 ft: 397 corp: 68/34Kb lim: 526 exec/s: 857 rss: 271Mb L: 526/526 MS: 1 PersAutoDict- DE: "\xd2\x15"-
+#57463	NEW    cov: 294 ft: 402 corp: 69/34Kb lim: 526 exec/s: 857 rss: 271Mb L: 518/526 MS: 3 ChangeBit-ChangeBinInt-InsertByte-
+#57464	NEW    cov: 296 ft: 404 corp: 70/35Kb lim: 526 exec/s: 857 rss: 271Mb L: 526/526 MS: 1 CopyPart-
+	NEW_FUNC[1/1]: 0x578ed0 in vrend_texture_barrier (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x578ed0)
+#57486	NEW    cov: 300 ft: 408 corp: 71/35Kb lim: 526 exec/s: 858 rss: 271Mb L: 526/526 MS: 1 CopyPart-
+#57542	NEW    cov: 300 ft: 410 corp: 72/36Kb lim: 526 exec/s: 846 rss: 271Mb L: 526/526 MS: 1 CopyPart-
+#57744	NEW    cov: 301 ft: 411 corp: 73/36Kb lim: 526 exec/s: 824 rss: 271Mb L: 526/526 MS: 2 CopyPart-CopyPart-
+#57790	NEW    cov: 301 ft: 413 corp: 74/37Kb lim: 526 exec/s: 813 rss: 271Mb L: 526/526 MS: 1 CopyPart-
+	NEW_FUNC[1/3]: 0x55c640 in vrend_debug_can_override (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x55c640)
+	NEW_FUNC[2/3]: 0x565780 in vrend_decode_set_debug_mask (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x565780)
+#57896	NEW    cov: 306 ft: 418 corp: 75/37Kb lim: 526 exec/s: 804 rss: 271Mb L: 523/526 MS: 1 InsertRepeatedBytes-
+#57912	NEW    cov: 306 ft: 419 corp: 76/38Kb lim: 526 exec/s: 804 rss: 271Mb L: 526/526 MS: 1 CopyPart-
+#57952	NEW    cov: 307 ft: 420 corp: 77/38Kb lim: 526 exec/s: 793 rss: 271Mb L: 526/526 MS: 5 ChangeByte-ChangeBit-CopyPart-ShuffleBytes-ShuffleBytes-
+	NEW_FUNC[1/1]: 0x5b0570 in vrend_set_scissor_state (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5b0570)
+#57960	NEW    cov: 310 ft: 423 corp: 78/39Kb lim: 526 exec/s: 793 rss: 271Mb L: 526/526 MS: 3 ChangeBit-ChangeByte-CopyPart-
+#58050	NEW    cov: 310 ft: 425 corp: 79/39Kb lim: 526 exec/s: 784 rss: 271Mb L: 526/526 MS: 5 ShuffleBytes-CopyPart-PersAutoDict-CopyPart-CMP- DE: "\xff\x01\x00\x00\x00\x00\x00\x00"-"\x0d\x02\x00\x00\x00\x00\x00\x00"-
+#58108	NEW    cov: 311 ft: 426 corp: 80/40Kb lim: 526 exec/s: 774 rss: 271Mb L: 526/526 MS: 3 CopyPart-CopyPart-ChangeBinInt-
+	NEW_FUNC[1/2]: 0x56ba70 in vrend_object_remove (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x56ba70)
+	NEW_FUNC[2/2]: 0x57a160 in vrend_renderer_object_destroy (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x57a160)
+#58284	NEW    cov: 314 ft: 429 corp: 81/40Kb lim: 526 exec/s: 756 rss: 271Mb L: 526/526 MS: 1 InsertByte-
+	NEW_FUNC[1/1]: 0x5ca0b0 in vrend_context_emit_string_marker (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5ca0b0)
+#58361	NEW    cov: 317 ft: 432 corp: 82/41Kb lim: 526 exec/s: 748 rss: 271Mb L: 521/526 MS: 1 PersAutoDict- DE: "?\xff\xff\xff"-
+#58399	NEW    cov: 317 ft: 433 corp: 83/41Kb lim: 526 exec/s: 748 rss: 271Mb L: 526/526 MS: 3 ChangeBit-CrossOver-CopyPart-
+#58420	REDUCE cov: 317 ft: 433 corp: 83/41Kb lim: 526 exec/s: 739 rss: 271Mb L: 514/526 MS: 1 CrossOver-
+	NEW_FUNC[1/1]: 0x573350 in vrend_set_framebuffer_state_no_attach (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x573350)
+#58453	NEW    cov: 320 ft: 436 corp: 84/42Kb lim: 526 exec/s: 739 rss: 271Mb L: 526/526 MS: 3 ShuffleBytes-CopyPart-ChangeBinInt-
+#58611	NEW    cov: 320 ft: 437 corp: 85/42Kb lim: 526 exec/s: 723 rss: 271Mb L: 526/526 MS: 3 CopyPart-CrossOver-CrossOver-
+	NEW_FUNC[1/1]: 0x565a00 in vrend_decode_transfer3d (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x565a00)
+#58775	NEW    cov: 322 ft: 439 corp: 86/43Kb lim: 526 exec/s: 708 rss: 271Mb L: 526/526 MS: 4 ChangeByte-PersAutoDict-ChangeByte-CrossOver- DE: "\xff\x01\x00\x00\x00\x00\x00\x00"-
+#58841	NEW    cov: 322 ft: 442 corp: 87/43Kb lim: 526 exec/s: 700 rss: 271Mb L: 526/526 MS: 1 CopyPart-
+#58847	NEW    cov: 322 ft: 457 corp: 88/44Kb lim: 526 exec/s: 700 rss: 271Mb L: 526/526 MS: 1 CopyPart-
+#58895	NEW    cov: 323 ft: 458 corp: 89/44Kb lim: 526 exec/s: 692 rss: 271Mb L: 526/526 MS: 3 ChangeBinInt-ChangeBit-ChangeBit-
+#59243	NEW    cov: 323 ft: 459 corp: 90/45Kb lim: 526 exec/s: 665 rss: 271Mb L: 526/526 MS: 3 ChangeBit-CrossOver-CopyPart-
+#59339	NEW    cov: 325 ft: 461 corp: 91/45Kb lim: 526 exec/s: 659 rss: 271Mb L: 526/526 MS: 1 CopyPart-
+#59403	NEW    cov: 329 ft: 507 corp: 92/46Kb lim: 526 exec/s: 652 rss: 271Mb L: 526/526 MS: 4 CrossOver-ShuffleBytes-CrossOver-PersAutoDict- DE: "GL_OES_surfaceless_context"-
+#59578	REDUCE cov: 329 ft: 507 corp: 92/46Kb lim: 526 exec/s: 633 rss: 271Mb L: 518/526 MS: 5 ChangeByte-EraseBytes-ChangeBinInt-ShuffleBytes-InsertRepeatedBytes-
+#59647	NEW    cov: 329 ft: 508 corp: 93/46Kb lim: 526 exec/s: 627 rss: 271Mb L: 526/526 MS: 4 ChangeByte-PersAutoDict-CopyPart-CopyPart- DE: "\xff\x01\x00\x00\x00\x00\x00\x00"-
+#59827	NEW    cov: 330 ft: 509 corp: 94/47Kb lim: 526 exec/s: 616 rss: 271Mb L: 526/526 MS: 5 EraseBytes-ChangeBinInt-ShuffleBytes-ChangeByte-CrossOver-
+#59998	NEW    cov: 331 ft: 510 corp: 95/47Kb lim: 526 exec/s: 606 rss: 271Mb L: 526/526 MS: 1 CrossOver-
+	NEW_FUNC[1/1]: 0x57a1c0 in vrend_bind_shader (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x57a1c0)
+#60293	NEW    cov: 334 ft: 513 corp: 96/48Kb lim: 526 exec/s: 585 rss: 272Mb L: 526/526 MS: 5 ChangeBinInt-PersAutoDict-EraseBytes-PersAutoDict-CopyPart- DE: "\xff\x01\x00\x00\x00\x00\x00\x00"-"\x0d\x02\x00\x00\x00\x00\x00\x00"-
+	NEW_FUNC[1/1]: 0x5bfee0 in vrend_render_condition (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5bfee0)
+#60883	NEW    cov: 337 ft: 516 corp: 97/48Kb lim: 526 exec/s: 553 rss: 272Mb L: 526/526 MS: 5 PersAutoDict-ChangeBit-InsertByte-CrossOver-CopyPart- DE: "\x01\x00\x00\x00\x00\x00\x02\x0e"-
+	NEW_FUNC[1/1]: 0x5c7290 in vrend_renderer_destroy_sub_ctx (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5c7290)
+#60940	NEW    cov: 341 ft: 520 corp: 98/49Kb lim: 526 exec/s: 549 rss: 272Mb L: 526/526 MS: 2 CrossOver-CrossOver-
+	NEW_FUNC[1/1]: 0x55cf10 in vrend_decode_create_object (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x55cf10)
+#61018	REDUCE cov: 343 ft: 522 corp: 99/50Kb lim: 526 exec/s: 544 rss: 272Mb L: 526/526 MS: 3 PersAutoDict-ShuffleBytes-CrossOver- DE: "?\xff\xff\xff"-
+#61146	NEW    cov: 343 ft: 524 corp: 100/50Kb lim: 526 exec/s: 536 rss: 272Mb L: 526/526 MS: 3 ChangeBit-ChangeBit-ShuffleBytes-
+#61322	REDUCE cov: 344 ft: 525 corp: 101/51Kb lim: 526 exec/s: 528 rss: 272Mb L: 522/526 MS: 1 InsertRepeatedBytes-
+	NEW_FUNC[1/1]: 0x566620 in vrend_decode_clear_texture (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x566620)
+#61429	NEW    cov: 346 ft: 527 corp: 102/51Kb lim: 526 exec/s: 525 rss: 272Mb L: 526/526 MS: 2 ChangeASCIIInt-CrossOver-
+#61775	NEW    cov: 346 ft: 528 corp: 103/52Kb lim: 526 exec/s: 510 rss: 272Mb L: 526/526 MS: 1 CrossOver-
+	NEW_FUNC[1/1]: 0x59b460 in vrend_set_streamout_targets (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x59b460)
+#61806	NEW    cov: 349 ft: 531 corp: 104/52Kb lim: 526 exec/s: 506 rss: 272Mb L: 526/526 MS: 1 CopyPart-
+#61881	NEW    cov: 350 ft: 532 corp: 105/53Kb lim: 526 exec/s: 503 rss: 272Mb L: 526/526 MS: 5 EraseBytes-PersAutoDict-CopyPart-PersAutoDict-CrossOver- DE: "GL_OES_surfaceless_context"-"\x00\x00\x00\x03"-
+	NEW_FUNC[1/1]: 0x57e1e0 in vrend_draw_vbo (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x57e1e0)
+#61915	NEW    cov: 354 ft: 536 corp: 106/53Kb lim: 526 exec/s: 503 rss: 272Mb L: 526/526 MS: 4 ShuffleBytes-ShuffleBytes-ChangeByte-ChangeByte-
+#62163	REDUCE cov: 354 ft: 536 corp: 106/53Kb lim: 526 exec/s: 493 rss: 272Mb L: 518/526 MS: 3 ChangeByte-CopyPart-EraseBytes-
+#62289	NEW    cov: 354 ft: 539 corp: 107/54Kb lim: 526 exec/s: 486 rss: 272Mb L: 526/526 MS: 1 ChangeByte-
+	NEW_FUNC[1/6]: 0x555980 in virgl_resource_lookup (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x555980)
+	NEW_FUNC[2/6]: 0x59ffc0 in vrend_renderer_resource_create (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x59ffc0)
+#63204	NEW    cov: 365 ft: 554 corp: 108/54Kb lim: 535 exec/s: 454 rss: 272Mb L: 535/535 MS: 5 PersAutoDict-InsertByte-ChangeASCIIInt-CopyPart-InsertRepeatedBytes- DE: "\xd2\x15"-
+#63207	NEW    cov: 365 ft: 557 corp: 109/55Kb lim: 535 exec/s: 454 rss: 272Mb L: 527/535 MS: 3 CopyPart-PersAutoDict-InsertByte- DE: "\x01\x00\x00\x00\x00\x00\x02\x0e"-
+#63373	NEW    cov: 366 ft: 558 corp: 110/55Kb lim: 535 exec/s: 449 rss: 272Mb L: 530/535 MS: 1 InsertRepeatedBytes-
+	NEW_FUNC[1/1]: 0x565f90 in vrend_decode_copy_transfer3d (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x565f90)
+#63684	NEW    cov: 368 ft: 560 corp: 111/56Kb lim: 535 exec/s: 439 rss: 272Mb L: 527/535 MS: 1 InsertByte-
+#63736	NEW    cov: 369 ft: 561 corp: 112/56Kb lim: 535 exec/s: 436 rss: 272Mb L: 535/535 MS: 2 CopyPart-PersAutoDict- DE: "\x01\x00\x00\x00\x00\x00\x02\x0e"-
+#63825	NEW    cov: 370 ft: 562 corp: 113/57Kb lim: 535 exec/s: 434 rss: 272Mb L: 535/535 MS: 4 InsertByte-ChangeByte-InsertRepeatedBytes-CrossOver-
+	NEW_FUNC[1/1]: 0x5b2840 in vrend_set_min_samples (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5b2840)
+#63927	NEW    cov: 374 ft: 566 corp: 114/57Kb lim: 535 exec/s: 431 rss: 272Mb L: 534/535 MS: 2 InsertRepeatedBytes-InsertByte-
+	NEW_FUNC[1/1]: 0x573540 in vrend_set_viewport_states (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x573540)
+#64256	NEW    cov: 377 ft: 569 corp: 115/58Kb lim: 535 exec/s: 419 rss: 273Mb L: 526/535 MS: 4 CopyPart-CrossOver-EraseBytes-InsertByte-
+#64425	NEW    cov: 377 ft: 570 corp: 116/58Kb lim: 535 exec/s: 415 rss: 273Mb L: 526/535 MS: 4 ChangeBinInt-ChangeBit-PersAutoDict-ChangeBit- DE: "GL_OES_surfaceless_context"-
+#64437	NEW    cov: 377 ft: 572 corp: 117/59Kb lim: 535 exec/s: 415 rss: 273Mb L: 527/535 MS: 2 ChangeBit-InsertByte-
+	NEW_FUNC[1/1]: 0x575020 in vrend_set_constants (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x575020)
+#64943	NEW    cov: 380 ft: 575 corp: 118/59Kb lim: 535 exec/s: 400 rss: 273Mb L: 527/535 MS: 1 PersAutoDict- DE: "\x01\x00\x00\x00\x00\x00\x02\x0e"-
+#64953	NEW    cov: 380 ft: 579 corp: 119/60Kb lim: 535 exec/s: 400 rss: 273Mb L: 526/535 MS: 5 ChangeASCIIInt-ChangeBit-ChangeByte-PersAutoDict-PersAutoDict- DE: "\xff\x01\x00\x00\x00\x00\x00\x00"-"\x0d\x02\x00\x00\x00\x00\x00\x00"-
+#65079	NEW    cov: 382 ft: 581 corp: 120/60Kb lim: 535 exec/s: 396 rss: 273Mb L: 526/535 MS: 1 InsertRepeatedBytes-
+#65325	NEW    cov: 382 ft: 584 corp: 121/61Kb lim: 535 exec/s: 391 rss: 273Mb L: 526/535 MS: 1 ChangeBit-
+#65536	pulse  cov: 382 ft: 584 corp: 121/61Kb lim: 535 exec/s: 387 rss: 273Mb
+#65661	NEW    cov: 383 ft: 585 corp: 122/61Kb lim: 535 exec/s: 383 rss: 273Mb L: 534/535 MS: 1 PersAutoDict- DE: "\x0d\x02\x00\x00\x00\x00\x00\x00"-
+#65763	REDUCE cov: 383 ft: 585 corp: 122/61Kb lim: 535 exec/s: 382 rss: 273Mb L: 521/535 MS: 2 ChangeBinInt-EraseBytes-
+#65793	NEW    cov: 384 ft: 586 corp: 123/62Kb lim: 535 exec/s: 382 rss: 273Mb L: 535/535 MS: 5 InsertRepeatedBytes-CopyPart-CrossOver-PersAutoDict-ChangeBinInt- DE: "\x0d\x02\x00\x00\x00\x00\x00\x00"-
+#65839	NEW    cov: 384 ft: 588 corp: 124/62Kb lim: 535 exec/s: 380 rss: 273Mb L: 527/535 MS: 1 InsertByte-
+#66884	NEW    cov: 384 ft: 590 corp: 125/63Kb lim: 544 exec/s: 359 rss: 273Mb L: 521/535 MS: 5 ChangeByte-ChangeBinInt-PersAutoDict-CMP-EraseBytes- DE: "\x0d\x02\x00\x00\x00\x00\x00\x00"-"CoverFillPathNV"-
+#66997	NEW    cov: 384 ft: 591 corp: 126/63Kb lim: 544 exec/s: 358 rss: 273Mb L: 543/543 MS: 3 ChangeByte-ChangeByte-PersAutoDict- DE: "GL_OES_surfaceless_context"-
+#67749	NEW    cov: 385 ft: 592 corp: 127/64Kb lim: 544 exec/s: 351 rss: 273Mb L: 537/543 MS: 2 InsertByte-CopyPart-
+#68023	NEW    cov: 385 ft: 594 corp: 128/64Kb lim: 544 exec/s: 347 rss: 273Mb L: 542/543 MS: 4 ChangeBinInt-ShuffleBytes-ChangeBinInt-CopyPart-
+#68097	REDUCE cov: 385 ft: 594 corp: 128/64Kb lim: 544 exec/s: 345 rss: 273Mb L: 519/543 MS: 4 ChangeByte-ShuffleBytes-EraseBytes-CopyPart-
+#68190	NEW    cov: 387 ft: 596 corp: 129/65Kb lim: 544 exec/s: 344 rss: 273Mb L: 537/543 MS: 3 InsertRepeatedBytes-InsertRepeatedBytes-PersAutoDict- DE: "\x0d\x02\x00\x00\x00\x00\x00\x00"-
+#68307	NEW    cov: 387 ft: 598 corp: 130/66Kb lim: 544 exec/s: 343 rss: 273Mb L: 526/543 MS: 2 ChangeBinInt-PersAutoDict- DE: "\xff\x01\x00\x00\x00\x00\x00\x00"-
+#68636	NEW    cov: 388 ft: 599 corp: 131/66Kb lim: 544 exec/s: 338 rss: 273Mb L: 530/543 MS: 4 ChangeBinInt-CopyPart-PersAutoDict-PersAutoDict- DE: "\xff\xff\xff\x06"-"\x0d\x02\x00\x00\x00\x00\x00\x00"-
+#68702	REDUCE cov: 388 ft: 599 corp: 131/66Kb lim: 544 exec/s: 338 rss: 273Mb L: 517/543 MS: 1 EraseBytes-
+#69291	REDUCE cov: 389 ft: 600 corp: 132/67Kb lim: 544 exec/s: 333 rss: 273Mb L: 514/543 MS: 4 ShuffleBytes-ShuffleBytes-CMP-CopyPart- DE: "\x02\x02\x00\x00\x00\x00\x00\x00"-
+#69526	REDUCE cov: 389 ft: 600 corp: 132/67Kb lim: 544 exec/s: 331 rss: 273Mb L: 513/543 MS: 5 EraseBytes-CMP-ChangeBit-ChangeBit-InsertRepeatedBytes- DE: "\x00\x00\x00\x00\x00\x00\x02\x0e"-
+#70224	NEW    cov: 390 ft: 601 corp: 133/67Kb lim: 544 exec/s: 323 rss: 273Mb L: 542/543 MS: 3 InsertRepeatedBytes-InsertRepeatedBytes-CopyPart-
+#70510	NEW    cov: 390 ft: 603 corp: 134/68Kb lim: 544 exec/s: 320 rss: 273Mb L: 526/543 MS: 1 PersAutoDict- DE: "GL_OES_surfaceless_context"-
+#71171	NEW    cov: 390 ft: 604 corp: 135/68Kb lim: 544 exec/s: 314 rss: 273Mb L: 526/543 MS: 1 CopyPart-
+#71463	NEW    cov: 390 ft: 606 corp: 136/69Kb lim: 544 exec/s: 312 rss: 273Mb L: 527/543 MS: 2 CrossOver-CrossOver-
+#71946	REDUCE cov: 390 ft: 608 corp: 137/69Kb lim: 544 exec/s: 308 rss: 273Mb L: 530/543 MS: 3 CopyPart-EraseBytes-CopyPart-
+#72525	NEW    cov: 391 ft: 609 corp: 138/70Kb lim: 544 exec/s: 303 rss: 273Mb L: 541/543 MS: 4 ChangeBit-ChangeBinInt-PersAutoDict-InsertRepeatedBytes- DE: "\x01\x00\x00\x00\x00\x00\x02\x0e"-
+#72537	REDUCE cov: 391 ft: 609 corp: 138/70Kb lim: 544 exec/s: 303 rss: 273Mb L: 519/543 MS: 2 CopyPart-EraseBytes-
+#73459	NEW    cov: 392 ft: 620 corp: 139/70Kb lim: 553 exec/s: 296 rss: 273Mb L: 550/550 MS: 2 ShuffleBytes-PersAutoDict- DE: "\xff\x01\x00\x00\x00\x00\x00\x00"-
+#73482	REDUCE cov: 392 ft: 625 corp: 140/71Kb lim: 553 exec/s: 296 rss: 273Mb L: 551/551 MS: 3 ChangeBinInt-CopyPart-InsertRepeatedBytes-
+#73890	REDUCE cov: 392 ft: 625 corp: 140/71Kb lim: 553 exec/s: 292 rss: 273Mb L: 530/551 MS: 3 ChangeBit-InsertRepeatedBytes-EraseBytes-
+#74488	NEW    cov: 392 ft: 626 corp: 141/71Kb lim: 553 exec/s: 285 rss: 273Mb L: 546/551 MS: 3 InsertByte-ChangeBit-CMP- DE: "DebugMessageIns"-
+#74569	NEW    cov: 392 ft: 627 corp: 142/72Kb lim: 553 exec/s: 284 rss: 273Mb L: 526/551 MS: 1 CMP- DE: "GL_OES_viewport_array"-
+#74606	REDUCE cov: 393 ft: 628 corp: 143/72Kb lim: 553 exec/s: 284 rss: 273Mb L: 526/551 MS: 2 CopyPart-CMP- DE: "\x01\x00\x00\x00\x00\x00\x00\x00"-
+	NEW_FUNC[1/1]: 0x578220 in vrend_set_single_image_view (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x578220)
+#75159	REDUCE cov: 398 ft: 633 corp: 144/73Kb lim: 553 exec/s: 278 rss: 273Mb L: 553/553 MS: 3 CrossOver-ShuffleBytes-PersAutoDict- DE: "\x01\x00\x00\x00\x00\x00\x00\x00"-
+#75280	NEW    cov: 399 ft: 634 corp: 145/73Kb lim: 553 exec/s: 277 rss: 273Mb L: 526/553 MS: 1 CopyPart-
+#75514	REDUCE cov: 399 ft: 635 corp: 146/74Kb lim: 553 exec/s: 275 rss: 273Mb L: 553/553 MS: 4 ChangeByte-CopyPart-EraseBytes-CrossOver-
+#75607	REDUCE cov: 399 ft: 635 corp: 146/74Kb lim: 553 exec/s: 274 rss: 273Mb L: 551/553 MS: 3 EraseBytes-ChangeBit-InsertByte-
+	NEW_FUNC[1/1]: 0x5c7df0 in vrend_renderer_pipe_resource_create (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5c7df0)
+#75688	REDUCE cov: 402 ft: 638 corp: 147/74Kb lim: 553 exec/s: 274 rss: 273Mb L: 518/553 MS: 1 ChangeByte-
+#76036	NEW    cov: 402 ft: 639 corp: 148/75Kb lim: 553 exec/s: 271 rss: 273Mb L: 527/553 MS: 3 ChangeBinInt-ShuffleBytes-InsertByte-
+#76279	NEW    cov: 402 ft: 641 corp: 149/75Kb lim: 553 exec/s: 269 rss: 273Mb L: 526/553 MS: 3 ChangeBit-ShuffleBytes-CMP- DE: "GL_ARB_framebuffer_"-
+#76783	NEW    cov: 403 ft: 647 corp: 150/76Kb lim: 553 exec/s: 266 rss: 273Mb L: 542/553 MS: 4 InsertRepeatedBytes-ChangeBit-ChangeBit-CopyPart-
+#76893	NEW    cov: 403 ft: 648 corp: 151/76Kb lim: 553 exec/s: 266 rss: 273Mb L: 553/553 MS: 5 InsertRepeatedBytes-PersAutoDict-ChangeBit-ShuffleBytes-PersAutoDict- DE: "DebugMessageIns"-"\x0d\x02\x00\x00\x00\x00\x00\x00"-
+#76974	NEW    cov: 405 ft: 650 corp: 152/77Kb lim: 553 exec/s: 265 rss: 273Mb L: 538/553 MS: 1 InsertRepeatedBytes-
+#77356	NEW    cov: 405 ft: 651 corp: 153/77Kb lim: 553 exec/s: 263 rss: 273Mb L: 538/553 MS: 2 ShuffleBytes-CMP- DE: "\x01\x00\x00\x00\x00\x00\x02\x00"-
+#77633	NEW    cov: 405 ft: 654 corp: 154/78Kb lim: 553 exec/s: 260 rss: 273Mb L: 526/553 MS: 2 ChangeBit-CopyPart-
+#77870	REDUCE cov: 406 ft: 655 corp: 155/78Kb lim: 553 exec/s: 259 rss: 273Mb L: 517/553 MS: 2 CopyPart-PersAutoDict- DE: "\x01\x00\x00\x00\x00\x00\x00\x00"-
+	NEW_FUNC[1/1]: 0x5a6dc0 in vrend_renderer_transfer_iov (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5a6dc0)
+#79103	REDUCE cov: 409 ft: 658 corp: 156/79Kb lim: 562 exec/s: 251 rss: 273Mb L: 557/557 MS: 3 CMP-ChangeByte-CopyPart- DE: "3\x00\x00\x00"-
+#79527	NEW    cov: 409 ft: 663 corp: 157/80Kb lim: 562 exec/s: 248 rss: 273Mb L: 554/557 MS: 4 InsertByte-ShuffleBytes-CopyPart-PersAutoDict- DE: "\x01\x00\x00\x00\x00\x00\x00\x00"-
+#80124	NEW    cov: 409 ft: 667 corp: 158/80Kb lim: 562 exec/s: 245 rss: 273Mb L: 526/557 MS: 2 ChangeBinInt-CMP- DE: "GL_OES_shader_image_atomic"-
+#80372	NEW    cov: 409 ft: 669 corp: 159/81Kb lim: 562 exec/s: 244 rss: 273Mb L: 538/557 MS: 3 ShuffleBytes-ShuffleBytes-PersAutoDict- DE: "?\xff\xff\xff"-
+#80500	NEW    cov: 411 ft: 671 corp: 160/81Kb lim: 562 exec/s: 243 rss: 273Mb L: 559/559 MS: 3 ChangeBinInt-PersAutoDict-InsertRepeatedBytes- DE: "\xd2\x15"-
+#80532	NEW    cov: 411 ft: 672 corp: 161/82Kb lim: 562 exec/s: 242 rss: 273Mb L: 559/559 MS: 2 ChangeBit-PersAutoDict- DE: "\x01\x00\x00\x00\x00\x00\x00\x00"-
+#80631	REDUCE cov: 411 ft: 672 corp: 161/82Kb lim: 562 exec/s: 242 rss: 273Mb L: 530/559 MS: 4 CopyPart-ChangeByte-EraseBytes-CopyPart-
+#80661	NEW    cov: 412 ft: 673 corp: 162/82Kb lim: 562 exec/s: 242 rss: 273Mb L: 558/559 MS: 5 ShuffleBytes-EraseBytes-InsertRepeatedBytes-ChangeByte-CopyPart-
+#80776	REDUCE cov: 412 ft: 673 corp: 162/82Kb lim: 562 exec/s: 241 rss: 273Mb L: 522/559 MS: 5 PersAutoDict-ChangeByte-CopyPart-ChangeBit-EraseBytes- DE: "GL_OES_shader_image_atomic"-
+#81620	NEW    cov: 412 ft: 674 corp: 163/83Kb lim: 562 exec/s: 237 rss: 273Mb L: 521/559 MS: 4 PersAutoDict-ChangeBinInt-ChangeBinInt-CrossOver- DE: "GL_ARB_framebuffer_"-
+#81851	NEW    cov: 412 ft: 675 corp: 164/83Kb lim: 562 exec/s: 235 rss: 273Mb L: 559/559 MS: 1 InsertRepeatedBytes-
+#82112	NEW    cov: 412 ft: 679 corp: 165/84Kb lim: 562 exec/s: 234 rss: 273Mb L: 526/559 MS: 1 ChangeByte-
+#83379	NEW    cov: 412 ft: 680 corp: 166/84Kb lim: 571 exec/s: 229 rss: 273Mb L: 558/559 MS: 2 ChangeByte-InsertRepeatedBytes-
+#83907	NEW    cov: 413 ft: 681 corp: 167/85Kb lim: 571 exec/s: 226 rss: 273Mb L: 570/570 MS: 3 InsertRepeatedBytes-InsertRepeatedBytes-ChangeByte-
+#84237	REDUCE cov: 413 ft: 681 corp: 167/85Kb lim: 571 exec/s: 224 rss: 273Mb L: 525/570 MS: 5 CopyPart-ChangeBit-ChangeBinInt-EraseBytes-InsertRepeatedBytes-
+#85086	REDUCE cov: 413 ft: 681 corp: 167/85Kb lim: 571 exec/s: 221 rss: 273Mb L: 522/570 MS: 4 CMP-CopyPart-EraseBytes-InsertRepeatedBytes- DE: "\x0e\x02\x00\x00\x00\x00\x00\x00"-
+#85639	REDUCE cov: 413 ft: 681 corp: 167/85Kb lim: 571 exec/s: 219 rss: 273Mb L: 554/570 MS: 3 CopyPart-ChangeByte-EraseBytes-
+#85647	REDUCE cov: 413 ft: 681 corp: 167/85Kb lim: 571 exec/s: 219 rss: 273Mb L: 551/570 MS: 3 InsertRepeatedBytes-CopyPart-EraseBytes-
+#87025	NEW    cov: 413 ft: 682 corp: 168/85Kb lim: 580 exec/s: 214 rss: 273Mb L: 522/570 MS: 3 ChangeByte-ChangeBit-CrossOver-
+#87163	NEW    cov: 413 ft: 685 corp: 169/86Kb lim: 580 exec/s: 213 rss: 273Mb L: 526/570 MS: 3 ChangeBit-ChangeByte-ChangeByte-
+#87322	NEW    cov: 413 ft: 686 corp: 170/86Kb lim: 580 exec/s: 213 rss: 273Mb L: 526/570 MS: 4 ChangeBinInt-ChangeBinInt-ChangeByte-CopyPart-
+#88349	NEW    cov: 413 ft: 687 corp: 171/87Kb lim: 589 exec/s: 211 rss: 273Mb L: 538/570 MS: 2 ShuffleBytes-CopyPart-
+#88358	NEW    cov: 413 ft: 688 corp: 172/87Kb lim: 589 exec/s: 211 rss: 273Mb L: 527/570 MS: 4 ChangeBinInt-ShuffleBytes-InsertByte-ChangeBinInt-
+#88750	NEW    cov: 413 ft: 690 corp: 173/88Kb lim: 589 exec/s: 209 rss: 273Mb L: 526/570 MS: 2 EraseBytes-InsertRepeatedBytes-
+#89752	NEW    cov: 413 ft: 691 corp: 174/89Kb lim: 598 exec/s: 206 rss: 273Mb L: 566/570 MS: 2 CopyPart-InsertRepeatedBytes-
+#89929	REDUCE cov: 414 ft: 692 corp: 175/89Kb lim: 598 exec/s: 206 rss: 273Mb L: 575/575 MS: 2 ChangeBinInt-InsertRepeatedBytes-
+#91330	NEW    cov: 415 ft: 693 corp: 176/90Kb lim: 607 exec/s: 201 rss: 273Mb L: 526/575 MS: 1 PersAutoDict- DE: "\x0e\x02\x00\x00\x00\x00\x00\x00"-
+#92257	REDUCE cov: 415 ft: 695 corp: 177/90Kb lim: 616 exec/s: 198 rss: 273Mb L: 518/575 MS: 2 ChangeByte-CMP- DE: "GL_ARB_framebuffer_"-
+#92773	NEW    cov: 415 ft: 697 corp: 178/91Kb lim: 616 exec/s: 197 rss: 273Mb L: 526/575 MS: 1 ShuffleBytes-
+#92786	NEW    cov: 415 ft: 699 corp: 179/91Kb lim: 616 exec/s: 197 rss: 273Mb L: 602/602 MS: 3 EraseBytes-InsertRepeatedBytes-InsertRepeatedBytes-
+#93269	NEW    cov: 415 ft: 700 corp: 180/92Kb lim: 616 exec/s: 196 rss: 273Mb L: 610/610 MS: 3 CMP-InsertRepeatedBytes-PersAutoDict- DE: "\xff>"-"GL_OES_viewport_array"-
+#93625	NEW    cov: 421 ft: 706 corp: 181/92Kb lim: 616 exec/s: 196 rss: 273Mb L: 613/613 MS: 1 InsertRepeatedBytes-
+#95003	REDUCE cov: 421 ft: 706 corp: 181/92Kb lim: 625 exec/s: 193 rss: 273Mb L: 518/613 MS: 3 CrossOver-ChangeASCIIInt-CMP- DE: "\xff\xff\xff\xff\xff\xff\xff\x01"-
+#95792	NEW    cov: 421 ft: 707 corp: 182/93Kb lim: 625 exec/s: 191 rss: 273Mb L: 610/613 MS: 4 ChangeBinInt-PersAutoDict-InsertRepeatedBytes-CopyPart- DE: "GL_OES_shader_image_atomic"-
+#96305	NEW    cov: 423 ft: 709 corp: 183/94Kb lim: 625 exec/s: 190 rss: 273Mb L: 606/613 MS: 3 InsertRepeatedBytes-ChangeBit-ChangeBit-
+#96407	NEW    cov: 424 ft: 710 corp: 184/94Kb lim: 625 exec/s: 190 rss: 273Mb L: 614/614 MS: 2 PersAutoDict-InsertByte- DE: "\x01\x00\x00\x00\x00\x00\x02\x00"-
+#97599	REDUCE cov: 424 ft: 712 corp: 185/95Kb lim: 634 exec/s: 186 rss: 273Mb L: 586/614 MS: 2 InsertRepeatedBytes-InsertRepeatedBytes-
+#98531	REDUCE cov: 424 ft: 712 corp: 185/95Kb lim: 643 exec/s: 184 rss: 273Mb L: 559/614 MS: 2 EraseBytes-InsertByte-
+#98655	REDUCE cov: 424 ft: 712 corp: 185/95Kb lim: 643 exec/s: 184 rss: 273Mb L: 533/614 MS: 4 ChangeByte-ChangeBit-EraseBytes-CMP- DE: "\xff\xff\xff\xff\xff\xff\xff\xff"-
+#99030	REDUCE cov: 424 ft: 712 corp: 185/95Kb lim: 643 exec/s: 183 rss: 273Mb L: 559/613 MS: 5 CopyPart-ChangeBinInt-PersAutoDict-CMP-EraseBytes- DE: "\x02\x02\x00\x00\x00\x00\x00\x00"-"\x01\x00\x00\x00\x00\x00\x02&"-
+#101345	NEW    cov: 424 ft: 714 corp: 186/95Kb lim: 661 exec/s: 179 rss: 273Mb L: 650/650 MS: 5 CopyPart-ChangeBinInt-CMP-EraseBytes-InsertRepeatedBytes- DE: "GL_OES_texture_view"-
+#101524	NEW    cov: 424 ft: 715 corp: 187/96Kb lim: 661 exec/s: 178 rss: 273Mb L: 653/653 MS: 4 PersAutoDict-CopyPart-ChangeBit-CMP- DE: "\x01\x00\x00\x00\x00\x00\x00\x00"-"\x1dg\x01\x00"-
+#103052	NEW    cov: 424 ft: 717 corp: 188/97Kb lim: 670 exec/s: 175 rss: 273Mb L: 670/670 MS: 3 ChangeByte-InsertRepeatedBytes-CrossOver-
+#103474	NEW    cov: 424 ft: 718 corp: 189/97Kb lim: 670 exec/s: 175 rss: 273Mb L: 634/670 MS: 2 CMP-InsertRepeatedBytes- DE: "\x91\x00\x00\x00"-
+#105274	REDUCE cov: 424 ft: 718 corp: 189/97Kb lim: 679 exec/s: 171 rss: 273Mb L: 598/670 MS: 5 CMP-CMP-ChangeByte-ChangeASCIIInt-EraseBytes- DE: "?\x00\x00\x00"-"GL_OES_texture_buffer"-
+#105698	NEW    cov: 424 ft: 719 corp: 190/98Kb lim: 679 exec/s: 171 rss: 273Mb L: 677/677 MS: 4 ChangeBit-CopyPart-ShuffleBytes-CopyPart-
+#105860	NEW    cov: 424 ft: 720 corp: 191/99Kb lim: 679 exec/s: 171 rss: 273Mb L: 679/679 MS: 2 InsertByte-CrossOver-
+#105912	NEW    cov: 424 ft: 722 corp: 192/99Kb lim: 679 exec/s: 171 rss: 273Mb L: 526/679 MS: 2 ChangeByte-ChangeASCIIInt-
+#106506	NEW    cov: 427 ft: 725 corp: 193/100Kb lim: 679 exec/s: 170 rss: 273Mb L: 526/679 MS: 4 ChangeBit-ChangeASCIIInt-CMP-CMP- DE: "\x96\x01\x00\x00\x00\x00\x00\x00"-"GL_OES_texture_float"-
+#107097	NEW    cov: 428 ft: 728 corp: 194/100Kb lim: 679 exec/s: 169 rss: 273Mb L: 527/679 MS: 1 PersAutoDict- DE: "\x01\x00\x00\x00\x00\x00\x02\x00"-
+#108335	REDUCE cov: 428 ft: 729 corp: 195/101Kb lim: 688 exec/s: 168 rss: 273Mb L: 559/679 MS: 3 ChangeBinInt-ChangeBit-CMP- DE: "\x00\x8a"-
+#108436	REDUCE cov: 428 ft: 729 corp: 195/101Kb lim: 688 exec/s: 168 rss: 273Mb L: 514/679 MS: 1 EraseBytes-
+#110494	REDUCE cov: 428 ft: 729 corp: 195/101Kb lim: 706 exec/s: 166 rss: 273Mb L: 530/679 MS: 3 EraseBytes-ChangeBit-CopyPart-
+#111620	REDUCE cov: 428 ft: 729 corp: 195/101Kb lim: 715 exec/s: 165 rss: 273Mb L: 578/679 MS: 1 EraseBytes-
+#112348	NEW    cov: 428 ft: 731 corp: 196/101Kb lim: 715 exec/s: 164 rss: 273Mb L: 598/679 MS: 3 PersAutoDict-InsertByte-InsertRepeatedBytes- DE: "\xff\xff\xff\x06"-
+#113096	REDUCE cov: 428 ft: 731 corp: 196/101Kb lim: 715 exec/s: 164 rss: 273Mb L: 527/679 MS: 3 ChangeBinInt-CMP-EraseBytes- DE: "GL_OES_sample_shading"-
+#113241	NEW    cov: 428 ft: 732 corp: 197/102Kb lim: 715 exec/s: 164 rss: 273Mb L: 686/686 MS: 5 ChangeBinInt-InsertRepeatedBytes-InsertByte-InsertByte-CopyPart-
+#114071	REDUCE cov: 428 ft: 732 corp: 197/102Kb lim: 715 exec/s: 163 rss: 273Mb L: 534/686 MS: 5 CrossOver-ChangeBinInt-ChangeBinInt-ShuffleBytes-InsertByte-
+#116031	REDUCE cov: 428 ft: 732 corp: 197/102Kb lim: 733 exec/s: 162 rss: 273Mb L: 542/686 MS: 5 CopyPart-InsertRepeatedBytes-ShuffleBytes-ChangeByte-EraseBytes-
+#116687	NEW    cov: 428 ft: 733 corp: 198/102Kb lim: 733 exec/s: 161 rss: 273Mb L: 651/686 MS: 1 InsertRepeatedBytes-
+#116688	REDUCE cov: 428 ft: 733 corp: 198/102Kb lim: 733 exec/s: 161 rss: 273Mb L: 546/686 MS: 1 EraseBytes-
+#117516	NEW    cov: 429 ft: 734 corp: 199/103Kb lim: 733 exec/s: 160 rss: 273Mb L: 526/686 MS: 3 ChangeBit-ChangeBit-CMP- DE: "\x00\x00\x00\x13"-
+#117658	REDUCE cov: 429 ft: 734 corp: 199/103Kb lim: 733 exec/s: 160 rss: 273Mb L: 554/686 MS: 2 EraseBytes-InsertRepeatedBytes-
+#118409	NEW    cov: 429 ft: 735 corp: 200/103Kb lim: 733 exec/s: 160 rss: 273Mb L: 526/686 MS: 1 ChangeBinInt-
+#118569	REDUCE cov: 429 ft: 735 corp: 200/103Kb lim: 733 exec/s: 159 rss: 273Mb L: 526/686 MS: 5 CMP-InsertByte-InsertRepeatedBytes-ChangeBinInt-EraseBytes- DE: "GL_ARB_framebuffer_no_attachments"-
+#118956	NEW    cov: 429 ft: 736 corp: 201/104Kb lim: 733 exec/s: 159 rss: 273Mb L: 714/714 MS: 2 InsertRepeatedBytes-CopyPart-
+#119288	REDUCE cov: 429 ft: 737 corp: 202/105Kb lim: 733 exec/s: 159 rss: 273Mb L: 554/714 MS: 2 ChangeBinInt-CopyPart-
+#119761	REDUCE cov: 430 ft: 738 corp: 203/105Kb lim: 733 exec/s: 158 rss: 273Mb L: 555/714 MS: 3 InsertByte-ShuffleBytes-ChangeBinInt-
+#121340	NEW    cov: 431 ft: 739 corp: 204/106Kb lim: 742 exec/s: 157 rss: 273Mb L: 653/714 MS: 4 CopyPart-ChangeByte-ShuffleBytes-CMP- DE: "\x10\x00\x00\x00\x00\x00\x00\x00"-
+	NEW_FUNC[1/1]: 0x5b03e0 in vrend_set_blend_color (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5b03e0)
+#121377	NEW    cov: 433 ft: 741 corp: 205/106Kb lim: 742 exec/s: 157 rss: 273Mb L: 670/714 MS: 2 InsertRepeatedBytes-InsertByte-
+#122915	NEW    cov: 434 ft: 742 corp: 206/107Kb lim: 751 exec/s: 155 rss: 273Mb L: 526/714 MS: 2 CMP-PersAutoDict- DE: "\xee\x02\x00\x00\x00\x00\x00\x00"-"\x10\x00\x00\x00\x00\x00\x00\x00"-
+#123166	REDUCE cov: 434 ft: 742 corp: 206/107Kb lim: 751 exec/s: 155 rss: 273Mb L: 557/714 MS: 1 EraseBytes-
+#123307	REDUCE cov: 434 ft: 742 corp: 206/107Kb lim: 751 exec/s: 155 rss: 273Mb L: 550/714 MS: 1 EraseBytes-
+#123403	REDUCE cov: 436 ft: 744 corp: 207/107Kb lim: 751 exec/s: 155 rss: 273Mb L: 534/714 MS: 1 PersAutoDict- DE: "\x00\x00\x00\x03"-
+#123712	NEW    cov: 436 ft: 745 corp: 208/108Kb lim: 751 exec/s: 155 rss: 273Mb L: 554/714 MS: 4 ShuffleBytes-ChangeBinInt-ChangeByte-ChangeBinInt-
+#124388	NEW    cov: 444 ft: 753 corp: 209/108Kb lim: 751 exec/s: 154 rss: 273Mb L: 554/714 MS: 1 CMP- DE: "\xff\xff\xff\x00"-
+#124721	NEW    cov: 445 ft: 755 corp: 210/109Kb lim: 751 exec/s: 154 rss: 273Mb L: 526/714 MS: 3 ChangeBinInt-ChangeBit-ChangeBit-
+#124737	NEW    cov: 445 ft: 756 corp: 211/110Kb lim: 751 exec/s: 154 rss: 273Mb L: 554/714 MS: 1 InsertRepeatedBytes-
+#125222	NEW    cov: 445 ft: 757 corp: 212/110Kb lim: 751 exec/s: 153 rss: 273Mb L: 546/714 MS: 5 ShuffleBytes-EraseBytes-ChangeBinInt-ChangeBit-InsertRepeatedBytes-
+#125701	REDUCE cov: 445 ft: 757 corp: 212/110Kb lim: 751 exec/s: 153 rss: 273Mb L: 529/714 MS: 4 ShuffleBytes-ChangeBit-CopyPart-EraseBytes-
+#125819	NEW    cov: 445 ft: 759 corp: 213/111Kb lim: 751 exec/s: 153 rss: 273Mb L: 751/751 MS: 3 ChangeByte-ChangeASCIIInt-CrossOver-
+#126116	REDUCE cov: 445 ft: 759 corp: 213/111Kb lim: 751 exec/s: 152 rss: 273Mb L: 519/751 MS: 2 ChangeByte-EraseBytes-
+#126352	NEW    cov: 446 ft: 762 corp: 214/111Kb lim: 751 exec/s: 152 rss: 273Mb L: 526/751 MS: 1 ChangeBinInt-
+#126549	NEW    cov: 447 ft: 763 corp: 215/112Kb lim: 751 exec/s: 152 rss: 273Mb L: 730/751 MS: 2 CopyPart-InsertRepeatedBytes-
+#127333	REDUCE cov: 447 ft: 763 corp: 215/112Kb lim: 751 exec/s: 151 rss: 273Mb L: 687/730 MS: 4 ChangeBit-EraseBytes-ChangeByte-CrossOver-
+#127820	NEW    cov: 447 ft: 764 corp: 216/112Kb lim: 751 exec/s: 151 rss: 273Mb L: 558/730 MS: 2 CMP-ChangeBinInt- DE: "^7\x02\x00"-
+#127836	REDUCE cov: 447 ft: 765 corp: 217/113Kb lim: 751 exec/s: 151 rss: 273Mb L: 751/751 MS: 1 CrossOver-
+	NEW_FUNC[1/1]: 0x5c80b0 in vrend_renderer_pipe_resource_set_type (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5c80b0)
+#128022	NEW    cov: 454 ft: 772 corp: 218/114Kb lim: 751 exec/s: 151 rss: 273Mb L: 526/751 MS: 1 PersAutoDict- DE: "\xff>"-
+#128380	REDUCE cov: 454 ft: 772 corp: 218/114Kb lim: 751 exec/s: 150 rss: 273Mb L: 549/751 MS: 3 ChangeBit-ChangeASCIIInt-EraseBytes-
+#129176	REDUCE cov: 454 ft: 772 corp: 218/114Kb lim: 751 exec/s: 150 rss: 273Mb L: 546/751 MS: 1 EraseBytes-
+#131072	pulse  cov: 454 ft: 772 corp: 218/114Kb lim: 769 exec/s: 149 rss: 273Mb
+#131744	NEW    cov: 454 ft: 773 corp: 219/114Kb lim: 769 exec/s: 149 rss: 273Mb L: 566/751 MS: 3 ChangeBinInt-ShuffleBytes-InsertRepeatedBytes-
+#132015	NEW    cov: 454 ft: 774 corp: 220/115Kb lim: 769 exec/s: 149 rss: 273Mb L: 686/751 MS: 1 ShuffleBytes-
+#132041	REDUCE cov: 454 ft: 774 corp: 220/115Kb lim: 769 exec/s: 148 rss: 273Mb L: 518/751 MS: 1 EraseBytes-
+#132202	NEW    cov: 454 ft: 775 corp: 221/115Kb lim: 769 exec/s: 148 rss: 273Mb L: 662/751 MS: 1 InsertRepeatedBytes-
+#132976	REDUCE cov: 454 ft: 775 corp: 221/115Kb lim: 769 exec/s: 148 rss: 273Mb L: 655/751 MS: 4 EraseBytes-ChangeBit-ChangeBit-InsertRepeatedBytes-
+#133143	REDUCE cov: 454 ft: 775 corp: 221/115Kb lim: 769 exec/s: 148 rss: 273Mb L: 621/751 MS: 2 ChangeBit-EraseBytes-
+#134819	REDUCE cov: 455 ft: 776 corp: 222/116Kb lim: 778 exec/s: 147 rss: 273Mb L: 554/751 MS: 1 ChangeBit-
+#136993	REDUCE cov: 455 ft: 776 corp: 222/116Kb lim: 796 exec/s: 146 rss: 273Mb L: 518/751 MS: 4 ChangeBit-InsertRepeatedBytes-ChangeBinInt-EraseBytes-
+#137166	REDUCE cov: 455 ft: 776 corp: 222/116Kb lim: 796 exec/s: 146 rss: 273Mb L: 545/751 MS: 3 CrossOver-CrossOver-EraseBytes-
+#137642	NEW    cov: 456 ft: 777 corp: 223/116Kb lim: 796 exec/s: 146 rss: 273Mb L: 526/751 MS: 1 ChangeByte-
+#138012	REDUCE cov: 456 ft: 777 corp: 223/116Kb lim: 796 exec/s: 146 rss: 273Mb L: 518/751 MS: 5 ShuffleBytes-InsertByte-ChangeByte-ChangeBinInt-CrossOver-
+#138550	REDUCE cov: 456 ft: 777 corp: 223/116Kb lim: 796 exec/s: 145 rss: 273Mb L: 714/751 MS: 3 CopyPart-EraseBytes-InsertByte-
+#138731	REDUCE cov: 456 ft: 777 corp: 223/116Kb lim: 796 exec/s: 145 rss: 273Mb L: 586/751 MS: 1 EraseBytes-
+#139999	NEW    cov: 457 ft: 778 corp: 224/117Kb lim: 805 exec/s: 145 rss: 273Mb L: 526/751 MS: 3 ShuffleBytes-ShuffleBytes-ChangeByte-
+#140005	NEW    cov: 457 ft: 779 corp: 225/117Kb lim: 805 exec/s: 145 rss: 273Mb L: 618/751 MS: 1 InsertRepeatedBytes-
+#141483	REDUCE cov: 457 ft: 779 corp: 225/117Kb lim: 814 exec/s: 144 rss: 273Mb L: 606/751 MS: 3 ChangeByte-EraseBytes-CrossOver-
+#142785	REDUCE cov: 457 ft: 779 corp: 225/117Kb lim: 823 exec/s: 143 rss: 273Mb L: 547/751 MS: 2 CopyPart-EraseBytes-
+#143137	REDUCE cov: 457 ft: 779 corp: 225/117Kb lim: 823 exec/s: 143 rss: 273Mb L: 638/751 MS: 2 ChangeBit-EraseBytes-
+#144369	REDUCE cov: 457 ft: 779 corp: 225/117Kb lim: 832 exec/s: 143 rss: 273Mb L: 617/751 MS: 2 CopyPart-EraseBytes-
+#145946	REDUCE cov: 457 ft: 779 corp: 225/117Kb lim: 841 exec/s: 143 rss: 273Mb L: 555/714 MS: 2 InsertRepeatedBytes-EraseBytes-
+#146435	REDUCE cov: 457 ft: 779 corp: 225/117Kb lim: 841 exec/s: 142 rss: 273Mb L: 566/714 MS: 4 ChangeByte-ChangeASCIIInt-ChangeByte-EraseBytes-
+#148316	REDUCE cov: 457 ft: 779 corp: 225/117Kb lim: 859 exec/s: 142 rss: 273Mb L: 522/714 MS: 1 EraseBytes-
+#149292	REDUCE cov: 457 ft: 780 corp: 226/118Kb lim: 868 exec/s: 142 rss: 273Mb L: 546/714 MS: 1 CMP- DE: "\x01\x00"-
+#149733	REDUCE cov: 457 ft: 780 corp: 226/118Kb lim: 868 exec/s: 142 rss: 273Mb L: 554/714 MS: 1 EraseBytes-
+#151248	NEW    cov: 458 ft: 781 corp: 227/118Kb lim: 877 exec/s: 141 rss: 273Mb L: 538/714 MS: 5 InsertByte-InsertByte-EraseBytes-ChangeBit-CopyPart-
+#152130	NEW    cov: 458 ft: 787 corp: 228/119Kb lim: 877 exec/s: 141 rss: 273Mb L: 554/714 MS: 2 CMP-CopyPart- DE: "\x00\x00\x00\x00\x00\x00\x02\x0e"-
+#152737	REDUCE cov: 458 ft: 787 corp: 228/119Kb lim: 877 exec/s: 141 rss: 273Mb L: 538/714 MS: 2 EraseBytes-CMP- DE: "\x01\x00\x00\x00\x00\x00\x00\x00"-
+#153572	REDUCE cov: 458 ft: 787 corp: 228/119Kb lim: 877 exec/s: 141 rss: 273Mb L: 549/714 MS: 5 InsertRepeatedBytes-ChangeBinInt-CopyPart-EraseBytes-EraseBytes-
+#154016	REDUCE cov: 458 ft: 787 corp: 228/119Kb lim: 877 exec/s: 141 rss: 273Mb L: 546/714 MS: 4 EraseBytes-ChangeBit-ChangeBit-InsertRepeatedBytes-
+#154174	REDUCE cov: 458 ft: 787 corp: 228/119Kb lim: 877 exec/s: 141 rss: 273Mb L: 546/714 MS: 3 PersAutoDict-EraseBytes-CMP- DE: "\x10\x00\x00\x00\x00\x00\x00\x00"-"\x00\x00\x00\x00\x00\x00\x00\x00"-
+#154359	REDUCE cov: 461 ft: 790 corp: 229/119Kb lim: 877 exec/s: 140 rss: 273Mb L: 746/746 MS: 5 ChangeByte-InsertByte-InsertRepeatedBytes-ChangeBinInt-CopyPart-
+#155381	REDUCE cov: 461 ft: 790 corp: 229/119Kb lim: 886 exec/s: 140 rss: 273Mb L: 518/746 MS: 2 CopyPart-EraseBytes-
+#155879	NEW    cov: 464 ft: 793 corp: 230/120Kb lim: 886 exec/s: 140 rss: 273Mb L: 534/746 MS: 3 CopyPart-CMP-PersAutoDict- DE: "\x01\x00\x00\x00\x00\x00\x02\x0e"-"\x10\x00\x00\x00\x00\x00\x00\x00"-
+#159193	NEW    cov: 465 ft: 794 corp: 231/121Kb lim: 913 exec/s: 139 rss: 273Mb L: 878/878 MS: 4 CopyPart-CrossOver-ShuffleBytes-CMP- DE: "\xff\xff\xff\x02"-
+#160906	REDUCE cov: 465 ft: 794 corp: 231/121Kb lim: 922 exec/s: 139 rss: 273Mb L: 810/810 MS: 3 ChangeBinInt-EraseBytes-CopyPart-
+#161929	REDUCE cov: 465 ft: 794 corp: 231/121Kb lim: 931 exec/s: 139 rss: 273Mb L: 569/810 MS: 3 CopyPart-CopyPart-EraseBytes-
+#162855	NEW    cov: 466 ft: 795 corp: 232/121Kb lim: 940 exec/s: 139 rss: 273Mb L: 526/810 MS: 1 CMP- DE: "GL_ARB_imaging"-
+#163586	REDUCE cov: 466 ft: 795 corp: 232/121Kb lim: 940 exec/s: 139 rss: 273Mb L: 522/810 MS: 1 EraseBytes-
+#163695	REDUCE cov: 466 ft: 795 corp: 232/121Kb lim: 940 exec/s: 139 rss: 273Mb L: 518/810 MS: 4 EraseBytes-ChangeBit-ChangeBit-InsertRepeatedBytes-
+#164119	NEW    cov: 466 ft: 796 corp: 233/122Kb lim: 940 exec/s: 139 rss: 273Mb L: 745/810 MS: 4 PersAutoDict-ChangeBinInt-PersAutoDict-CopyPart- DE: "\x00\x00\x00\x13"-"\xff\x01\x00\x00\x00\x00\x00\x00"-
+#164158	REDUCE cov: 466 ft: 796 corp: 233/122Kb lim: 940 exec/s: 139 rss: 273Mb L: 529/810 MS: 4 InsertByte-ChangeBinInt-ChangeByte-EraseBytes-
+#164238	REDUCE cov: 466 ft: 796 corp: 233/122Kb lim: 940 exec/s: 139 rss: 273Mb L: 546/810 MS: 5 ShuffleBytes-ShuffleBytes-InsertByte-PersAutoDict-EraseBytes- DE: "\xff\xff\xff\xff\xff\xff\xff\x01"-
+#164903	REDUCE cov: 466 ft: 796 corp: 233/122Kb lim: 940 exec/s: 139 rss: 273Mb L: 559/810 MS: 5 ChangeASCIIInt-InsertRepeatedBytes-InsertRepeatedBytes-EraseBytes-CMP- DE: "EndConditio"-
+#165004	REDUCE cov: 466 ft: 797 corp: 234/122Kb lim: 940 exec/s: 139 rss: 273Mb L: 521/810 MS: 1 EraseBytes-
+#165605	REDUCE cov: 467 ft: 798 corp: 235/123Kb lim: 940 exec/s: 139 rss: 273Mb L: 573/810 MS: 1 InsertRepeatedBytes-
+#165969	REDUCE cov: 467 ft: 799 corp: 236/123Kb lim: 940 exec/s: 139 rss: 273Mb L: 570/810 MS: 4 InsertRepeatedBytes-ChangeByte-ChangeBinInt-CopyPart-
+#167156	NEW    cov: 467 ft: 801 corp: 237/124Kb lim: 949 exec/s: 139 rss: 273Mb L: 526/810 MS: 2 ChangeBinInt-ChangeBinInt-
+#167907	REDUCE cov: 467 ft: 802 corp: 238/125Kb lim: 949 exec/s: 139 rss: 273Mb L: 747/810 MS: 1 CopyPart-
+#167998	REDUCE cov: 467 ft: 802 corp: 238/125Kb lim: 949 exec/s: 139 rss: 273Mb L: 545/810 MS: 1 EraseBytes-
+#168981	NEW    cov: 467 ft: 806 corp: 239/126Kb lim: 958 exec/s: 139 rss: 273Mb L: 958/958 MS: 3 CopyPart-CopyPart-CrossOver-
+#169470	NEW    cov: 467 ft: 808 corp: 240/126Kb lim: 958 exec/s: 139 rss: 273Mb L: 958/958 MS: 4 ChangeByte-ChangeByte-ChangeBinInt-CrossOver-
+#169534	NEW    cov: 467 ft: 809 corp: 241/127Kb lim: 958 exec/s: 139 rss: 273Mb L: 546/958 MS: 4 PersAutoDict-CopyPart-ChangeBit-ChangeByte- DE: "\x10\x00\x00\x00\x00\x00\x00\x00"-
+#170669	NEW    cov: 467 ft: 810 corp: 242/128Kb lim: 967 exec/s: 139 rss: 273Mb L: 650/958 MS: 5 InsertByte-ChangeBinInt-InsertByte-InsertRepeatedBytes-EraseBytes-
+#170732	REDUCE cov: 467 ft: 810 corp: 242/128Kb lim: 967 exec/s: 139 rss: 273Mb L: 518/958 MS: 3 InsertByte-EraseBytes-CopyPart-
+#172978	REDUCE cov: 467 ft: 810 corp: 242/127Kb lim: 985 exec/s: 139 rss: 273Mb L: 549/958 MS: 1 EraseBytes-
+#174003	REDUCE cov: 467 ft: 810 corp: 242/127Kb lim: 994 exec/s: 139 rss: 273Mb L: 533/958 MS: 5 ChangeBit-InsertByte-EraseBytes-InsertRepeatedBytes-InsertRepeatedBytes-
+#175235	REDUCE cov: 467 ft: 810 corp: 242/127Kb lim: 1003 exec/s: 139 rss: 273Mb L: 529/958 MS: 2 InsertRepeatedBytes-EraseBytes-
+#175304	NEW    cov: 468 ft: 811 corp: 243/128Kb lim: 1003 exec/s: 139 rss: 273Mb L: 750/958 MS: 4 InsertRepeatedBytes-ShuffleBytes-CopyPart-CopyPart-
+#176245	REDUCE cov: 468 ft: 811 corp: 243/128Kb lim: 1012 exec/s: 139 rss: 273Mb L: 547/958 MS: 1 EraseBytes-
+#176694	REDUCE cov: 468 ft: 811 corp: 243/128Kb lim: 1012 exec/s: 139 rss: 273Mb L: 525/958 MS: 4 ChangeASCIIInt-EraseBytes-ChangeBinInt-InsertRepeatedBytes-
+#176839	REDUCE cov: 468 ft: 811 corp: 243/128Kb lim: 1012 exec/s: 139 rss: 273Mb L: 518/958 MS: 5 EraseBytes-ChangeBit-InsertRepeatedBytes-ShuffleBytes-InsertRepeatedBytes-
+#176958	REDUCE cov: 468 ft: 811 corp: 243/128Kb lim: 1012 exec/s: 139 rss: 273Mb L: 542/958 MS: 4 ChangeBinInt-InsertRepeatedBytes-CopyPart-EraseBytes-
+#177667	REDUCE cov: 468 ft: 811 corp: 243/128Kb lim: 1012 exec/s: 139 rss: 273Mb L: 570/958 MS: 4 ChangeByte-EraseBytes-ChangeByte-InsertByte-
+#178584	NEW    cov: 470 ft: 813 corp: 244/129Kb lim: 1021 exec/s: 139 rss: 273Mb L: 554/958 MS: 2 ShuffleBytes-CMP- DE: "\xff\xff\xff\x01"-
+#179009	REDUCE cov: 470 ft: 813 corp: 244/129Kb lim: 1021 exec/s: 139 rss: 273Mb L: 547/958 MS: 5 CrossOver-InsertByte-ShuffleBytes-ChangeBinInt-EraseBytes-
+#180401	REDUCE cov: 470 ft: 815 corp: 245/130Kb lim: 1030 exec/s: 139 rss: 273Mb L: 1022/1022 MS: 2 CrossOver-EraseBytes-
+#180770	REDUCE cov: 470 ft: 815 corp: 245/129Kb lim: 1030 exec/s: 139 rss: 273Mb L: 746/1022 MS: 4 ChangeBinInt-ShuffleBytes-InsertRepeatedBytes-CrossOver-
+#181166	REDUCE cov: 470 ft: 816 corp: 246/130Kb lim: 1030 exec/s: 139 rss: 273Mb L: 1030/1030 MS: 1 CrossOver-
+#181501	NEW    cov: 470 ft: 818 corp: 247/131Kb lim: 1030 exec/s: 139 rss: 273Mb L: 798/1030 MS: 5 ShuffleBytes-CMP-InsertByte-CopyPart-InsertRepeatedBytes- DE: "\x00\x00\x00\x00\x00\x00\x02\xae"-
+#181778	REDUCE cov: 470 ft: 818 corp: 247/131Kb lim: 1030 exec/s: 139 rss: 273Mb L: 514/1030 MS: 2 ChangeBinInt-EraseBytes-
+#181821	REDUCE cov: 470 ft: 818 corp: 247/131Kb lim: 1030 exec/s: 139 rss: 273Mb L: 613/1030 MS: 3 ChangeByte-ChangeBit-EraseBytes-
+#182227	REDUCE cov: 470 ft: 818 corp: 247/131Kb lim: 1030 exec/s: 139 rss: 273Mb L: 677/1030 MS: 1 EraseBytes-
+#182370	REDUCE cov: 470 ft: 818 corp: 247/131Kb lim: 1030 exec/s: 139 rss: 273Mb L: 533/1030 MS: 3 ChangeByte-CMP-EraseBytes- DE: "\xff\xff\xff\xff\xff\xff\x02n"-
+#182751	REDUCE cov: 470 ft: 818 corp: 247/131Kb lim: 1030 exec/s: 139 rss: 273Mb L: 538/1030 MS: 1 CrossOver-
+#184233	NEW    cov: 470 ft: 819 corp: 248/132Kb lim: 1040 exec/s: 139 rss: 273Mb L: 958/1030 MS: 2 ChangeByte-PersAutoDict- DE: "GL_OES_texture_buffer"-
+#184330	NEW    cov: 471 ft: 820 corp: 249/133Kb lim: 1040 exec/s: 139 rss: 273Mb L: 1035/1035 MS: 2 InsertRepeatedBytes-EraseBytes-
+	NEW_FUNC[1/1]: 0x5be270 in vrend_get_query_result (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5be270)
+#184518	NEW    cov: 475 ft: 824 corp: 250/134Kb lim: 1040 exec/s: 139 rss: 273Mb L: 1039/1039 MS: 3 ShuffleBytes-CopyPart-PersAutoDict- DE: "\x02\x02\x00\x00\x00\x00\x00\x00"-
+#184555	NEW    cov: 475 ft: 825 corp: 251/135Kb lim: 1040 exec/s: 139 rss: 273Mb L: 1035/1039 MS: 2 ChangeByte-InsertRepeatedBytes-
+#185176	NEW    cov: 475 ft: 826 corp: 252/136Kb lim: 1040 exec/s: 139 rss: 273Mb L: 1031/1039 MS: 1 CopyPart-
+#185211	NEW    cov: 475 ft: 827 corp: 253/137Kb lim: 1040 exec/s: 139 rss: 273Mb L: 1037/1039 MS: 5 InsertByte-ChangeByte-ChangeByte-CMP-InsertByte- DE: "\x01\x03\xf4\xc8"-
+#185668	NEW    cov: 475 ft: 828 corp: 254/138Kb lim: 1040 exec/s: 139 rss: 273Mb L: 1037/1039 MS: 2 ChangeBit-CopyPart-
+#185941	NEW    cov: 475 ft: 829 corp: 255/139Kb lim: 1040 exec/s: 139 rss: 273Mb L: 1033/1039 MS: 3 ChangeByte-CopyPart-CopyPart-
+#186074	REDUCE cov: 475 ft: 829 corp: 255/139Kb lim: 1040 exec/s: 139 rss: 273Mb L: 610/1039 MS: 3 ChangeBinInt-InsertRepeatedBytes-EraseBytes-
+#186578	REDUCE cov: 476 ft: 830 corp: 256/140Kb lim: 1040 exec/s: 139 rss: 273Mb L: 1031/1039 MS: 4 PersAutoDict-ChangeBit-CrossOver-CopyPart- DE: "CoverFillPathNV"-
+	NEW_FUNC[1/1]: 0x577e10 in vrend_set_num_sampler_views (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x577e10)
+#186974	NEW    cov: 480 ft: 834 corp: 257/141Kb lim: 1040 exec/s: 139 rss: 273Mb L: 1039/1039 MS: 1 InsertRepeatedBytes-
+#187083	REDUCE cov: 480 ft: 835 corp: 258/142Kb lim: 1040 exec/s: 139 rss: 273Mb L: 975/1039 MS: 4 ShuffleBytes-ShuffleBytes-ChangeBinInt-CopyPart-
+#187465	NEW    cov: 480 ft: 836 corp: 259/143Kb lim: 1040 exec/s: 139 rss: 273Mb L: 1035/1039 MS: 2 ChangeByte-InsertRepeatedBytes-
+#188338	NEW    cov: 481 ft: 837 corp: 260/144Kb lim: 1040 exec/s: 139 rss: 273Mb L: 1031/1039 MS: 3 ShuffleBytes-InsertByte-InsertRepeatedBytes-
+#188418	NEW    cov: 481 ft: 838 corp: 261/145Kb lim: 1040 exec/s: 139 rss: 273Mb L: 1039/1039 MS: 5 PersAutoDict-ShuffleBytes-ShuffleBytes-CrossOver-EraseBytes- DE: "\x00\x00\x00\x00\x00\x00\x02\xae"-
+#188657	REDUCE cov: 481 ft: 838 corp: 261/145Kb lim: 1040 exec/s: 139 rss: 273Mb L: 538/1039 MS: 4 InsertRepeatedBytes-CopyPart-ChangeBit-EraseBytes-
+#188803	NEW    cov: 482 ft: 839 corp: 262/146Kb lim: 1040 exec/s: 139 rss: 273Mb L: 990/1039 MS: 1 CopyPart-
+#189550	NEW    cov: 482 ft: 841 corp: 263/147Kb lim: 1040 exec/s: 139 rss: 273Mb L: 1037/1039 MS: 2 ChangeBit-PersAutoDict- DE: "\xff\xff\xff\x01"-
+#189567	NEW    cov: 482 ft: 843 corp: 264/148Kb lim: 1040 exec/s: 140 rss: 273Mb L: 1039/1039 MS: 2 ChangeBit-InsertRepeatedBytes-
+#189708	NEW    cov: 482 ft: 844 corp: 265/149Kb lim: 1040 exec/s: 140 rss: 273Mb L: 1037/1039 MS: 1 InsertRepeatedBytes-
+#190268	NEW    cov: 482 ft: 845 corp: 266/150Kb lim: 1040 exec/s: 140 rss: 273Mb L: 1039/1039 MS: 5 ChangeByte-CopyPart-ChangeBinInt-InsertByte-InsertRepeatedBytes-
+	NEW_FUNC[1/1]: 0x5763a0 in vrend_set_single_sampler_view (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5763a0)
+#192701	NEW    cov: 495 ft: 865 corp: 267/151Kb lim: 1060 exec/s: 140 rss: 273Mb L: 1055/1055 MS: 3 CopyPart-ChangeByte-InsertByte-
+#193049	NEW    cov: 495 ft: 867 corp: 268/152Kb lim: 1060 exec/s: 140 rss: 273Mb L: 1055/1055 MS: 3 ChangeBit-PersAutoDict-InsertByte- DE: "DebugMessageIns"-
+#193315	NEW    cov: 495 ft: 868 corp: 269/153Kb lim: 1060 exec/s: 140 rss: 273Mb L: 1049/1055 MS: 1 InsertRepeatedBytes-
+	NEW_FUNC[1/2]: 0x5b2a10 in vrend_set_tess_state (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5b2a10)
+	NEW_FUNC[2/2]: 0x5becd0 in vrend_get_query_result_qbo (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5becd0)
+#193520	NEW    cov: 501 ft: 874 corp: 270/154Kb lim: 1060 exec/s: 140 rss: 273Mb L: 1055/1055 MS: 5 ShuffleBytes-InsertRepeatedBytes-ChangeBit-CMP-InsertRepeatedBytes- DE: "GL_NV_conditional_render"-
+#194162	NEW    cov: 502 ft: 875 corp: 271/155Kb lim: 1060 exec/s: 140 rss: 273Mb L: 1049/1055 MS: 2 CrossOver-CopyPart-
+#194931	REDUCE cov: 502 ft: 875 corp: 271/155Kb lim: 1060 exec/s: 140 rss: 273Mb L: 551/1055 MS: 4 ChangeBinInt-ChangeBinInt-EraseBytes-CopyPart-
+#194947	NEW    cov: 502 ft: 879 corp: 272/156Kb lim: 1060 exec/s: 140 rss: 273Mb L: 1055/1055 MS: 1 InsertRepeatedBytes-
+#195422	NEW    cov: 502 ft: 886 corp: 273/157Kb lim: 1060 exec/s: 140 rss: 273Mb L: 1033/1055 MS: 5 InsertRepeatedBytes-ChangeByte-InsertByte-CopyPart-InsertRepeatedBytes-
+#195546	REDUCE cov: 502 ft: 886 corp: 273/157Kb lim: 1060 exec/s: 140 rss: 273Mb L: 957/1055 MS: 4 ShuffleBytes-CMP-EraseBytes-CMP- DE: "\xff\x01\x00\x00\x00\x00\x00\x00"-"\x01\x00\x00%"-
+#195765	REDUCE cov: 503 ft: 887 corp: 274/158Kb lim: 1060 exec/s: 140 rss: 273Mb L: 870/1055 MS: 4 CrossOver-ShuffleBytes-ChangeBinInt-EraseBytes-
+#196264	NEW    cov: 503 ft: 888 corp: 275/159Kb lim: 1060 exec/s: 140 rss: 273Mb L: 1038/1055 MS: 4 InsertRepeatedBytes-CopyPart-PersAutoDict-InsertRepeatedBytes- DE: "\x10\x00\x00\x00\x00\x00\x00\x00"-
+#196703	REDUCE cov: 503 ft: 888 corp: 275/159Kb lim: 1060 exec/s: 140 rss: 273Mb L: 614/1055 MS: 4 PersAutoDict-InsertRepeatedBytes-PersAutoDict-EraseBytes- DE: "\x00\x00\x00\x03"-"EndConditio"-
+#197557	NEW    cov: 503 ft: 891 corp: 276/160Kb lim: 1060 exec/s: 140 rss: 273Mb L: 1055/1055 MS: 4 CopyPart-CMP-InsertRepeatedBytes-CopyPart- DE: "\x0e\x02\x00\x00\x00\x00\x00\x00"-
+#197601	NEW    cov: 504 ft: 892 corp: 277/161Kb lim: 1060 exec/s: 140 rss: 273Mb L: 1051/1055 MS: 4 PersAutoDict-CMP-ChangeBinInt-CopyPart- DE: "\x0d\x02\x00\x00\x00\x00\x00\x00"-"\x00\x00\x00\x00\x00\x00\x04\x0e"-
+#197812	NEW    cov: 504 ft: 893 corp: 278/161Kb lim: 1060 exec/s: 140 rss: 273Mb L: 526/1055 MS: 1 CopyPart-
+#198048	NEW    cov: 504 ft: 895 corp: 279/162Kb lim: 1060 exec/s: 140 rss: 273Mb L: 1055/1055 MS: 1 PersAutoDict- DE: "GL_NV_conditional_render"-
+#198319	NEW    cov: 505 ft: 896 corp: 280/163Kb lim: 1060 exec/s: 140 rss: 273Mb L: 1057/1057 MS: 1 PersAutoDict- DE: "\x01\x00\x00\x00\x00\x00\x00\x00"-
+#198621	REDUCE cov: 506 ft: 897 corp: 281/164Kb lim: 1060 exec/s: 140 rss: 273Mb L: 613/1057 MS: 2 CMP-ChangeBinInt- DE: "\x01\x00\x00\x00\x00\x00\x00\x00"-
+#199361	NEW    cov: 506 ft: 898 corp: 282/165Kb lim: 1060 exec/s: 140 rss: 273Mb L: 894/1057 MS: 5 ChangeASCIIInt-EraseBytes-InsertByte-CrossOver-InsertByte-
+#199896	REDUCE cov: 506 ft: 900 corp: 283/166Kb lim: 1060 exec/s: 140 rss: 273Mb L: 1045/1057 MS: 5 PersAutoDict-ChangeBinInt-ShuffleBytes-CrossOver-EraseBytes- DE: "CoverFillPathNV"-
+#200792	REDUCE cov: 506 ft: 900 corp: 283/166Kb lim: 1060 exec/s: 141 rss: 273Mb L: 541/1057 MS: 1 EraseBytes-
+#200855	NEW    cov: 506 ft: 901 corp: 284/167Kb lim: 1060 exec/s: 141 rss: 273Mb L: 1031/1057 MS: 3 ChangeASCIIInt-PersAutoDict-InsertByte- DE: "\x02\x02\x00\x00\x00\x00\x00\x00"-
+#201700	NEW    cov: 515 ft: 910 corp: 285/168Kb lim: 1060 exec/s: 141 rss: 273Mb L: 1043/1057 MS: 4 ChangeBinInt-ChangeBinInt-ChangeByte-PersAutoDict- DE: "\x0d\x02\x00\x00\x00\x00\x00\x00"-
+#201983	REDUCE cov: 516 ft: 911 corp: 286/168Kb lim: 1060 exec/s: 141 rss: 273Mb L: 553/1057 MS: 3 CopyPart-InsertByte-InsertByte-
+#202259	REDUCE cov: 516 ft: 911 corp: 286/168Kb lim: 1060 exec/s: 141 rss: 273Mb L: 547/1057 MS: 1 EraseBytes-
+#202302	NEW    cov: 520 ft: 915 corp: 287/169Kb lim: 1060 exec/s: 141 rss: 273Mb L: 1021/1057 MS: 3 CrossOver-EraseBytes-PersAutoDict- DE: "\xff\xff\xff\x06"-
+#203157	NEW    cov: 520 ft: 916 corp: 288/170Kb lim: 1060 exec/s: 141 rss: 273Mb L: 1059/1059 MS: 1 CopyPart-
+#203418	NEW    cov: 520 ft: 918 corp: 289/171Kb lim: 1060 exec/s: 141 rss: 273Mb L: 1039/1059 MS: 1 PersAutoDict- DE: "\x96\x01\x00\x00\x00\x00\x00\x00"-
+#203433	REDUCE cov: 520 ft: 918 corp: 289/171Kb lim: 1060 exec/s: 141 rss: 273Mb L: 529/1059 MS: 5 ChangeBinInt-InsertByte-ChangeByte-ChangeBinInt-EraseBytes-
+#204296	REDUCE cov: 521 ft: 919 corp: 290/172Kb lim: 1060 exec/s: 141 rss: 273Mb L: 547/1059 MS: 3 PersAutoDict-ChangeBinInt-ChangeByte- DE: "\x00\x00\x00\x13"-
+#204720	NEW    cov: 521 ft: 920 corp: 291/173Kb lim: 1060 exec/s: 141 rss: 273Mb L: 1045/1059 MS: 2 ChangeBinInt-CopyPart-
+#205783	NEW    cov: 521 ft: 921 corp: 292/174Kb lim: 1070 exec/s: 141 rss: 273Mb L: 1069/1069 MS: 2 CopyPart-InsertRepeatedBytes-
+#206077	REDUCE cov: 521 ft: 921 corp: 292/174Kb lim: 1070 exec/s: 141 rss: 273Mb L: 602/1069 MS: 4 InsertRepeatedBytes-PersAutoDict-ShuffleBytes-EraseBytes- DE: "GL_OES_surfaceless_context"-
+#206092	REDUCE cov: 521 ft: 922 corp: 293/175Kb lim: 1070 exec/s: 141 rss: 273Mb L: 1070/1070 MS: 5 EraseBytes-ChangeBinInt-CMP-ChangeByte-CrossOver- DE: "GL_EXT_separate_shader_obj"-
+#206168	NEW    cov: 522 ft: 923 corp: 294/176Kb lim: 1070 exec/s: 141 rss: 273Mb L: 1055/1070 MS: 5 ShuffleBytes-CopyPart-ChangeASCIIInt-InsertByte-CopyPart-
+	NEW_FUNC[1/1]: 0x58ad00 in vrend_launch_grid (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x58ad00)
+#206526	NEW    cov: 526 ft: 927 corp: 295/177Kb lim: 1070 exec/s: 141 rss: 273Mb L: 1061/1070 MS: 3 CopyPart-ChangeBinInt-CopyPart-
+	NEW_FUNC[1/1]: 0x57a640 in vrend_clear (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x57a640)
+#206532	NEW    cov: 529 ft: 930 corp: 296/178Kb lim: 1070 exec/s: 141 rss: 273Mb L: 1061/1070 MS: 1 PersAutoDict- DE: "GL_OES_shader_image_atomic"-
+#206548	NEW    cov: 532 ft: 933 corp: 297/179Kb lim: 1070 exec/s: 141 rss: 273Mb L: 1069/1070 MS: 3 ChangeByte-CopyPart-CopyPart-
+#206740	NEW    cov: 532 ft: 937 corp: 298/180Kb lim: 1070 exec/s: 141 rss: 273Mb L: 1067/1070 MS: 3 ShuffleBytes-ChangeBit-InsertRepeatedBytes-
+#206930	NEW    cov: 532 ft: 939 corp: 299/181Kb lim: 1070 exec/s: 141 rss: 273Mb L: 1067/1070 MS: 1 CMP- DE: "\x05\x00"-
+#206936	NEW    cov: 532 ft: 940 corp: 300/182Kb lim: 1070 exec/s: 141 rss: 273Mb L: 1070/1070 MS: 1 CrossOver-
+#207090	REDUCE cov: 532 ft: 940 corp: 300/182Kb lim: 1070 exec/s: 141 rss: 273Mb L: 982/1070 MS: 4 InsertRepeatedBytes-ChangeBinInt-CopyPart-EraseBytes-
+#207114	NEW    cov: 533 ft: 941 corp: 301/183Kb lim: 1070 exec/s: 141 rss: 273Mb L: 1065/1070 MS: 2 ShuffleBytes-InsertRepeatedBytes-
+#207501	NEW    cov: 534 ft: 942 corp: 302/184Kb lim: 1070 exec/s: 141 rss: 273Mb L: 1051/1070 MS: 4 CrossOver-CMP-CopyPart-EraseBytes- DE: "\x0a\x02\x00\x00\x00\x00\x00\x00"-
+#208140	NEW    cov: 534 ft: 946 corp: 303/185Kb lim: 1070 exec/s: 141 rss: 273Mb L: 1047/1070 MS: 2 CMP-CMP- DE: "\xff\xff\xff\x05"-"\xff\x03\x97\x14"-
+#208374	REDUCE cov: 534 ft: 946 corp: 303/185Kb lim: 1070 exec/s: 141 rss: 273Mb L: 878/1070 MS: 3 ShuffleBytes-EraseBytes-EraseBytes-
+	NEW_FUNC[1/2]: 0x575230 in vrend_set_uniform_buffer (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x575230)
+	NEW_FUNC[2/2]: 0x578630 in vrend_set_single_ssbo (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x578630)
+#208395	NEW    cov: 540 ft: 952 corp: 304/186Kb lim: 1070 exec/s: 141 rss: 273Mb L: 1051/1070 MS: 1 PersAutoDict- DE: "\x01\x00\x00\x00\x00\x00\x00\x00"-
+#208857	NEW    cov: 541 ft: 953 corp: 305/187Kb lim: 1070 exec/s: 141 rss: 273Mb L: 1039/1070 MS: 5 CopyPart-ChangeBit-EraseBytes-CopyPart-InsertRepeatedBytes-
+#209531	NEW    cov: 541 ft: 960 corp: 306/188Kb lim: 1070 exec/s: 141 rss: 273Mb L: 1051/1070 MS: 2 CopyPart-InsertByte-
+#209794	REDUCE cov: 541 ft: 960 corp: 306/188Kb lim: 1070 exec/s: 141 rss: 273Mb L: 867/1070 MS: 5 CopyPart-InsertByte-ChangeASCIIInt-ChangeByte-EraseBytes-
+#210094	REDUCE cov: 541 ft: 960 corp: 306/188Kb lim: 1070 exec/s: 141 rss: 273Mb L: 545/1070 MS: 5 ChangeByte-InsertRepeatedBytes-ChangeByte-ShuffleBytes-EraseBytes-
+#210271	NEW    cov: 543 ft: 962 corp: 307/189Kb lim: 1070 exec/s: 141 rss: 273Mb L: 1067/1070 MS: 2 CopyPart-InsertRepeatedBytes-
+	NEW_FUNC[1/1]: 0x578930 in vrend_set_single_abo (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x578930)
+#211030	NEW    cov: 546 ft: 965 corp: 308/190Kb lim: 1070 exec/s: 141 rss: 273Mb L: 1055/1070 MS: 1 PersAutoDict- DE: "\x01\x00\x00\x00\x00\x00\x00\x00"-
+#211859	NEW    cov: 546 ft: 967 corp: 309/191Kb lim: 1070 exec/s: 141 rss: 273Mb L: 1051/1070 MS: 4 ChangeBit-CrossOver-EraseBytes-CopyPart-
+#211946	REDUCE cov: 546 ft: 967 corp: 309/191Kb lim: 1070 exec/s: 141 rss: 273Mb L: 530/1070 MS: 2 EraseBytes-InsertByte-
+#211998	NEW    cov: 547 ft: 968 corp: 310/192Kb lim: 1070 exec/s: 141 rss: 273Mb L: 1061/1070 MS: 2 CopyPart-PersAutoDict- DE: "\x0e\x02\x00\x00\x00\x00\x00\x00"-
+#212453	NEW    cov: 549 ft: 978 corp: 311/193Kb lim: 1070 exec/s: 141 rss: 273Mb L: 1069/1070 MS: 1 InsertRepeatedBytes-
+#212620	NEW    cov: 550 ft: 979 corp: 312/194Kb lim: 1070 exec/s: 141 rss: 273Mb L: 1069/1070 MS: 5 CMP-PersAutoDict-InsertByte-ChangeByte-CopyPart- DE: "\x00\x00\x00\x00\x00\x00\x02\x0a"-"\x01\x03\xf4\xc8"-
+#212696	NEW    cov: 551 ft: 980 corp: 313/195Kb lim: 1070 exec/s: 141 rss: 273Mb L: 1051/1070 MS: 3 ChangeBit-CopyPart-InsertByte-
+#213404	REDUCE cov: 551 ft: 980 corp: 313/195Kb lim: 1070 exec/s: 141 rss: 273Mb L: 1065/1070 MS: 4 ChangeByte-CopyPart-EraseBytes-CopyPart-
+#213631	REDUCE cov: 551 ft: 980 corp: 313/195Kb lim: 1070 exec/s: 141 rss: 273Mb L: 549/1070 MS: 2 EraseBytes-InsertByte-
+#213662	NEW    cov: 556 ft: 985 corp: 314/196Kb lim: 1070 exec/s: 141 rss: 273Mb L: 606/1070 MS: 1 InsertRepeatedBytes-
+#214026	NEW    cov: 556 ft: 987 corp: 315/197Kb lim: 1070 exec/s: 141 rss: 273Mb L: 922/1070 MS: 4 InsertByte-EraseBytes-ChangeByte-InsertByte-
+#214669	NEW    cov: 557 ft: 988 corp: 316/198Kb lim: 1070 exec/s: 140 rss: 273Mb L: 974/1070 MS: 4 ChangeBit-CopyPart-InsertRepeatedBytes-CMP- DE: "GL_EXT_multi_draw_arrays"-
+#215304	NEW    cov: 557 ft: 989 corp: 317/199Kb lim: 1070 exec/s: 140 rss: 273Mb L: 1049/1070 MS: 5 CopyPart-InsertRepeatedBytes-PersAutoDict-InsertByte-CMP- DE: "\x1dg\x01\x00"-"\x02\x00\x00\x00"-
+#215326	REDUCE cov: 557 ft: 991 corp: 318/200Kb lim: 1070 exec/s: 140 rss: 273Mb L: 1053/1070 MS: 2 CopyPart-InsertRepeatedBytes-
+#215952	REDUCE cov: 557 ft: 991 corp: 318/200Kb lim: 1070 exec/s: 140 rss: 273Mb L: 922/1070 MS: 1 EraseBytes-
+#216190	REDUCE cov: 557 ft: 991 corp: 318/199Kb lim: 1070 exec/s: 140 rss: 273Mb L: 634/1070 MS: 2 CMP-EraseBytes- DE: "GL_ARB_transform_feedback2"-
+#216410	NEW    cov: 557 ft: 992 corp: 319/201Kb lim: 1070 exec/s: 140 rss: 273Mb L: 1070/1070 MS: 5 InsertByte-CopyPart-ShuffleBytes-ShuffleBytes-CrossOver-
+#217454	NEW    cov: 559 ft: 999 corp: 320/202Kb lim: 1080 exec/s: 140 rss: 274Mb L: 1077/1077 MS: 4 ChangeBit-CopyPart-CopyPart-CopyPart-
+#217853	NEW    cov: 559 ft: 1001 corp: 321/203Kb lim: 1080 exec/s: 140 rss: 274Mb L: 1075/1077 MS: 1 InsertRepeatedBytes-
+#217855	NEW    cov: 565 ft: 1010 corp: 322/204Kb lim: 1080 exec/s: 140 rss: 274Mb L: 1043/1077 MS: 2 ChangeByte-PersAutoDict- DE: "\x01\x00\x00\x00\x00\x00\x00\x00"-
+#217856	NEW    cov: 565 ft: 1011 corp: 323/205Kb lim: 1080 exec/s: 140 rss: 274Mb L: 1079/1079 MS: 1 InsertRepeatedBytes-
+#218064	NEW    cov: 565 ft: 1012 corp: 324/206Kb lim: 1080 exec/s: 140 rss: 274Mb L: 1079/1079 MS: 1 CopyPart-
+#218099	NEW    cov: 566 ft: 1013 corp: 325/207Kb lim: 1080 exec/s: 140 rss: 274Mb L: 1079/1079 MS: 5 ShuffleBytes-InsertRepeatedBytes-CMP-InsertByte-InsertByte- DE: "\xff\xff\xff\x0a"-
+#218389	NEW    cov: 566 ft: 1015 corp: 326/208Kb lim: 1080 exec/s: 140 rss: 274Mb L: 1063/1079 MS: 5 CopyPart-CopyPart-InsertRepeatedBytes-ChangeASCIIInt-CopyPart-
+#218765	NEW    cov: 566 ft: 1017 corp: 327/209Kb lim: 1080 exec/s: 140 rss: 274Mb L: 1079/1079 MS: 3 ChangeBinInt-ChangeBinInt-CopyPart-
+#219862	REDUCE cov: 567 ft: 1018 corp: 328/210Kb lim: 1090 exec/s: 140 rss: 274Mb L: 1043/1079 MS: 5 InsertRepeatedBytes-ChangeBinInt-ChangeByte-PersAutoDict-CopyPart- DE: "\xd2\x15"-
+	NEW_FUNC[1/1]: 0x5afde0 in vrend_renderer_copy_transfer3d (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5afde0)
+#220059	NEW    cov: 570 ft: 1022 corp: 329/211Kb lim: 1090 exec/s: 140 rss: 274Mb L: 1085/1085 MS: 2 ChangeBit-CopyPart-
+#220786	NEW    cov: 570 ft: 1028 corp: 330/212Kb lim: 1090 exec/s: 140 rss: 274Mb L: 1085/1085 MS: 2 PersAutoDict-CMP- DE: "\x1dg\x01\x00"-"GL_ARB_transform_feedback2"-
+#220793	NEW    cov: 570 ft: 1030 corp: 331/213Kb lim: 1090 exec/s: 140 rss: 274Mb L: 1083/1085 MS: 2 ChangeByte-CMP- DE: "GL_OES_depth24"-
+#221098	REDUCE cov: 570 ft: 1030 corp: 331/213Kb lim: 1090 exec/s: 140 rss: 274Mb L: 546/1085 MS: 4 ChangeByte-ChangeBinInt-ChangeBinInt-EraseBytes-
+	NEW_FUNC[1/1]: 0x57e1d0 in vrend_clear_texture (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x57e1d0)
+#221107	NEW    cov: 572 ft: 1032 corp: 332/214Kb lim: 1090 exec/s: 140 rss: 274Mb L: 1077/1085 MS: 2 PersAutoDict-PersAutoDict- DE: "GL_NV_conditional_render"-"\x96\x01\x00\x00\x00\x00\x00\x00"-
+#221537	NEW    cov: 572 ft: 1034 corp: 333/215Kb lim: 1090 exec/s: 140 rss: 274Mb L: 1085/1085 MS: 5 CMP-ChangeByte-ChangeASCIIInt-ShuffleBytes-InsertRepeatedBytes- DE: "\x00\x00\x00\x00\x00\x00\x00\xe5"-
+#221786	REDUCE cov: 572 ft: 1034 corp: 333/215Kb lim: 1090 exec/s: 140 rss: 274Mb L: 551/1085 MS: 4 CMP-PersAutoDict-InsertByte-EraseBytes- DE: "e\x02\x00\x00\x00\x00\x00\x00"-"\x00\x00\x00\x03"-
+#221865	REDUCE cov: 572 ft: 1034 corp: 333/215Kb lim: 1090 exec/s: 140 rss: 274Mb L: 569/1085 MS: 4 CMP-ShuffleBytes-CMP-EraseBytes- DE: "GL_EXT_separate_shader_obj"-"\x00\x00\x00\x00\x00\x00\x01\xc8"-
+	NEW_FUNC[1/1]: 0x5b2b20 in vrend_renderer_resource_copy_region (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5b2b20)
+#221994	NEW    cov: 575 ft: 1037 corp: 334/216Kb lim: 1090 exec/s: 140 rss: 274Mb L: 1081/1085 MS: 2 PersAutoDict-CopyPart- DE: "\xff\xff\xff\xff\xff\xff\xff\x01"-
+#222448	NEW    cov: 579 ft: 1045 corp: 335/217Kb lim: 1090 exec/s: 140 rss: 274Mb L: 1081/1085 MS: 1 InsertRepeatedBytes-
+#223018	NEW    cov: 579 ft: 1046 corp: 336/218Kb lim: 1090 exec/s: 140 rss: 274Mb L: 1081/1085 MS: 2 PersAutoDict-InsertRepeatedBytes- DE: "GL_OES_texture_buffer"-
+#223091	NEW    cov: 579 ft: 1047 corp: 337/219Kb lim: 1090 exec/s: 140 rss: 274Mb L: 1047/1085 MS: 3 EraseBytes-ShuffleBytes-InsertByte-
+#223971	NEW    cov: 580 ft: 1048 corp: 338/220Kb lim: 1090 exec/s: 140 rss: 274Mb L: 1087/1087 MS: 4 ChangeBinInt-ChangeByte-ShuffleBytes-CopyPart-
+#225254	NEW    cov: 580 ft: 1049 corp: 339/221Kb lim: 1100 exec/s: 140 rss: 274Mb L: 1097/1097 MS: 3 CopyPart-InsertRepeatedBytes-CopyPart-
+#225387	NEW    cov: 580 ft: 1050 corp: 340/222Kb lim: 1100 exec/s: 140 rss: 274Mb L: 1099/1099 MS: 3 CopyPart-InsertRepeatedBytes-InsertByte-
+#225438	NEW    cov: 580 ft: 1051 corp: 341/223Kb lim: 1100 exec/s: 140 rss: 274Mb L: 1093/1099 MS: 1 CMP- DE: "\xff\xff\xff\xff\xff\xff\x01\x00"-
+#225474	NEW    cov: 580 ft: 1052 corp: 342/224Kb lim: 1100 exec/s: 140 rss: 274Mb L: 1099/1099 MS: 1 InsertRepeatedBytes-
+#226000	NEW    cov: 581 ft: 1053 corp: 343/225Kb lim: 1100 exec/s: 140 rss: 274Mb L: 1039/1099 MS: 1 PersAutoDict- DE: "\x00\x00\x00\x00\x00\x00\x04\x0e"-
+#226099	NEW    cov: 581 ft: 1055 corp: 344/226Kb lim: 1100 exec/s: 140 rss: 274Mb L: 1094/1099 MS: 5 CopyPart-ChangeBinInt-ChangeASCIIInt-CMP-InsertRepeatedBytes- DE: "\x01\x00\x00\x00\xff\xff\xff\xff"-
+#226535	NEW    cov: 581 ft: 1057 corp: 345/228Kb lim: 1100 exec/s: 140 rss: 274Mb L: 1081/1099 MS: 3 InsertByte-ChangeBinInt-CopyPart-
+#226676	NEW    cov: 581 ft: 1058 corp: 346/229Kb lim: 1100 exec/s: 140 rss: 274Mb L: 1033/1099 MS: 1 PersAutoDict- DE: "\x0d\x02\x00\x00\x00\x00\x00\x00"-
+#226808	NEW    cov: 581 ft: 1062 corp: 347/230Kb lim: 1100 exec/s: 140 rss: 274Mb L: 1035/1099 MS: 2 ShuffleBytes-CopyPart-
+#227652	REDUCE cov: 581 ft: 1062 corp: 347/229Kb lim: 1100 exec/s: 140 rss: 274Mb L: 810/1099 MS: 1 EraseBytes-
+#228143	REDUCE cov: 581 ft: 1062 corp: 347/229Kb lim: 1100 exec/s: 140 rss: 274Mb L: 545/1099 MS: 2 ChangeASCIIInt-EraseBytes-
+#228173	NEW    cov: 581 ft: 1065 corp: 348/230Kb lim: 1100 exec/s: 140 rss: 274Mb L: 1099/1099 MS: 5 PersAutoDict-ChangeBit-ChangeBinInt-ChangeByte-CopyPart- DE: "GL_OES_texture_view"-
+#228391	NEW    cov: 581 ft: 1066 corp: 349/231Kb lim: 1100 exec/s: 140 rss: 274Mb L: 1033/1099 MS: 4 EraseBytes-EraseBytes-CopyPart-InsertRepeatedBytes-
+#229278	NEW    cov: 581 ft: 1067 corp: 350/232Kb lim: 1100 exec/s: 140 rss: 274Mb L: 1085/1099 MS: 5 ChangeASCIIInt-InsertRepeatedBytes-ChangeByte-PersAutoDict-InsertByte- DE: "\xff\xff\xff\xff\xff\xff\xff\xff"-
+#230589	REDUCE cov: 581 ft: 1067 corp: 350/232Kb lim: 1110 exec/s: 140 rss: 274Mb L: 542/1099 MS: 3 ShuffleBytes-InsertByte-EraseBytes-
+#230978	REDUCE cov: 581 ft: 1072 corp: 351/234Kb lim: 1110 exec/s: 140 rss: 274Mb L: 1103/1103 MS: 5 InsertRepeatedBytes-CopyPart-PersAutoDict-PersAutoDict-PersAutoDict- DE: "GL_ARB_transform_feedback2"-"\x05\x00"-"\xff\xff\xff\x02"-
+#231053	NEW    cov: 584 ft: 1077 corp: 352/235Kb lim: 1110 exec/s: 140 rss: 274Mb L: 1069/1103 MS: 5 ChangeBit-CMP-InsertRepeatedBytes-CopyPart-InsertByte- DE: "\x00\x00\x00\x10"-
+#231172	NEW    cov: 584 ft: 1078 corp: 353/236Kb lim: 1110 exec/s: 140 rss: 274Mb L: 1097/1103 MS: 2 InsertRepeatedBytes-PersAutoDict- DE: "\x01\x00\x00%"-
+#231316	NEW    cov: 584 ft: 1079 corp: 354/237Kb lim: 1110 exec/s: 140 rss: 274Mb L: 1103/1103 MS: 1 InsertRepeatedBytes-
+#231440	REDUCE cov: 584 ft: 1079 corp: 354/237Kb lim: 1110 exec/s: 140 rss: 274Mb L: 546/1103 MS: 5 CMP-EraseBytes-ChangeBit-CopyPart-CopyPart- DE: "GL_NV_image_formats"-
+#231645	NEW    cov: 584 ft: 1080 corp: 355/238Kb lim: 1110 exec/s: 140 rss: 274Mb L: 1093/1103 MS: 5 CopyPart-ShuffleBytes-ShuffleBytes-CopyPart-PersAutoDict- DE: "GL_ARB_transform_feedback2"-
+#232019	NEW    cov: 586 ft: 1082 corp: 356/239Kb lim: 1110 exec/s: 140 rss: 274Mb L: 1109/1109 MS: 5 InsertByte-CrossOver-EraseBytes-InsertRepeatedBytes-InsertRepeatedBytes-
+#233076	NEW    cov: 586 ft: 1083 corp: 357/240Kb lim: 1120 exec/s: 140 rss: 274Mb L: 1115/1115 MS: 4 CMP-ChangeBinInt-ChangeASCIIInt-CopyPart- DE: "\x18\x00\x00\x00\x00\x00\x00\x00"-
+#233241	NEW    cov: 586 ft: 1084 corp: 358/241Kb lim: 1120 exec/s: 140 rss: 274Mb L: 1113/1115 MS: 5 ChangeBit-ChangeBit-ChangeByte-PersAutoDict-InsertRepeatedBytes- DE: "\x02\x00\x00\x00"-
+#233281	NEW    cov: 587 ft: 1085 corp: 359/242Kb lim: 1120 exec/s: 140 rss: 274Mb L: 1103/1115 MS: 5 ChangeBit-ChangeByte-ShuffleBytes-CopyPart-CMP- DE: "\x01\x00\x00\x00\x00\x00\x00\x00"-
+#233452	REDUCE cov: 588 ft: 1086 corp: 360/243Kb lim: 1120 exec/s: 140 rss: 274Mb L: 650/1115 MS: 3 CMP-ChangeBinInt-InsertRepeatedBytes- DE: "\x01\x00\x00\x00"-
+#233834	NEW    cov: 589 ft: 1087 corp: 361/244Kb lim: 1120 exec/s: 140 rss: 274Mb L: 1029/1115 MS: 3 PersAutoDict-EraseBytes-InsertByte- DE: "GL_ARB_framebuffer_no_attachments"-
+#234374	NEW    cov: 589 ft: 1089 corp: 362/245Kb lim: 1120 exec/s: 140 rss: 274Mb L: 1039/1115 MS: 2 ShuffleBytes-PersAutoDict- DE: "\x00\x00\x00\x00\x00\x00\x02\xae"-
+#234417	NEW    cov: 589 ft: 1091 corp: 363/246Kb lim: 1120 exec/s: 140 rss: 274Mb L: 1103/1115 MS: 3 InsertRepeatedBytes-PersAutoDict-InsertByte- DE: "\xff\xff\xff\x0a"-
+#234812	REDUCE cov: 589 ft: 1091 corp: 363/246Kb lim: 1120 exec/s: 140 rss: 274Mb L: 794/1115 MS: 5 ShuffleBytes-ChangeByte-InsertByte-ChangeBit-EraseBytes-
+#235147	NEW    cov: 589 ft: 1092 corp: 364/247Kb lim: 1120 exec/s: 140 rss: 274Mb L: 1035/1115 MS: 3 PersAutoDict-InsertByte-InsertByte- DE: "\x10\x00\x00\x00\x00\x00\x00\x00"-
+#235732	NEW    cov: 589 ft: 1095 corp: 365/248Kb lim: 1120 exec/s: 140 rss: 274Mb L: 1119/1119 MS: 2 ChangeBit-CopyPart-
+#237922	NEW    cov: 589 ft: 1100 corp: 366/249Kb lim: 1140 exec/s: 140 rss: 274Mb L: 1129/1129 MS: 1 InsertRepeatedBytes-
+#238333	REDUCE cov: 589 ft: 1100 corp: 366/249Kb lim: 1140 exec/s: 140 rss: 274Mb L: 686/1129 MS: 3 ShuffleBytes-EraseBytes-EraseBytes-
+#238857	NEW    cov: 589 ft: 1102 corp: 367/250Kb lim: 1140 exec/s: 140 rss: 274Mb L: 1085/1129 MS: 1 ChangeBinInt-
+#239357	NEW    cov: 589 ft: 1103 corp: 368/250Kb lim: 1140 exec/s: 140 rss: 274Mb L: 526/1129 MS: 3 ChangeASCIIInt-ChangeBit-CopyPart-
+#239588	REDUCE cov: 589 ft: 1103 corp: 368/250Kb lim: 1140 exec/s: 140 rss: 274Mb L: 598/1129 MS: 3 ChangeBit-CopyPart-EraseBytes-
+#239893	NEW    cov: 589 ft: 1106 corp: 369/251Kb lim: 1140 exec/s: 140 rss: 274Mb L: 1133/1133 MS: 5 EraseBytes-ShuffleBytes-ChangeBinInt-ChangeBinInt-CopyPart-
+#240599	NEW    cov: 590 ft: 1107 corp: 370/252Kb lim: 1140 exec/s: 140 rss: 274Mb L: 967/1133 MS: 3 PersAutoDict-CMP-CopyPart- DE: "\x0e\x02\x00\x00\x00\x00\x00\x00"-"GL_ARB_transform_feedback2"-
+#240890	REDUCE cov: 592 ft: 1109 corp: 371/253Kb lim: 1140 exec/s: 140 rss: 274Mb L: 573/1133 MS: 2 PersAutoDict-CMP- DE: "^7\x02\x00"-"\x01\x00\x00\x00\x00\x00\x02\x00"-
+#241964	REDUCE cov: 592 ft: 1109 corp: 371/253Kb lim: 1150 exec/s: 140 rss: 274Mb L: 887/1133 MS: 4 ChangeBit-PersAutoDict-CrossOver-InsertByte- DE: "GL_ARB_transform_feedback2"-
+#241968	NEW    cov: 592 ft: 1110 corp: 372/254Kb lim: 1150 exec/s: 140 rss: 274Mb L: 1149/1149 MS: 4 ChangeBit-ChangeByte-ShuffleBytes-CopyPart-
+	NEW_FUNC[1/1]: 0x5b6800 in vrend_renderer_blit (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5b6800)
+#242099	NEW    cov: 595 ft: 1114 corp: 373/255Kb lim: 1150 exec/s: 140 rss: 274Mb L: 1115/1149 MS: 1 CopyPart-
+#242124	NEW    cov: 595 ft: 1115 corp: 374/256Kb lim: 1150 exec/s: 140 rss: 274Mb L: 1145/1149 MS: 5 CopyPart-InsertByte-ChangeASCIIInt-ChangeBit-CopyPart-
+#242408	REDUCE cov: 595 ft: 1115 corp: 374/256Kb lim: 1150 exec/s: 140 rss: 274Mb L: 525/1149 MS: 3 CMP-EraseBytes-EraseBytes- DE: "j\x00\x00\x00\x00\x00\x00\x00"-
+#243580	NEW    cov: 595 ft: 1116 corp: 375/257Kb lim: 1160 exec/s: 140 rss: 274Mb L: 1133/1149 MS: 2 CopyPart-InsertByte-
+#243640	NEW    cov: 595 ft: 1118 corp: 376/258Kb lim: 1160 exec/s: 140 rss: 274Mb L: 1147/1149 MS: 5 PersAutoDict-InsertByte-InsertRepeatedBytes-InsertByte-InsertRepeatedBytes- DE: "\xff\xff\xff\xff\xff\xff\x01\x00"-
+#243757	REDUCE cov: 596 ft: 1119 corp: 377/258Kb lim: 1160 exec/s: 140 rss: 274Mb L: 542/1149 MS: 2 ChangeBit-ChangeBinInt-
+	NEW_FUNC[1/1]: 0x5b0a00 in vrend_set_polygon_stipple (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5b0a00)
+#244332	NEW    cov: 666 ft: 1189 corp: 378/260Kb lim: 1160 exec/s: 140 rss: 274Mb L: 1157/1157 MS: 5 PersAutoDict-ChangeByte-InsertRepeatedBytes-InsertByte-CopyPart- DE: "\xff\xff\xff\x0a"-
+#244433	NEW    cov: 666 ft: 1190 corp: 379/261Kb lim: 1160 exec/s: 140 rss: 274Mb L: 1033/1157 MS: 1 PersAutoDict- DE: "\x00\x00\x00\x00\x00\x00\x00\xe5"-
+#244774	REDUCE cov: 666 ft: 1192 corp: 380/262Kb lim: 1160 exec/s: 140 rss: 274Mb L: 1087/1157 MS: 2 CopyPart-PersAutoDict- DE: "GL_OES_surfaceless_context"-
+#244827	NEW    cov: 669 ft: 1195 corp: 381/263Kb lim: 1160 exec/s: 140 rss: 274Mb L: 1147/1157 MS: 3 InsertByte-PersAutoDict-InsertByte- DE: "\x05\x00"-
+#244943	NEW    cov: 669 ft: 1197 corp: 382/264Kb lim: 1160 exec/s: 140 rss: 274Mb L: 1157/1157 MS: 1 ChangeByte-
+#245394	REDUCE cov: 669 ft: 1197 corp: 382/264Kb lim: 1160 exec/s: 140 rss: 274Mb L: 529/1157 MS: 1 EraseBytes-
+#245658	NEW    cov: 669 ft: 1199 corp: 383/265Kb lim: 1160 exec/s: 140 rss: 274Mb L: 1145/1157 MS: 4 CopyPart-CMP-ShuffleBytes-InsertByte- DE: "5\x00\x00\x00\x00\x00\x00\x00"-
+#245667	REDUCE cov: 669 ft: 1199 corp: 383/265Kb lim: 1160 exec/s: 140 rss: 274Mb L: 1034/1157 MS: 3 ShuffleBytes-InsertByte-EraseBytes-
+#245856	REDUCE cov: 669 ft: 1199 corp: 383/265Kb lim: 1160 exec/s: 140 rss: 274Mb L: 623/1157 MS: 4 EraseBytes-ShuffleBytes-ChangeASCIIInt-PersAutoDict- DE: "\xff\xff\xff\xff\xff\xff\xff\xff"-
+#246521	NEW    cov: 669 ft: 1200 corp: 384/266Kb lim: 1160 exec/s: 140 rss: 274Mb L: 1131/1157 MS: 5 PersAutoDict-CopyPart-ChangeBinInt-InsertRepeatedBytes-CMP- DE: "DebugMessageIns"-"#\x0a#\x0a"-
+#247029	NEW    cov: 669 ft: 1211 corp: 385/267Kb lim: 1160 exec/s: 140 rss: 274Mb L: 1157/1157 MS: 1 PersAutoDict- DE: "\x96\x01\x00\x00\x00\x00\x00\x00"-
+#247258	NEW    cov: 669 ft: 1212 corp: 386/268Kb lim: 1160 exec/s: 140 rss: 274Mb L: 534/1157 MS: 4 PersAutoDict-ChangeBinInt-ChangeByte-ChangeBit- DE: "\x96\x01\x00\x00\x00\x00\x00\x00"-
+#248714	NEW    cov: 669 ft: 1214 corp: 387/269Kb lim: 1170 exec/s: 140 rss: 274Mb L: 1147/1157 MS: 1 CopyPart-
+#249244	NEW    cov: 669 ft: 1215 corp: 388/270Kb lim: 1170 exec/s: 140 rss: 274Mb L: 1149/1157 MS: 5 ShuffleBytes-ShuffleBytes-ChangeByte-ChangeASCIIInt-PersAutoDict- DE: "\x91\x00\x00\x00"-
+#249331	NEW    cov: 669 ft: 1252 corp: 389/271Kb lim: 1170 exec/s: 140 rss: 274Mb L: 1159/1159 MS: 2 ChangeBit-InsertRepeatedBytes-
+#250411	NEW    cov: 669 ft: 1254 corp: 390/272Kb lim: 1180 exec/s: 140 rss: 274Mb L: 1165/1165 MS: 5 InsertByte-ChangeByte-ChangeASCIIInt-CopyPart-InsertRepeatedBytes-
+#250537	NEW    cov: 669 ft: 1256 corp: 391/273Kb lim: 1180 exec/s: 140 rss: 274Mb L: 1049/1165 MS: 4 EraseBytes-ChangeASCIIInt-ChangeByte-InsertByte-
+#251274	NEW    cov: 669 ft: 1258 corp: 392/274Kb lim: 1180 exec/s: 141 rss: 274Mb L: 1087/1165 MS: 1 ChangeBit-
+#251457	REDUCE cov: 669 ft: 1258 corp: 392/274Kb lim: 1180 exec/s: 141 rss: 274Mb L: 842/1165 MS: 1 EraseBytes-
+#251503	REDUCE cov: 670 ft: 1259 corp: 393/275Kb lim: 1180 exec/s: 141 rss: 274Mb L: 1035/1165 MS: 1 InsertByte-
+#251594	REDUCE cov: 670 ft: 1259 corp: 393/275Kb lim: 1180 exec/s: 141 rss: 274Mb L: 518/1165 MS: 1 EraseBytes-
+#251619	REDUCE cov: 670 ft: 1259 corp: 393/275Kb lim: 1180 exec/s: 141 rss: 274Mb L: 734/1165 MS: 5 EraseBytes-ChangeBinInt-PersAutoDict-ChangeByte-InsertByte- DE: "\xff\xff\xff\x05"-
+#251780	REDUCE cov: 670 ft: 1259 corp: 393/275Kb lim: 1180 exec/s: 141 rss: 274Mb L: 698/1165 MS: 4 ShuffleBytes-InsertRepeatedBytes-EraseBytes-InsertByte-
+#251830	NEW    cov: 672 ft: 1261 corp: 394/276Kb lim: 1180 exec/s: 141 rss: 274Mb L: 1099/1165 MS: 3 PersAutoDict-ChangeBit-CMP- DE: "\x00\x00\x00\x00\x00\x00\x02\x0a"-"GL_OES_required_internalfo"-
+#252411	NEW    cov: 672 ft: 1263 corp: 395/277Kb lim: 1180 exec/s: 141 rss: 274Mb L: 1091/1165 MS: 5 PersAutoDict-InsertByte-EraseBytes-CopyPart-InsertByte- DE: "\x01\x00"-
+#252664	NEW    cov: 672 ft: 1264 corp: 396/278Kb lim: 1180 exec/s: 141 rss: 274Mb L: 1135/1165 MS: 4 ChangeBit-PersAutoDict-CopyPart-CrossOver- DE: "\x02\x00\x00\x00"-
+#253180	NEW    cov: 672 ft: 1265 corp: 397/279Kb lim: 1180 exec/s: 141 rss: 274Mb L: 1167/1167 MS: 3 ChangeBit-ChangeBit-InsertRepeatedBytes-
+#253691	NEW    cov: 672 ft: 1268 corp: 398/280Kb lim: 1180 exec/s: 141 rss: 274Mb L: 1177/1177 MS: 1 InsertRepeatedBytes-
+#255563	NEW    cov: 672 ft: 1270 corp: 399/281Kb lim: 1190 exec/s: 141 rss: 274Mb L: 1167/1177 MS: 3 PersAutoDict-CMP-InsertRepeatedBytes- DE: "GL_OES_viewport_array"-"\x01\x00\x00\x00\x00\x00\x04y"-
+#256109	REDUCE cov: 672 ft: 1270 corp: 399/281Kb lim: 1190 exec/s: 141 rss: 274Mb L: 538/1177 MS: 1 EraseBytes-
+#256798	REDUCE cov: 672 ft: 1270 corp: 399/281Kb lim: 1190 exec/s: 141 rss: 274Mb L: 1053/1177 MS: 2 EraseBytes-InsertByte-
+#257059	REDUCE cov: 672 ft: 1270 corp: 399/281Kb lim: 1190 exec/s: 141 rss: 274Mb L: 565/1177 MS: 1 EraseBytes-
+#257489	NEW    cov: 673 ft: 1271 corp: 400/282Kb lim: 1190 exec/s: 141 rss: 274Mb L: 1033/1177 MS: 1 EraseBytes-
+#257761	NEW    cov: 673 ft: 1275 corp: 401/283Kb lim: 1190 exec/s: 141 rss: 274Mb L: 1135/1177 MS: 1 InsertRepeatedBytes-
+#257843	NEW    cov: 673 ft: 1277 corp: 402/285Kb lim: 1190 exec/s: 141 rss: 274Mb L: 1157/1177 MS: 2 PersAutoDict-ChangeByte- DE: "GL_OES_surfaceless_context"-
+#258356	NEW    cov: 673 ft: 1279 corp: 403/286Kb lim: 1190 exec/s: 141 rss: 274Mb L: 1109/1177 MS: 2 PersAutoDict-InsertRepeatedBytes- DE: "\xff\xff\xff\x01"-
+#259537	REDUCE cov: 673 ft: 1279 corp: 403/286Kb lim: 1200 exec/s: 141 rss: 274Mb L: 538/1177 MS: 5 ChangeBinInt-ChangeBit-CopyPart-ChangeByte-EraseBytes-
+#259832	REDUCE cov: 673 ft: 1279 corp: 403/286Kb lim: 1200 exec/s: 141 rss: 274Mb L: 546/1177 MS: 5 EraseBytes-ShuffleBytes-CMP-ChangeBinInt-CopyPart- DE: "\x00\x1e"-
+#260182	NEW    cov: 673 ft: 1280 corp: 404/287Kb lim: 1200 exec/s: 141 rss: 274Mb L: 1135/1177 MS: 1 CopyPart-
+#260343	NEW    cov: 673 ft: 1281 corp: 405/288Kb lim: 1200 exec/s: 141 rss: 274Mb L: 1033/1177 MS: 1 CopyPart-
+#260694	NEW    cov: 673 ft: 1288 corp: 406/289Kb lim: 1200 exec/s: 141 rss: 274Mb L: 1037/1177 MS: 1 PersAutoDict- DE: "?\xff\xff\xff"-
+#260720	NEW    cov: 673 ft: 1292 corp: 407/290Kb lim: 1200 exec/s: 141 rss: 274Mb L: 1157/1177 MS: 1 ChangeBinInt-
+#261132	NEW    cov: 673 ft: 1293 corp: 408/291Kb lim: 1200 exec/s: 141 rss: 274Mb L: 1067/1177 MS: 2 ChangeBinInt-EraseBytes-
+#261497	NEW    cov: 673 ft: 1294 corp: 409/292Kb lim: 1200 exec/s: 141 rss: 274Mb L: 1157/1177 MS: 3 ChangeByte-ShuffleBytes-PersAutoDict- DE: "\x01\x00\x00\x00\x00\x00\x00\x00"-
+#262144	pulse  cov: 673 ft: 1294 corp: 409/292Kb lim: 1200 exec/s: 141 rss: 274Mb
+#262303	REDUCE cov: 673 ft: 1294 corp: 409/292Kb lim: 1200 exec/s: 141 rss: 274Mb L: 542/1177 MS: 2 InsertRepeatedBytes-EraseBytes-
+#262921	NEW    cov: 673 ft: 1295 corp: 410/293Kb lim: 1200 exec/s: 141 rss: 274Mb L: 1071/1177 MS: 4 CopyPart-ShuffleBytes-EraseBytes-InsertRepeatedBytes-
+#262972	REDUCE cov: 673 ft: 1297 corp: 411/294Kb lim: 1200 exec/s: 141 rss: 274Mb L: 954/1177 MS: 1 CopyPart-
+#263446	NEW    cov: 673 ft: 1299 corp: 412/295Kb lim: 1200 exec/s: 141 rss: 274Mb L: 1109/1177 MS: 2 ChangeBinInt-CMP- DE: "GL_OES_gpu_shader5"-
+#264762	NEW    cov: 673 ft: 1301 corp: 413/296Kb lim: 1210 exec/s: 141 rss: 274Mb L: 1149/1177 MS: 1 CMP- DE: "3\x00"-
+#264935	NEW    cov: 673 ft: 1302 corp: 414/297Kb lim: 1210 exec/s: 141 rss: 274Mb L: 1207/1207 MS: 3 InsertRepeatedBytes-CopyPart-CopyPart-
+#264951	NEW    cov: 673 ft: 1303 corp: 415/299Kb lim: 1210 exec/s: 141 rss: 274Mb L: 1183/1207 MS: 1 InsertRepeatedBytes-
+#265088	NEW    cov: 674 ft: 1304 corp: 416/300Kb lim: 1210 exec/s: 141 rss: 274Mb L: 1073/1207 MS: 4 ChangeBit-PersAutoDict-ShuffleBytes-PersAutoDict- DE: "\xd2\x15"-"\xff\xff\xff\x02"-
+#265957	REDUCE cov: 674 ft: 1304 corp: 416/300Kb lim: 1210 exec/s: 141 rss: 274Mb L: 1129/1207 MS: 5 EraseBytes-InsertByte-ChangeBit-CopyPart-InsertRepeatedBytes-
+#266050	REDUCE cov: 674 ft: 1304 corp: 416/300Kb lim: 1210 exec/s: 141 rss: 274Mb L: 597/1207 MS: 3 CMP-EraseBytes-InsertRepeatedBytes- DE: "\x04\x00\x00\x00"-
+#266556	NEW    cov: 674 ft: 1309 corp: 417/301Kb lim: 1210 exec/s: 141 rss: 274Mb L: 1159/1207 MS: 1 CopyPart-
+#268125	NEW    cov: 674 ft: 1314 corp: 418/302Kb lim: 1220 exec/s: 141 rss: 274Mb L: 1159/1207 MS: 1 CMP- DE: "\xff\x05"-
+#268580	REDUCE cov: 674 ft: 1316 corp: 419/303Kb lim: 1220 exec/s: 142 rss: 274Mb L: 1079/1207 MS: 4 InsertByte-PersAutoDict-CMP-CopyPart- DE: "\x05\x00"-"\x03\x00\x00\x00\x00\x00\x00\x00"-
+#269248	NEW    cov: 674 ft: 1317 corp: 420/303Kb lim: 1220 exec/s: 142 rss: 274Mb L: 526/1207 MS: 2 ChangeByte-CopyPart-
+#269251	NEW    cov: 674 ft: 1318 corp: 421/305Kb lim: 1220 exec/s: 142 rss: 274Mb L: 1131/1207 MS: 3 ChangeBit-ShuffleBytes-InsertRepeatedBytes-
+#269781	NEW    cov: 674 ft: 1320 corp: 422/306Kb lim: 1220 exec/s: 142 rss: 274Mb L: 1091/1207 MS: 3 ShuffleBytes-ShuffleBytes-ChangeBinInt-
+#270289	NEW    cov: 674 ft: 1321 corp: 423/307Kb lim: 1220 exec/s: 142 rss: 274Mb L: 1039/1207 MS: 3 ChangeBinInt-ChangeByte-CopyPart-
+#271145	NEW    cov: 677 ft: 1324 corp: 424/308Kb lim: 1220 exec/s: 142 rss: 274Mb L: 1149/1207 MS: 4 CopyPart-CopyPart-ShuffleBytes-PersAutoDict- DE: "\x04\x00\x00\x00"-
+#271785	NEW    cov: 677 ft: 1326 corp: 425/309Kb lim: 1220 exec/s: 142 rss: 274Mb L: 1149/1207 MS: 1 PersAutoDict- DE: "\x00\x00\x00\x00\x00\x00\x04\x0e"-
+#272059	REDUCE cov: 677 ft: 1326 corp: 425/309Kb lim: 1220 exec/s: 142 rss: 274Mb L: 1081/1207 MS: 4 CopyPart-CopyPart-PersAutoDict-EraseBytes- DE: "DebugMessageIns"-
+#272211	NEW    cov: 677 ft: 1330 corp: 426/310Kb lim: 1220 exec/s: 142 rss: 274Mb L: 1199/1207 MS: 2 ChangeByte-CopyPart-
+#273216	NEW    cov: 677 ft: 1331 corp: 427/311Kb lim: 1230 exec/s: 142 rss: 274Mb L: 1230/1230 MS: 3 EraseBytes-PersAutoDict-CrossOver- DE: "\x00\x00\x00\x00\x00\x00\x00\xe5"-
+#273237	NEW    cov: 677 ft: 1333 corp: 428/312Kb lim: 1230 exec/s: 142 rss: 274Mb L: 1117/1230 MS: 1 CopyPart-
+#274135	NEW    cov: 677 ft: 1336 corp: 429/313Kb lim: 1230 exec/s: 142 rss: 274Mb L: 1227/1230 MS: 3 InsertRepeatedBytes-ChangeBit-InsertRepeatedBytes-
+#274594	NEW    cov: 677 ft: 1337 corp: 430/315Kb lim: 1230 exec/s: 142 rss: 274Mb L: 1159/1230 MS: 1 ChangeBit-
+#274818	NEW    cov: 677 ft: 1341 corp: 431/316Kb lim: 1230 exec/s: 142 rss: 274Mb L: 1229/1230 MS: 4 InsertByte-ChangeASCIIInt-ChangeASCIIInt-InsertByte-
+#275296	NEW    cov: 677 ft: 1343 corp: 432/317Kb lim: 1230 exec/s: 142 rss: 274Mb L: 1049/1230 MS: 2 EraseBytes-CopyPart-
+#275360	REDUCE cov: 677 ft: 1343 corp: 432/317Kb lim: 1230 exec/s: 142 rss: 274Mb L: 530/1230 MS: 4 ChangeBinInt-ChangeBinInt-ChangeASCIIInt-EraseBytes-
+#276340	REDUCE cov: 677 ft: 1343 corp: 432/317Kb lim: 1230 exec/s: 142 rss: 274Mb L: 933/1230 MS: 3 ChangeBit-ChangeBit-EraseBytes-
+#277528	NEW    cov: 677 ft: 1344 corp: 433/318Kb lim: 1240 exec/s: 142 rss: 274Mb L: 1237/1237 MS: 1 CopyPart-
+#277759	NEW    cov: 677 ft: 1345 corp: 434/319Kb lim: 1240 exec/s: 142 rss: 274Mb L: 1071/1237 MS: 4 ChangeBit-InsertByte-ChangeASCIIInt-InsertRepeatedBytes-
+#278351	NEW    cov: 677 ft: 1346 corp: 435/320Kb lim: 1240 exec/s: 142 rss: 274Mb L: 1227/1237 MS: 2 ChangeBinInt-InsertRepeatedBytes-
+#278777	REDUCE cov: 677 ft: 1346 corp: 435/320Kb lim: 1240 exec/s: 142 rss: 274Mb L: 1119/1237 MS: 5 EraseBytes-InsertByte-CopyPart-InsertByte-InsertRepeatedBytes-
+#278965	NEW    cov: 677 ft: 1347 corp: 436/321Kb lim: 1240 exec/s: 142 rss: 274Mb L: 1107/1237 MS: 3 ChangeASCIIInt-CMP-InsertRepeatedBytes- DE: "\x10\x01\x00\x00"-
+#279302	REDUCE cov: 677 ft: 1347 corp: 436/321Kb lim: 1240 exec/s: 142 rss: 274Mb L: 606/1237 MS: 2 EraseBytes-CMP- DE: "GL_ARB_transform_feedback2"-
+#279894	REDUCE cov: 677 ft: 1347 corp: 436/321Kb lim: 1240 exec/s: 142 rss: 274Mb L: 1229/1230 MS: 5 EraseBytes-InsertByte-ShuffleBytes-ChangeBinInt-CMP- DE: "GL_ARB_transform_"-
+#280087	REDUCE cov: 677 ft: 1347 corp: 436/321Kb lim: 1240 exec/s: 142 rss: 274Mb L: 531/1230 MS: 2 EraseBytes-CMP- DE: "\xff\xff\xff\xff\xff\xff\x01\x0e"-
+#280864	NEW    cov: 677 ft: 1348 corp: 437/322Kb lim: 1240 exec/s: 143 rss: 274Mb L: 1081/1230 MS: 4 InsertRepeatedBytes-InsertRepeatedBytes-CMP-EraseBytes- DE: "\x10\x00\x00\x00\x00\x00\x00\x00"-
+#280925	REDUCE cov: 677 ft: 1348 corp: 437/322Kb lim: 1240 exec/s: 143 rss: 274Mb L: 881/1230 MS: 1 EraseBytes-
+#280951	NEW    cov: 677 ft: 1349 corp: 438/323Kb lim: 1240 exec/s: 143 rss: 274Mb L: 1199/1230 MS: 1 InsertRepeatedBytes-
+#281011	NEW    cov: 677 ft: 1350 corp: 439/324Kb lim: 1240 exec/s: 143 rss: 274Mb L: 1225/1230 MS: 5 ChangeBinInt-InsertRepeatedBytes-ChangeBinInt-ChangeBinInt-InsertRepeatedBytes-
+#281112	REDUCE cov: 677 ft: 1350 corp: 439/324Kb lim: 1240 exec/s: 143 rss: 274Mb L: 1037/1230 MS: 1 EraseBytes-
+#281485	REDUCE cov: 677 ft: 1350 corp: 439/324Kb lim: 1240 exec/s: 143 rss: 274Mb L: 1086/1229 MS: 1 EraseBytes-
+#281758	REDUCE cov: 677 ft: 1350 corp: 439/324Kb lim: 1240 exec/s: 143 rss: 274Mb L: 545/1229 MS: 3 ShuffleBytes-ChangeBit-EraseBytes-
+#281813	NEW    cov: 677 ft: 1351 corp: 440/325Kb lim: 1240 exec/s: 143 rss: 274Mb L: 1149/1229 MS: 5 ChangeByte-ChangeByte-ChangeBinInt-ChangeByte-ChangeASCIIInt-
+#281945	REDUCE cov: 677 ft: 1351 corp: 440/325Kb lim: 1240 exec/s: 143 rss: 274Mb L: 1119/1229 MS: 5 ChangeASCIIInt-CopyPart-ShuffleBytes-InsertByte-CrossOver-
+#282208	NEW    cov: 677 ft: 1352 corp: 441/326Kb lim: 1240 exec/s: 143 rss: 274Mb L: 1231/1231 MS: 2 ShuffleBytes-CMP- DE: "\xff\xff\xff\xff"-
+#282216	NEW    cov: 677 ft: 1373 corp: 442/328Kb lim: 1240 exec/s: 143 rss: 274Mb L: 1159/1231 MS: 3 CMP-ChangeBinInt-InsertRepeatedBytes- DE: "\x0d\x02\x00\x00\x00\x00\x00\x00"-
+#282592	NEW    cov: 677 ft: 1374 corp: 443/329Kb lim: 1240 exec/s: 143 rss: 274Mb L: 1173/1231 MS: 1 CMP- DE: "GL_ARB_transform_feedback2"-
+#283345	NEW    cov: 680 ft: 1377 corp: 444/330Kb lim: 1240 exec/s: 143 rss: 274Mb L: 1111/1231 MS: 1 PersAutoDict- DE: "\x03\x00\x00\x00\x00\x00\x00\x00"-
+#284228	NEW    cov: 680 ft: 1378 corp: 445/331Kb lim: 1240 exec/s: 143 rss: 274Mb L: 1081/1231 MS: 1 PersAutoDict- DE: "\xff\xff\xff\xff\xff\xff\x02n"-
+#284779	NEW    cov: 680 ft: 1380 corp: 446/332Kb lim: 1240 exec/s: 143 rss: 274Mb L: 1149/1231 MS: 1 ChangeBit-
+#285505	NEW    cov: 680 ft: 1385 corp: 447/333Kb lim: 1240 exec/s: 143 rss: 274Mb L: 1197/1231 MS: 4 ChangeBinInt-ShuffleBytes-CrossOver-InsertRepeatedBytes-
+#285633	NEW    cov: 680 ft: 1386 corp: 448/334Kb lim: 1240 exec/s: 143 rss: 274Mb L: 1053/1231 MS: 3 ShuffleBytes-ChangeBinInt-InsertRepeatedBytes-
+#286132	NEW    cov: 680 ft: 1388 corp: 449/335Kb lim: 1240 exec/s: 143 rss: 274Mb L: 1119/1231 MS: 5 ShuffleBytes-ShuffleBytes-InsertByte-ChangeASCIIInt-InsertByte-
+#286283	REDUCE cov: 680 ft: 1390 corp: 450/336Kb lim: 1240 exec/s: 143 rss: 274Mb L: 542/1231 MS: 1 ShuffleBytes-
+#287299	NEW    cov: 680 ft: 1391 corp: 451/337Kb lim: 1250 exec/s: 143 rss: 274Mb L: 1055/1231 MS: 2 ChangeByte-CopyPart-
+#287461	NEW    cov: 680 ft: 1392 corp: 452/337Kb lim: 1250 exec/s: 143 rss: 274Mb L: 526/1231 MS: 2 ChangeBinInt-ChangeASCIIInt-
+#287636	NEW    cov: 680 ft: 1394 corp: 453/339Kb lim: 1250 exec/s: 143 rss: 274Mb L: 1245/1245 MS: 2 ChangeByte-CopyPart-
+#288208	REDUCE cov: 680 ft: 1394 corp: 453/339Kb lim: 1250 exec/s: 143 rss: 274Mb L: 1087/1245 MS: 4 PersAutoDict-InsertRepeatedBytes-EraseBytes-CrossOver- DE: "\x00\x00\x00\x00\x00\x00\x01\xc8"-
+#288289	REDUCE cov: 680 ft: 1394 corp: 453/338Kb lim: 1250 exec/s: 143 rss: 274Mb L: 609/1245 MS: 1 EraseBytes-
+#288507	NEW    cov: 680 ft: 1397 corp: 454/339Kb lim: 1250 exec/s: 143 rss: 274Mb L: 1159/1245 MS: 1 ChangeBinInt-
+#288765	NEW    cov: 680 ft: 1399 corp: 455/340Kb lim: 1250 exec/s: 143 rss: 274Mb L: 1159/1245 MS: 1 ShuffleBytes-
+#288792	NEW    cov: 680 ft: 1403 corp: 456/342Kb lim: 1250 exec/s: 143 rss: 274Mb L: 1159/1245 MS: 2 ShuffleBytes-PersAutoDict- DE: "\x96\x01\x00\x00\x00\x00\x00\x00"-
+#289475	NEW    cov: 683 ft: 1406 corp: 457/343Kb lim: 1250 exec/s: 143 rss: 274Mb L: 1103/1245 MS: 3 CopyPart-CopyPart-PersAutoDict- DE: "\x02\x00\x00\x00"-
+#289627	NEW    cov: 683 ft: 1407 corp: 458/344Kb lim: 1250 exec/s: 143 rss: 274Mb L: 1159/1245 MS: 3 CopyPart-ChangeBinInt-ChangeByte-
+#289907	NEW    cov: 683 ft: 1410 corp: 459/345Kb lim: 1250 exec/s: 143 rss: 274Mb L: 1159/1245 MS: 2 ShuffleBytes-CMP- DE: "GL_ARB_transform_feedback"-
+#289928	REDUCE cov: 683 ft: 1410 corp: 459/345Kb lim: 1250 exec/s: 143 rss: 274Mb L: 611/1245 MS: 1 EraseBytes-
+#289997	REDUCE cov: 683 ft: 1411 corp: 460/346Kb lim: 1250 exec/s: 143 rss: 274Mb L: 1145/1245 MS: 4 PersAutoDict-CopyPart-CrossOver-EraseBytes- DE: "\x00\x00\x00\x00\x00\x00\x02\xae"-
+#290816	NEW    cov: 683 ft: 1413 corp: 461/347Kb lim: 1250 exec/s: 143 rss: 274Mb L: 1055/1245 MS: 2 PersAutoDict-PersAutoDict- DE: "\xff\x05"-"\x02\x00\x00\x00"-
+#293307	NEW    cov: 683 ft: 1416 corp: 462/348Kb lim: 1270 exec/s: 143 rss: 274Mb L: 1157/1245 MS: 1 CMP- DE: "GL_OES_texture_float_linea"-
+#293874	NEW    cov: 683 ft: 1417 corp: 463/349Kb lim: 1270 exec/s: 144 rss: 274Mb L: 1097/1245 MS: 3 CMP-ChangeBit-InsertRepeatedBytes- DE: "\xff\xff\xff\xff\xff\xff\xff\x0b"-
+#294244	NEW    cov: 683 ft: 1424 corp: 464/350Kb lim: 1270 exec/s: 144 rss: 274Mb L: 1157/1245 MS: 3 ChangeBit-PersAutoDict-PersAutoDict- DE: "\x04\x00\x00\x00"-"GL_ARB_framebuffer_"-
+#294388	NEW    cov: 683 ft: 1425 corp: 465/351Kb lim: 1270 exec/s: 144 rss: 274Mb L: 1071/1245 MS: 3 InsertByte-ChangeBinInt-CopyPart-
+#294435	REDUCE cov: 683 ft: 1425 corp: 465/351Kb lim: 1270 exec/s: 144 rss: 274Mb L: 526/1245 MS: 2 CMP-EraseBytes- DE: "GL_EXT_draw_buffers_indexe"-
+#294507	REDUCE cov: 683 ft: 1425 corp: 465/351Kb lim: 1270 exec/s: 144 rss: 274Mb L: 522/1245 MS: 2 ShuffleBytes-EraseBytes-
+#294608	REDUCE cov: 683 ft: 1427 corp: 466/352Kb lim: 1270 exec/s: 144 rss: 274Mb L: 1091/1245 MS: 3 ChangeByte-ChangeBinInt-PersAutoDict- DE: "\xff\xff\xff\x05"-
+#295062	REDUCE cov: 683 ft: 1427 corp: 466/352Kb lim: 1270 exec/s: 144 rss: 274Mb L: 1093/1245 MS: 4 ChangeBinInt-ChangeBinInt-EraseBytes-PersAutoDict- DE: "\x02\x00\x00\x00"-
+#295388	NEW    cov: 683 ft: 1428 corp: 467/354Kb lim: 1270 exec/s: 144 rss: 274Mb L: 1159/1245 MS: 1 ChangeBinInt-
+#295912	NEW    cov: 683 ft: 1429 corp: 468/355Kb lim: 1270 exec/s: 144 rss: 274Mb L: 1159/1245 MS: 1 PersAutoDict- DE: "\xff\xff\xff\xff\xff\xff\xff\x01"-
+#296227	NEW    cov: 683 ft: 1431 corp: 469/356Kb lim: 1270 exec/s: 144 rss: 274Mb L: 1159/1245 MS: 2 ChangeByte-PersAutoDict- DE: "GL_NV_conditional_render"-
+#296932	NEW    cov: 683 ft: 1434 corp: 470/357Kb lim: 1270 exec/s: 144 rss: 274Mb L: 1159/1245 MS: 5 ChangeBit-ShuffleBytes-ChangeBinInt-PersAutoDict-CMP- DE: "5\x00\x00\x00\x00\x00\x00\x00"-"GL_ARB_transform_feedback2"-
+#298050	NEW    cov: 683 ft: 1435 corp: 471/358Kb lim: 1280 exec/s: 144 rss: 274Mb L: 1159/1245 MS: 3 InsertRepeatedBytes-ChangeBinInt-EraseBytes-
+#298176	NEW    cov: 683 ft: 1438 corp: 472/359Kb lim: 1280 exec/s: 144 rss: 274Mb L: 1159/1245 MS: 1 PersAutoDict- DE: "GL_NV_conditional_render"-
+#298242	REDUCE cov: 683 ft: 1438 corp: 472/359Kb lim: 1280 exec/s: 144 rss: 274Mb L: 734/1245 MS: 1 EraseBytes-
+#298740	NEW    cov: 683 ft: 1440 corp: 473/360Kb lim: 1280 exec/s: 144 rss: 274Mb L: 1181/1245 MS: 2 ShuffleBytes-PersAutoDict- DE: "\xff\xff\xff\xff\xff\xff\xff\x01"-
+#298856	NEW    cov: 683 ft: 1441 corp: 474/361Kb lim: 1280 exec/s: 144 rss: 274Mb L: 1159/1245 MS: 1 PersAutoDict- DE: "GL_ARB_framebuffer_no_attachments"-
+#299118	NEW    cov: 683 ft: 1452 corp: 475/363Kb lim: 1280 exec/s: 144 rss: 274Mb L: 1159/1245 MS: 1 CopyPart-
+#299730	REDUCE cov: 684 ft: 1453 corp: 476/363Kb lim: 1280 exec/s: 144 rss: 274Mb L: 613/1245 MS: 5 CopyPart-ChangeByte-ChangeByte-ChangeByte-CopyPart-
+#300097	NEW    cov: 684 ft: 1456 corp: 477/364Kb lim: 1280 exec/s: 144 rss: 274Mb L: 1159/1245 MS: 1 CopyPart-
+#300830	REDUCE cov: 684 ft: 1456 corp: 477/364Kb lim: 1280 exec/s: 144 rss: 274Mb L: 691/1245 MS: 2 EraseBytes-InsertRepeatedBytes-
+#301174	NEW    cov: 684 ft: 1458 corp: 478/365Kb lim: 1280 exec/s: 144 rss: 274Mb L: 1095/1245 MS: 1 CMP- DE: "\x05\x00\x00\x00"-
+#301735	NEW    cov: 684 ft: 1460 corp: 479/366Kb lim: 1280 exec/s: 144 rss: 274Mb L: 1071/1245 MS: 4 ChangeByte-CMP-ShuffleBytes-PersAutoDict- DE: "GL_ARB_transform_"-"\x04\x00\x00\x00"-
+#302407	NEW    cov: 684 ft: 1462 corp: 480/367Kb lim: 1280 exec/s: 144 rss: 274Mb L: 1199/1245 MS: 5 CrossOver-CopyPart-CopyPart-EraseBytes-PersAutoDict- DE: "CoverFillPathNV"-
+#302746	NEW    cov: 684 ft: 1465 corp: 481/369Kb lim: 1280 exec/s: 144 rss: 274Mb L: 1273/1273 MS: 4 ChangeBit-ShuffleBytes-ChangeBinInt-CopyPart-
+#304878	REDUCE cov: 684 ft: 1465 corp: 481/369Kb lim: 1300 exec/s: 144 rss: 274Mb L: 1115/1273 MS: 2 EraseBytes-InsertRepeatedBytes-
+#304944	NEW    cov: 684 ft: 1466 corp: 482/370Kb lim: 1300 exec/s: 144 rss: 274Mb L: 1275/1275 MS: 1 InsertRepeatedBytes-
+#307304	NEW    cov: 684 ft: 1468 corp: 483/371Kb lim: 1320 exec/s: 144 rss: 274Mb L: 1159/1275 MS: 1 ShuffleBytes-
+#308282	NEW    cov: 684 ft: 1473 corp: 484/372Kb lim: 1320 exec/s: 144 rss: 274Mb L: 1055/1275 MS: 1 CMP- DE: "\x06\x00"-
+#308510	NEW    cov: 688 ft: 1477 corp: 485/373Kb lim: 1320 exec/s: 144 rss: 274Mb L: 1050/1275 MS: 2 PersAutoDict-InsertByte- DE: "\x10\x01\x00\x00"-
+#308643	NEW    cov: 688 ft: 1478 corp: 486/374Kb lim: 1320 exec/s: 145 rss: 274Mb L: 1159/1275 MS: 3 PersAutoDict-ChangeBit-PersAutoDict- DE: "\x00\x00\x00\x00\x00\x00\x02\x0a"-"GL_OES_texture_view"-
+#309720	REDUCE cov: 688 ft: 1478 corp: 486/374Kb lim: 1330 exec/s: 145 rss: 274Mb L: 574/1275 MS: 3 EraseBytes-CMP-PersAutoDict- DE: ":\x02\x00\x00\x00\x00\x00\x00"-"\xff\xff\xff\x06"-
+#309813	REDUCE cov: 688 ft: 1478 corp: 486/374Kb lim: 1330 exec/s: 145 rss: 274Mb L: 1067/1275 MS: 3 EraseBytes-InsertRepeatedBytes-InsertByte-
+#310130	REDUCE cov: 688 ft: 1478 corp: 486/374Kb lim: 1330 exec/s: 145 rss: 274Mb L: 542/1275 MS: 2 InsertRepeatedBytes-EraseBytes-
+INFO: libFuzzer disabled leak detection after every mutation.
+      Most likely the target function accumulates allocated
+      memory in a global state w/o actually leaking it.
+      You may try running this binary with -trace_malloc=[12]      to get a trace of mallocs and frees.
+      If LeakSanitizer is enabled in this process it will still
+      run on the process shutdown.
+#312764	REDUCE cov: 688 ft: 1478 corp: 486/374Kb lim: 1350 exec/s: 145 rss: 274Mb L: 782/1275 MS: 5 CopyPart-CMP-CopyPart-ChangeBit-EraseBytes- DE: "\x01\x02\x00\x00\x00\x00\x00\x00"-
+#313441	NEW    cov: 688 ft: 1479 corp: 487/375Kb lim: 1350 exec/s: 145 rss: 274Mb L: 1189/1275 MS: 2 CMP-PersAutoDict- DE: "GL_ARB_transform_feedback2"-"GL_OES_gpu_shader5"-
+#315157	NEW    cov: 688 ft: 1482 corp: 488/376Kb lim: 1360 exec/s: 145 rss: 274Mb L: 1159/1275 MS: 1 PersAutoDict- DE: "GL_EXT_separate_shader_obj"-
+#315353	NEW    cov: 688 ft: 1490 corp: 489/377Kb lim: 1360 exec/s: 145 rss: 274Mb L: 1157/1275 MS: 1 CopyPart-
+#315369	REDUCE cov: 688 ft: 1492 corp: 490/378Kb lim: 1360 exec/s: 145 rss: 274Mb L: 1067/1275 MS: 1 ChangeBinInt-
+#315885	NEW    cov: 688 ft: 1493 corp: 491/379Kb lim: 1360 exec/s: 145 rss: 274Mb L: 1159/1275 MS: 1 CMP- DE: "GL_ARB_transform_feedback2"-
+#315993	NEW    cov: 688 ft: 1495 corp: 492/380Kb lim: 1360 exec/s: 145 rss: 274Mb L: 1075/1275 MS: 3 CopyPart-CopyPart-PersAutoDict- DE: "\x01\x00\x00\x00\x00\x00\x02\x0e"-
+#316445	NEW    cov: 688 ft: 1497 corp: 493/381Kb lim: 1360 exec/s: 145 rss: 274Mb L: 526/1275 MS: 2 ChangeBit-CopyPart-
+#317617	NEW    cov: 688 ft: 1499 corp: 494/382Kb lim: 1370 exec/s: 145 rss: 274Mb L: 1077/1275 MS: 2 ChangeASCIIInt-PersAutoDict- DE: "\x00\x8a"-
+#318134	NEW    cov: 688 ft: 1501 corp: 495/383Kb lim: 1370 exec/s: 145 rss: 274Mb L: 1309/1309 MS: 2 CopyPart-CMP- DE: "GL_ARB_transform_feedback2"-
+#318574	NEW    cov: 688 ft: 1502 corp: 496/384Kb lim: 1370 exec/s: 145 rss: 274Mb L: 1183/1309 MS: 5 ChangeBinInt-InsertByte-PersAutoDict-ChangeBinInt-InsertByte- DE: "\x00\x00\x00\x00\x00\x00\x04\x0e"-
+#319156	NEW    cov: 688 ft: 1504 corp: 497/385Kb lim: 1370 exec/s: 145 rss: 274Mb L: 1103/1309 MS: 2 ShuffleBytes-CopyPart-
+#319169	NEW    cov: 688 ft: 1505 corp: 498/386Kb lim: 1370 exec/s: 145 rss: 274Mb L: 1159/1309 MS: 3 ChangeBinInt-ChangeBit-ChangeByte-
+#319890	NEW    cov: 688 ft: 1506 corp: 499/387Kb lim: 1370 exec/s: 145 rss: 274Mb L: 1159/1309 MS: 1 PersAutoDict- DE: "\xff\xff\xff\x0a"-
+#320170	NEW    cov: 688 ft: 1507 corp: 500/389Kb lim: 1370 exec/s: 145 rss: 274Mb L: 1167/1309 MS: 5 CopyPart-ChangeASCIIInt-InsertRepeatedBytes-ChangeASCIIInt-CMP- DE: "V\x04\x00\x00\x00\x00\x00\x00"-
+#320648	REDUCE cov: 688 ft: 1507 corp: 500/389Kb lim: 1370 exec/s: 145 rss: 274Mb L: 1065/1309 MS: 3 EraseBytes-InsertByte-InsertRepeatedBytes-
+#322336	NEW    cov: 688 ft: 1508 corp: 501/390Kb lim: 1380 exec/s: 145 rss: 274Mb L: 1369/1369 MS: 3 ChangeByte-InsertByte-CopyPart-
+#322419	NEW    cov: 688 ft: 1509 corp: 502/391Kb lim: 1380 exec/s: 145 rss: 274Mb L: 1289/1369 MS: 3 InsertRepeatedBytes-CrossOver-CrossOver-
+#322454	REDUCE cov: 688 ft: 1509 corp: 502/391Kb lim: 1380 exec/s: 145 rss: 274Mb L: 958/1369 MS: 5 ChangeByte-ChangeBinInt-ShuffleBytes-CMP-EraseBytes- DE: "\x01\x0822"-
+#322566	NEW    cov: 688 ft: 1510 corp: 503/392Kb lim: 1380 exec/s: 145 rss: 274Mb L: 1159/1369 MS: 2 ChangeByte-PersAutoDict- DE: "\xff\xff\xff\x06"-
+#323737	NEW    cov: 688 ft: 1512 corp: 504/394Kb lim: 1390 exec/s: 145 rss: 274Mb L: 1293/1369 MS: 1 PersAutoDict- DE: "?\x00\x00\x00"-
+#324286	NEW    cov: 688 ft: 1513 corp: 505/395Kb lim: 1390 exec/s: 146 rss: 274Mb L: 1159/1369 MS: 4 CopyPart-ChangeByte-CopyPart-ChangeBit-
+#324565	REDUCE cov: 688 ft: 1515 corp: 506/396Kb lim: 1390 exec/s: 146 rss: 274Mb L: 1093/1369 MS: 4 ChangeByte-ShuffleBytes-CMP-PersAutoDict- DE: "*\x04\x00\x00\x00\x00\x00\x00"-"GL_OES_surfaceless_context"-
+#324593	NEW    cov: 688 ft: 1516 corp: 507/397Kb lim: 1390 exec/s: 146 rss: 274Mb L: 1323/1369 MS: 3 CopyPart-ChangeBinInt-PersAutoDict- DE: "\x01\x00\x00\x00\x00\x00\x02&"-
+#324873	REDUCE cov: 688 ft: 1516 corp: 507/397Kb lim: 1390 exec/s: 146 rss: 274Mb L: 517/1369 MS: 5 CrossOver-InsertRepeatedBytes-CopyPart-InsertRepeatedBytes-InsertRepeatedBytes-
+#325309	NEW    cov: 688 ft: 1519 corp: 508/398Kb lim: 1390 exec/s: 146 rss: 274Mb L: 1123/1369 MS: 1 InsertRepeatedBytes-
+#325676	NEW    cov: 688 ft: 1521 corp: 509/399Kb lim: 1390 exec/s: 146 rss: 274Mb L: 1037/1369 MS: 2 ChangeBinInt-CMP- DE: "\x00\x08M\xe7"-
+#325703	REDUCE cov: 688 ft: 1521 corp: 509/399Kb lim: 1390 exec/s: 146 rss: 274Mb L: 658/1369 MS: 2 ChangeBit-EraseBytes-
+#325845	REDUCE cov: 688 ft: 1521 corp: 509/399Kb lim: 1390 exec/s: 146 rss: 274Mb L: 1033/1369 MS: 2 CopyPart-EraseBytes-
+#326419	REDUCE cov: 688 ft: 1521 corp: 509/399Kb lim: 1390 exec/s: 146 rss: 274Mb L: 1069/1369 MS: 4 PersAutoDict-PersAutoDict-ChangeBinInt-EraseBytes- DE: "\x00\x00\x00\x00\x00\x00\x02\x0e"-"GL_OES_shader_image_atomic"-
+#326501	NEW    cov: 689 ft: 1522 corp: 510/400Kb lim: 1390 exec/s: 146 rss: 274Mb L: 679/1369 MS: 2 CrossOver-CrossOver-
+#326873	NEW    cov: 689 ft: 1525 corp: 511/401Kb lim: 1390 exec/s: 146 rss: 274Mb L: 1207/1369 MS: 2 ChangeBit-InsertRepeatedBytes-
+#327341	NEW    cov: 689 ft: 1526 corp: 512/402Kb lim: 1390 exec/s: 146 rss: 274Mb L: 1159/1369 MS: 3 ChangeBit-CopyPart-PersAutoDict- DE: "?\x00\x00\x00"-
+#327728	NEW    cov: 689 ft: 1528 corp: 513/403Kb lim: 1390 exec/s: 146 rss: 274Mb L: 1183/1369 MS: 2 ShuffleBytes-CMP- DE: "3\x00"-
+#327854	NEW    cov: 689 ft: 1535 corp: 514/404Kb lim: 1390 exec/s: 146 rss: 274Mb L: 1159/1369 MS: 1 PersAutoDict- DE: "\x01\x00\x00\x00\xff\xff\xff\xff"-
+#327972	NEW    cov: 689 ft: 1567 corp: 515/405Kb lim: 1390 exec/s: 146 rss: 274Mb L: 1159/1369 MS: 3 ShuffleBytes-ChangeBinInt-CopyPart-
+#328571	NEW    cov: 690 ft: 1568 corp: 516/407Kb lim: 1390 exec/s: 146 rss: 274Mb L: 1179/1369 MS: 4 ChangeByte-PersAutoDict-InsertByte-InsertRepeatedBytes- DE: "\xff\xff\xff\xff"-
+#328652	REDUCE cov: 690 ft: 1568 corp: 516/407Kb lim: 1390 exec/s: 146 rss: 274Mb L: 1119/1369 MS: 1 EraseBytes-
+#329068	NEW    cov: 690 ft: 1569 corp: 517/408Kb lim: 1390 exec/s: 146 rss: 274Mb L: 1293/1369 MS: 1 PersAutoDict- DE: "\x01\x00\x00\x00\x00\x00\x04y"-
+#330742	REDUCE cov: 690 ft: 1569 corp: 517/408Kb lim: 1400 exec/s: 146 rss: 274Mb L: 618/1369 MS: 4 EraseBytes-CopyPart-CopyPart-InsertByte-
+#331608	REDUCE cov: 690 ft: 1569 corp: 517/408Kb lim: 1400 exec/s: 146 rss: 274Mb L: 522/1369 MS: 1 EraseBytes-
+#331958	NEW    cov: 690 ft: 1571 corp: 518/409Kb lim: 1400 exec/s: 146 rss: 274Mb L: 1037/1369 MS: 5 InsertRepeatedBytes-ChangeByte-ChangeBit-EraseBytes-EraseBytes-
+#332350	NEW    cov: 690 ft: 1573 corp: 519/410Kb lim: 1400 exec/s: 146 rss: 274Mb L: 1309/1369 MS: 2 ShuffleBytes-ChangeBit-
+#332505	NEW    cov: 690 ft: 1576 corp: 520/411Kb lim: 1400 exec/s: 146 rss: 274Mb L: 1287/1369 MS: 5 ShuffleBytes-ChangeByte-InsertRepeatedBytes-InsertRepeatedBytes-InsertRepeatedBytes-
+#333110	NEW    cov: 690 ft: 1579 corp: 521/412Kb lim: 1400 exec/s: 146 rss: 274Mb L: 1295/1369 MS: 5 ChangeBit-ChangeByte-ChangeByte-ChangeASCIIInt-PersAutoDict- DE: "\xff\xff\xff\xff\xff\xff\xff\x01"-
+#333164	NEW    cov: 690 ft: 1581 corp: 522/414Kb lim: 1400 exec/s: 146 rss: 274Mb L: 1111/1369 MS: 4 ChangeASCIIInt-InsertByte-ShuffleBytes-InsertRepeatedBytes-
+#333740	NEW    cov: 690 ft: 1584 corp: 523/415Kb lim: 1400 exec/s: 146 rss: 274Mb L: 1309/1369 MS: 1 PersAutoDict- DE: "\x00\x00\x00\x00\x00\x00\x04\x0e"-
+#333771	NEW    cov: 690 ft: 1589 corp: 524/416Kb lim: 1400 exec/s: 146 rss: 274Mb L: 1159/1369 MS: 1 CopyPart-
+#333946	NEW    cov: 690 ft: 1591 corp: 525/417Kb lim: 1400 exec/s: 146 rss: 274Mb L: 1055/1369 MS: 5 ChangeASCIIInt-EraseBytes-EraseBytes-ChangeByte-InsertRepeatedBytes-
+#334947	NEW    cov: 690 ft: 1593 corp: 526/418Kb lim: 1400 exec/s: 146 rss: 274Mb L: 1119/1369 MS: 1 PersAutoDict- DE: "\x00\x00\x00\x00\x00\x00\x01\xc8"-
+#335098	NEW    cov: 690 ft: 1595 corp: 527/419Kb lim: 1400 exec/s: 146 rss: 274Mb L: 1123/1369 MS: 1 CMP- DE: "!\x00\x00\x00"-
+	NEW_FUNC[1/1]: 0x5b1bb0 in vrend_set_clip_state (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5b1bb0)
+#335639	NEW    cov: 693 ft: 1598 corp: 528/420Kb lim: 1400 exec/s: 146 rss: 274Mb L: 1159/1369 MS: 1 ChangeBit-
+#336185	REDUCE cov: 693 ft: 1598 corp: 528/420Kb lim: 1400 exec/s: 146 rss: 274Mb L: 1037/1369 MS: 1 EraseBytes-
+#336402	REDUCE cov: 693 ft: 1598 corp: 528/420Kb lim: 1400 exec/s: 146 rss: 274Mb L: 541/1369 MS: 2 InsertByte-EraseBytes-
+#338866	REDUCE cov: 693 ft: 1598 corp: 528/420Kb lim: 1420 exec/s: 147 rss: 274Mb L: 1039/1369 MS: 4 InsertByte-InsertByte-ChangeASCIIInt-EraseBytes-
+#340623	NEW    cov: 694 ft: 1600 corp: 529/422Kb lim: 1430 exec/s: 147 rss: 274Mb L: 1423/1423 MS: 2 InsertRepeatedBytes-CopyPart-
+#340815	REDUCE cov: 694 ft: 1602 corp: 530/423Kb lim: 1430 exec/s: 147 rss: 274Mb L: 1043/1423 MS: 2 InsertByte-InsertRepeatedBytes-
+#341564	NEW    cov: 694 ft: 1604 corp: 531/424Kb lim: 1430 exec/s: 147 rss: 274Mb L: 1083/1423 MS: 4 ChangeASCIIInt-ShuffleBytes-InsertByte-EraseBytes-
+#341696	NEW    cov: 694 ft: 1606 corp: 532/425Kb lim: 1430 exec/s: 147 rss: 274Mb L: 1051/1423 MS: 2 ChangeASCIIInt-CMP- DE: "\xfa\x01\x00\x00\x00\x00\x00\x00"-
+#341858	NEW    cov: 694 ft: 1607 corp: 533/426Kb lim: 1430 exec/s: 147 rss: 274Mb L: 1163/1423 MS: 2 ChangeASCIIInt-CMP- DE: "GL_ARB_transfo"-
+#342129	NEW    cov: 694 ft: 1608 corp: 534/427Kb lim: 1430 exec/s: 147 rss: 274Mb L: 1159/1423 MS: 1 ChangeByte-
+#342571	NEW    cov: 694 ft: 1609 corp: 535/428Kb lim: 1430 exec/s: 147 rss: 274Mb L: 1159/1423 MS: 2 ChangeBinInt-PersAutoDict- DE: "\x01\x00\x00\x00\x00\x00\x04y"-
+#343385	NEW    cov: 694 ft: 1610 corp: 536/429Kb lim: 1430 exec/s: 147 rss: 274Mb L: 1415/1423 MS: 4 PersAutoDict-ChangeBinInt-InsertByte-InsertRepeatedBytes- DE: "GL_OES_texture_buffer"-
+#344329	NEW    cov: 694 ft: 1611 corp: 537/431Kb lim: 1430 exec/s: 147 rss: 274Mb L: 1082/1423 MS: 4 PersAutoDict-InsertByte-ChangeBit-PersAutoDict- DE: "\xff\xff\xff\xff\xff\xff\x01\x0e"-"GL_ARB_transform_feedback"-
+#345196	REDUCE cov: 694 ft: 1611 corp: 537/430Kb lim: 1430 exec/s: 147 rss: 274Mb L: 617/1423 MS: 2 CrossOver-EraseBytes-
+#346283	NEW    cov: 694 ft: 1612 corp: 538/432Kb lim: 1440 exec/s: 147 rss: 274Mb L: 1163/1423 MS: 2 ShuffleBytes-PersAutoDict- DE: "\x04\x00\x00\x00"-
+#346751	NEW    cov: 694 ft: 1614 corp: 539/433Kb lim: 1440 exec/s: 147 rss: 274Mb L: 1091/1423 MS: 3 CMP-CMP-ChangeBinInt- DE: "\xad\xfe\x08\x00"-"\x01\x00\x003"-
+#346762	NEW    cov: 694 ft: 1615 corp: 540/434Kb lim: 1440 exec/s: 147 rss: 274Mb L: 1159/1423 MS: 1 PersAutoDict- DE: "\xff\xff\xff\x06"-
+#346989	NEW    cov: 694 ft: 1616 corp: 541/435Kb lim: 1440 exec/s: 147 rss: 274Mb L: 1159/1423 MS: 2 PersAutoDict-PersAutoDict- DE: "\x01\x00\x00\x00\x00\x00\x02\x00"-"GL_OES_shader_image_atomic"-
+#347679	REDUCE cov: 694 ft: 1616 corp: 541/435Kb lim: 1440 exec/s: 147 rss: 274Mb L: 1195/1423 MS: 5 CrossOver-InsertByte-ShuffleBytes-CopyPart-CopyPart-
+#347685	NEW    cov: 694 ft: 1618 corp: 542/436Kb lim: 1440 exec/s: 147 rss: 274Mb L: 1049/1423 MS: 1 PersAutoDict- DE: "\x02\x00\x00\x00"-
+#348211	NEW    cov: 694 ft: 1622 corp: 543/437Kb lim: 1440 exec/s: 147 rss: 274Mb L: 1131/1423 MS: 1 CMP- DE: "v\x02\x00\x00\x00\x00\x00\x00"-
+#349812	NEW    cov: 694 ft: 1632 corp: 544/438Kb lim: 1450 exec/s: 147 rss: 274Mb L: 1159/1423 MS: 1 PersAutoDict- DE: "CoverFillPathNV"-
+#349883	REDUCE cov: 694 ft: 1634 corp: 545/439Kb lim: 1450 exec/s: 147 rss: 274Mb L: 1033/1423 MS: 1 CMP- DE: "\x01\x09\x16\xfc"-
+#351409	NEW    cov: 694 ft: 1636 corp: 546/440Kb lim: 1460 exec/s: 147 rss: 274Mb L: 1061/1423 MS: 1 EraseBytes-
+#351508	REDUCE cov: 694 ft: 1636 corp: 546/440Kb lim: 1460 exec/s: 147 rss: 274Mb L: 1063/1423 MS: 4 ShuffleBytes-CopyPart-ChangeByte-EraseBytes-
+#352922	NEW    cov: 694 ft: 1637 corp: 547/441Kb lim: 1470 exec/s: 147 rss: 274Mb L: 1159/1423 MS: 4 ShuffleBytes-ChangeBinInt-ChangeBinInt-ChangeByte-
+#353228	NEW    cov: 694 ft: 1639 corp: 548/442Kb lim: 1470 exec/s: 147 rss: 274Mb L: 794/1423 MS: 1 CrossOver-
+#354201	REDUCE cov: 694 ft: 1641 corp: 549/443Kb lim: 1470 exec/s: 147 rss: 274Mb L: 1067/1423 MS: 3 CMP-ChangeByte-PersAutoDict- DE: "GL_OES_copy_image"-"3\x00"-
+#354923	REDUCE cov: 694 ft: 1641 corp: 549/443Kb lim: 1470 exec/s: 147 rss: 274Mb L: 774/1423 MS: 2 ChangeBinInt-EraseBytes-
+#355869	NEW    cov: 694 ft: 1643 corp: 550/444Kb lim: 1470 exec/s: 147 rss: 274Mb L: 1159/1423 MS: 1 CMP- DE: "GL_ARB_transform_"-
+#356886	NEW    cov: 694 ft: 1649 corp: 551/445Kb lim: 1480 exec/s: 147 rss: 274Mb L: 1159/1423 MS: 2 ChangeBit-CopyPart-
+#357064	NEW    cov: 694 ft: 1651 corp: 552/446Kb lim: 1480 exec/s: 147 rss: 274Mb L: 1037/1423 MS: 3 CopyPart-ChangeBit-EraseBytes-
+#357900	NEW    cov: 694 ft: 1653 corp: 553/447Kb lim: 1480 exec/s: 147 rss: 274Mb L: 1287/1423 MS: 1 ChangeASCIIInt-
+#358839	REDUCE cov: 694 ft: 1653 corp: 553/447Kb lim: 1480 exec/s: 147 rss: 274Mb L: 1413/1423 MS: 4 CrossOver-ChangeASCIIInt-ChangeByte-CopyPart-
+#358843	NEW    cov: 694 ft: 1654 corp: 554/449Kb lim: 1480 exec/s: 147 rss: 274Mb L: 1159/1423 MS: 4 ChangeBit-ShuffleBytes-ChangeBit-ChangeBinInt-
+#359657	NEW    cov: 694 ft: 1656 corp: 555/450Kb lim: 1480 exec/s: 148 rss: 274Mb L: 1119/1423 MS: 4 ShuffleBytes-InsertByte-ChangeBit-InsertRepeatedBytes-
+#360279	REDUCE cov: 694 ft: 1656 corp: 555/450Kb lim: 1480 exec/s: 148 rss: 274Mb L: 529/1423 MS: 2 CMP-EraseBytes- DE: "\x01\x00\x00\x00\x00\x00\x00\x85"-
+#360453	REDUCE cov: 694 ft: 1659 corp: 556/451Kb lim: 1480 exec/s: 148 rss: 274Mb L: 1043/1423 MS: 4 CMP-CrossOver-ChangeBinInt-CopyPart- DE: "\x06\x0a\xd1\xd1"-
+#362074	NEW    cov: 694 ft: 1660 corp: 557/452Kb lim: 1490 exec/s: 148 rss: 274Mb L: 1159/1423 MS: 1 PersAutoDict- DE: "GL_EXT_multi_draw_arrays"-
+#362095	NEW    cov: 694 ft: 1662 corp: 558/453Kb lim: 1490 exec/s: 148 rss: 274Mb L: 1291/1423 MS: 1 CMP- DE: "\x0b|\x09\x00"-
+#362333	REDUCE cov: 694 ft: 1662 corp: 558/453Kb lim: 1490 exec/s: 148 rss: 274Mb L: 1157/1423 MS: 3 EraseBytes-PersAutoDict-PersAutoDict- DE: "DebugMessageIns"-"\xd2\x15"-
+#362403	REDUCE cov: 694 ft: 1662 corp: 558/453Kb lim: 1490 exec/s: 148 rss: 274Mb L: 1037/1423 MS: 5 EraseBytes-InsertByte-ChangeASCIIInt-ChangeBit-CMP- DE: "GL_OES_shader_multisample_"-
+#363145	REDUCE cov: 694 ft: 1662 corp: 558/453Kb lim: 1490 exec/s: 148 rss: 274Mb L: 1039/1423 MS: 2 InsertRepeatedBytes-EraseBytes-
+#364146	NEW    cov: 694 ft: 1668 corp: 559/454Kb lim: 1490 exec/s: 148 rss: 274Mb L: 1159/1423 MS: 1 PersAutoDict- DE: "GL_ARB_transform_feedback2"-
+#364371	NEW    cov: 694 ft: 1670 corp: 560/455Kb lim: 1490 exec/s: 148 rss: 274Mb L: 1087/1423 MS: 5 CopyPart-InsertByte-CMP-InsertByte-ChangeByte- DE: "GL_ARB_transform_feedback2"-
+#364967	NEW    cov: 694 ft: 1672 corp: 561/456Kb lim: 1490 exec/s: 148 rss: 274Mb L: 1085/1423 MS: 1 ChangeByte-
+#365114	REDUCE cov: 694 ft: 1674 corp: 562/457Kb lim: 1490 exec/s: 148 rss: 274Mb L: 1063/1423 MS: 2 ChangeBinInt-CMP- DE: "GL_ARB_transform_feedback2"-
+#365580	NEW    cov: 694 ft: 1678 corp: 563/458Kb lim: 1490 exec/s: 148 rss: 274Mb L: 1159/1423 MS: 1 ChangeBinInt-
+#366971	REDUCE cov: 694 ft: 1678 corp: 563/458Kb lim: 1500 exec/s: 148 rss: 274Mb L: 551/1423 MS: 1 EraseBytes-
+#367578	NEW    cov: 694 ft: 1679 corp: 564/460Kb lim: 1500 exec/s: 148 rss: 274Mb L: 1183/1423 MS: 2 InsertByte-InsertByte-
+#368606	REDUCE cov: 694 ft: 1679 corp: 564/459Kb lim: 1510 exec/s: 148 rss: 274Mb L: 526/1423 MS: 3 EraseBytes-ShuffleBytes-PersAutoDict- DE: "\xff>"-
+#369057	NEW    cov: 694 ft: 1680 corp: 565/460Kb lim: 1510 exec/s: 148 rss: 274Mb L: 1159/1423 MS: 1 PersAutoDict- DE: "*\x04\x00\x00\x00\x00\x00\x00"-
+#369249	NEW    cov: 694 ft: 1681 corp: 566/462Kb lim: 1510 exec/s: 148 rss: 274Mb L: 1159/1423 MS: 2 ChangeByte-CopyPart-
+#369302	NEW    cov: 694 ft: 1684 corp: 567/463Kb lim: 1510 exec/s: 148 rss: 274Mb L: 1159/1423 MS: 3 ChangeByte-ChangeBinInt-PersAutoDict- DE: "\xad\xfe\x08\x00"-
+#369962	REDUCE cov: 694 ft: 1684 corp: 567/463Kb lim: 1510 exec/s: 148 rss: 274Mb L: 766/1423 MS: 5 ChangeByte-ChangeBinInt-PersAutoDict-CMP-EraseBytes- DE: "\xff\x01\x00\x00\x00\x00\x00\x00"-"\x01\x00\x00\x00\x00\x00\x04>"-
+#371185	REDUCE cov: 694 ft: 1684 corp: 567/463Kb lim: 1520 exec/s: 148 rss: 274Mb L: 1073/1423 MS: 3 ChangeBinInt-EraseBytes-InsertByte-
+#371204	REDUCE cov: 694 ft: 1686 corp: 568/464Kb lim: 1520 exec/s: 148 rss: 274Mb L: 1033/1423 MS: 4 ChangeBit-ChangeByte-PersAutoDict-ChangeBinInt- DE: "\x01\x00\x00\x00\x00\x00\x02\x0e"-
+#371762	NEW    cov: 694 ft: 1690 corp: 569/465Kb lim: 1520 exec/s: 148 rss: 274Mb L: 1159/1423 MS: 3 ChangeByte-ChangeBinInt-CMP- DE: "GL_OES_fbo_render_mipmap"-
+#373349	NEW    cov: 695 ft: 1691 corp: 570/466Kb lim: 1530 exec/s: 148 rss: 274Mb L: 1081/1423 MS: 2 EraseBytes-CopyPart-
+#373459	NEW    cov: 695 ft: 1692 corp: 571/467Kb lim: 1530 exec/s: 148 rss: 274Mb L: 1159/1423 MS: 5 ShuffleBytes-ShuffleBytes-CopyPart-ChangeBinInt-PersAutoDict- DE: "\x06\x0a\xd1\xd1"-
+#373791	NEW    cov: 695 ft: 1694 corp: 572/468Kb lim: 1530 exec/s: 148 rss: 274Mb L: 1055/1423 MS: 2 CMP-PersAutoDict- DE: "\xff\x01\x00\x00\x00\x00\x00\x00"-"\x00\x00\x00\x00\x00\x00\x02\x0a"-
+#374072	NEW    cov: 695 ft: 1696 corp: 573/469Kb lim: 1530 exec/s: 148 rss: 274Mb L: 1171/1423 MS: 1 InsertRepeatedBytes-
+#375118	REDUCE cov: 695 ft: 1696 corp: 573/469Kb lim: 1540 exec/s: 148 rss: 274Mb L: 922/1423 MS: 1 EraseBytes-
+#375836	NEW    cov: 695 ft: 1697 corp: 574/470Kb lim: 1540 exec/s: 148 rss: 274Mb L: 1155/1423 MS: 3 InsertByte-PersAutoDict-InsertByte- DE: "\x01\x00\x00\x00\xff\xff\xff\xff"-
+#375940	NEW    cov: 695 ft: 1703 corp: 575/471Kb lim: 1540 exec/s: 148 rss: 274Mb L: 1159/1423 MS: 4 CrossOver-ChangeBinInt-ChangeBinInt-EraseBytes-
+#377148	NEW    cov: 695 ft: 1704 corp: 576/472Kb lim: 1550 exec/s: 148 rss: 274Mb L: 1159/1423 MS: 3 ChangeByte-ShuffleBytes-ChangeBinInt-
+#377359	NEW    cov: 695 ft: 1706 corp: 577/474Kb lim: 1550 exec/s: 148 rss: 274Mb L: 1159/1423 MS: 1 PersAutoDict- DE: "\x00\x00\x00\x10"-
+#377986	NEW    cov: 695 ft: 1708 corp: 578/475Kb lim: 1550 exec/s: 148 rss: 274Mb L: 1423/1423 MS: 2 ChangeBinInt-CopyPart-
+#379073	NEW    cov: 695 ft: 1709 corp: 579/476Kb lim: 1560 exec/s: 149 rss: 274Mb L: 1159/1423 MS: 2 ChangeBinInt-ChangeByte-
+#379355	REDUCE cov: 695 ft: 1709 corp: 579/476Kb lim: 1560 exec/s: 149 rss: 274Mb L: 545/1423 MS: 2 ChangeBit-EraseBytes-
+#379613	NEW    cov: 695 ft: 1714 corp: 580/477Kb lim: 1560 exec/s: 149 rss: 274Mb L: 1159/1423 MS: 3 ChangeBinInt-ChangeBit-CopyPart-
+#380302	REDUCE cov: 695 ft: 1714 corp: 580/477Kb lim: 1560 exec/s: 149 rss: 274Mb L: 554/1423 MS: 4 InsertByte-ChangeByte-CMP-EraseBytes- DE: "\xff2"-
+#380428	NEW    cov: 695 ft: 1715 corp: 581/478Kb lim: 1560 exec/s: 149 rss: 274Mb L: 1059/1423 MS: 1 CMP- DE: "\x1d\x17\x0a\x00"-
+#381374	REDUCE cov: 695 ft: 1715 corp: 581/478Kb lim: 1560 exec/s: 149 rss: 274Mb L: 1051/1423 MS: 1 EraseBytes-
+	NEW_FUNC[1/6]: 0x555450 in virgl_resource_create_from_pipe (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x555450)
+	NEW_FUNC[2/6]: 0x55c9d0 in vrend_decode_ctx_attach_resource (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x55c9d0)
+#381535	REDUCE cov: 710 ft: 1731 corp: 582/479Kb lim: 1560 exec/s: 149 rss: 274Mb L: 551/1423 MS: 1 ChangeByte-
+#382546	NEW    cov: 712 ft: 1733 corp: 583/479Kb lim: 1570 exec/s: 149 rss: 274Mb L: 554/1423 MS: 1 ChangeBinInt-
+#382861	REDUCE cov: 712 ft: 1733 corp: 583/479Kb lim: 1570 exec/s: 149 rss: 274Mb L: 1045/1423 MS: 5 InsertByte-CMP-ChangeBinInt-PersAutoDict-EraseBytes- DE: "\x00\x00\x00\x00"-"\x00\x00\x00\x10"-
+#383707	NEW    cov: 712 ft: 1734 corp: 584/480Kb lim: 1570 exec/s: 149 rss: 274Mb L: 1159/1423 MS: 1 PersAutoDict- DE: "GL_OES_shader_multisample_"-
+#385244	NEW    cov: 712 ft: 1736 corp: 585/481Kb lim: 1580 exec/s: 149 rss: 274Mb L: 1047/1423 MS: 2 ChangeBit-PersAutoDict- DE: "\x04\x00\x00\x00"-
+#385385	NEW    cov: 712 ft: 1738 corp: 586/482Kb lim: 1580 exec/s: 149 rss: 274Mb L: 1099/1423 MS: 1 PersAutoDict- DE: "\x02\x02\x00\x00\x00\x00\x00\x00"-
+	NEW_FUNC[1/3]: 0x5552e0 in virgl_resource_destroy_func (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5552e0)
+	NEW_FUNC[2/3]: 0x595220 in vrend_pipe_resource_unref (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x595220)
+#385603	NEW    cov: 722 ft: 1748 corp: 587/483Kb lim: 1580 exec/s: 149 rss: 274Mb L: 617/1423 MS: 3 InsertRepeatedBytes-PersAutoDict-CMP- DE: "\x04\x00\x00\x00"-"GL_ARB_vertex_buffer_objec"-
+#385909	NEW    cov: 722 ft: 1749 corp: 588/484Kb lim: 1580 exec/s: 149 rss: 274Mb L: 1159/1423 MS: 1 PersAutoDict- DE: "\xff\xff\xff\xff\xff\xff\xff\x01"-
+#390031	NEW    cov: 722 ft: 1750 corp: 589/485Kb lim: 1620 exec/s: 149 rss: 274Mb L: 1163/1423 MS: 2 PersAutoDict-InsertRepeatedBytes- DE: "\xff\x03\x97\x14"-
+#390883	NEW    cov: 722 ft: 1752 corp: 590/486Kb lim: 1620 exec/s: 149 rss: 274Mb L: 1031/1423 MS: 2 ShuffleBytes-PersAutoDict- DE: "!\x00\x00\x00"-
+#390914	NEW    cov: 722 ft: 1753 corp: 591/487Kb lim: 1620 exec/s: 149 rss: 274Mb L: 1055/1423 MS: 1 CMP- DE: "\x02\x00\x00\x00\x00\x00\x00\x00"-
+#390988	NEW    cov: 722 ft: 1757 corp: 592/488Kb lim: 1620 exec/s: 149 rss: 274Mb L: 1159/1423 MS: 4 PersAutoDict-CopyPart-ChangeByte-CopyPart- DE: "\x91\x00\x00\x00"-
+#391034	REDUCE cov: 722 ft: 1759 corp: 593/489Kb lim: 1620 exec/s: 149 rss: 274Mb L: 1033/1423 MS: 1 ChangeBit-
+#391231	NEW    cov: 722 ft: 1760 corp: 594/490Kb lim: 1620 exec/s: 149 rss: 274Mb L: 1033/1423 MS: 2 ChangeASCIIInt-CMP- DE: "\xdeo\x0a\x00"-
+#391250	REDUCE cov: 723 ft: 1761 corp: 595/491Kb lim: 1620 exec/s: 149 rss: 274Mb L: 890/1423 MS: 4 CrossOver-EraseBytes-ChangeByte-InsertByte-
+#393073	REDUCE cov: 723 ft: 1761 corp: 595/491Kb lim: 1630 exec/s: 149 rss: 274Mb L: 549/1423 MS: 3 EraseBytes-ShuffleBytes-InsertByte-
+#393649	NEW    cov: 723 ft: 1762 corp: 596/492Kb lim: 1630 exec/s: 149 rss: 274Mb L: 1159/1423 MS: 1 PersAutoDict- DE: "GL_OES_texture_buffer"-
+#393885	NEW    cov: 723 ft: 1764 corp: 597/494Kb lim: 1630 exec/s: 149 rss: 274Mb L: 1581/1581 MS: 1 CopyPart-
+#394298	REDUCE cov: 723 ft: 1764 corp: 597/494Kb lim: 1630 exec/s: 149 rss: 274Mb L: 742/1581 MS: 3 InsertByte-ChangeBinInt-EraseBytes-
+#395338	NEW    cov: 723 ft: 1766 corp: 598/495Kb lim: 1640 exec/s: 149 rss: 274Mb L: 1097/1581 MS: 5 ChangeByte-InsertByte-ChangeByte-InsertByte-CMP- DE: "\x17\x00"-
+#396030	REDUCE cov: 723 ft: 1766 corp: 598/495Kb lim: 1640 exec/s: 149 rss: 274Mb L: 606/1581 MS: 2 ChangeBinInt-EraseBytes-
+#396037	NEW    cov: 723 ft: 1767 corp: 599/496Kb lim: 1640 exec/s: 149 rss: 274Mb L: 1151/1581 MS: 2 ShuffleBytes-CMP- DE: "\xff\xff"-
+#396344	REDUCE cov: 723 ft: 1769 corp: 600/497Kb lim: 1640 exec/s: 149 rss: 274Mb L: 1039/1581 MS: 2 CopyPart-CMP- DE: "2\x00\x00\x00"-
+#396571	REDUCE cov: 723 ft: 1769 corp: 600/497Kb lim: 1640 exec/s: 149 rss: 274Mb L: 545/1581 MS: 2 PersAutoDict-EraseBytes- DE: "\xff\xff\xff\xff\xff\xff\x01\x00"-
+#397537	REDUCE cov: 723 ft: 1769 corp: 600/497Kb lim: 1640 exec/s: 150 rss: 274Mb L: 1079/1581 MS: 1 EraseBytes-
+#397859	NEW    cov: 723 ft: 1773 corp: 601/498Kb lim: 1640 exec/s: 150 rss: 274Mb L: 1159/1581 MS: 2 CopyPart-CopyPart-
+#398560	NEW    cov: 723 ft: 1775 corp: 602/498Kb lim: 1640 exec/s: 150 rss: 274Mb L: 526/1581 MS: 1 CMP- DE: "GL_ARB_vertex_buffer_object"-
+#399399	NEW    cov: 723 ft: 1779 corp: 603/499Kb lim: 1640 exec/s: 150 rss: 274Mb L: 1139/1581 MS: 4 ChangeBit-ChangeBinInt-ChangeBinInt-CMP- DE: "\xff\xff\xff\xff\xff\xff\x02\x9a"-
+#399610	NEW    cov: 723 ft: 1780 corp: 604/501Kb lim: 1640 exec/s: 150 rss: 274Mb L: 1159/1581 MS: 1 ChangeByte-
+#401499	REDUCE cov: 723 ft: 1780 corp: 604/501Kb lim: 1650 exec/s: 150 rss: 274Mb L: 1029/1581 MS: 4 ChangeBinInt-CopyPart-ChangeASCIIInt-EraseBytes-
+#401653	NEW    cov: 723 ft: 1781 corp: 605/502Kb lim: 1650 exec/s: 150 rss: 274Mb L: 1371/1581 MS: 4 CrossOver-CMP-InsertByte-InsertRepeatedBytes- DE: "\x01\x03"-
+#401755	NEW    cov: 724 ft: 1782 corp: 606/502Kb lim: 1650 exec/s: 150 rss: 274Mb L: 542/1581 MS: 2 ChangeByte-ChangeBinInt-
+#401989	REDUCE cov: 724 ft: 1782 corp: 606/502Kb lim: 1650 exec/s: 150 rss: 274Mb L: 526/1581 MS: 4 InsertByte-InsertRepeatedBytes-CopyPart-EraseBytes-
+#402255	REDUCE cov: 724 ft: 1782 corp: 606/502Kb lim: 1650 exec/s: 150 rss: 274Mb L: 1045/1581 MS: 1 EraseBytes-
+#402340	REDUCE cov: 724 ft: 1782 corp: 606/502Kb lim: 1650 exec/s: 150 rss: 274Mb L: 514/1581 MS: 5 ChangeByte-ChangeBinInt-EraseBytes-InsertRepeatedBytes-InsertByte-
+#403776	REDUCE cov: 724 ft: 1782 corp: 606/502Kb lim: 1660 exec/s: 150 rss: 274Mb L: 551/1581 MS: 1 EraseBytes-
+#404247	NEW    cov: 724 ft: 1783 corp: 607/503Kb lim: 1660 exec/s: 150 rss: 274Mb L: 1053/1581 MS: 1 CMP- DE: ">\x00\x00\x00"-
+#406119	NEW    cov: 724 ft: 1785 corp: 608/504Kb lim: 1670 exec/s: 150 rss: 274Mb L: 1045/1581 MS: 2 PersAutoDict-CMP- DE: "\x00\x00\x00\x03"-"\xff\xff\xff\xff\xff\xff\xff\\"-
+#407354	REDUCE cov: 724 ft: 1785 corp: 608/504Kb lim: 1680 exec/s: 150 rss: 274Mb L: 1051/1581 MS: 5 ChangeASCIIInt-ChangeByte-ChangeByte-ChangeASCIIInt-EraseBytes-
+#409105	NEW    cov: 724 ft: 1787 corp: 609/505Kb lim: 1690 exec/s: 150 rss: 274Mb L: 1051/1581 MS: 1 PersAutoDict- DE: "\x00\x00\x00\x13"-
+#409199	NEW    cov: 724 ft: 1788 corp: 610/506Kb lim: 1690 exec/s: 150 rss: 274Mb L: 1159/1581 MS: 4 ChangeBinInt-ChangeBit-CopyPart-PersAutoDict- DE: "#\x0a#\x0a"-
+#409807	NEW    cov: 724 ft: 1789 corp: 611/508Kb lim: 1690 exec/s: 150 rss: 274Mb L: 1323/1581 MS: 3 ChangeASCIIInt-ChangeBit-InsertRepeatedBytes-
+#409868	NEW    cov: 724 ft: 1792 corp: 612/509Kb lim: 1690 exec/s: 150 rss: 274Mb L: 1299/1581 MS: 1 CMP- DE: "\xe8\x08\x0b\x00"-
+#410181	NEW    cov: 724 ft: 1795 corp: 613/510Kb lim: 1690 exec/s: 150 rss: 274Mb L: 1159/1581 MS: 3 ChangeByte-ChangeBit-PersAutoDict- DE: "DebugMessageIns"-
+#411024	REDUCE cov: 724 ft: 1797 corp: 614/511Kb lim: 1690 exec/s: 150 rss: 274Mb L: 1069/1581 MS: 3 InsertByte-ChangeBinInt-InsertByte-
+#411131	NEW    cov: 724 ft: 1799 corp: 615/512Kb lim: 1690 exec/s: 150 rss: 274Mb L: 1045/1581 MS: 2 InsertByte-CopyPart-
+#411775	NEW    cov: 724 ft: 1800 corp: 616/514Kb lim: 1690 exec/s: 150 rss: 274Mb L: 1323/1581 MS: 4 ChangeByte-InsertRepeatedBytes-ChangeBit-InsertByte-
+#411866	NEW    cov: 724 ft: 1801 corp: 617/515Kb lim: 1690 exec/s: 150 rss: 274Mb L: 1159/1581 MS: 1 CMP- DE: "\xff\x0a\x1a\x93"-
+#413252	REDUCE cov: 724 ft: 1801 corp: 617/515Kb lim: 1700 exec/s: 150 rss: 274Mb L: 538/1581 MS: 1 EraseBytes-
+#414148	REDUCE cov: 724 ft: 1801 corp: 617/515Kb lim: 1700 exec/s: 150 rss: 274Mb L: 1181/1581 MS: 1 EraseBytes-
+#417108	REDUCE cov: 724 ft: 1801 corp: 617/515Kb lim: 1720 exec/s: 150 rss: 274Mb L: 545/1581 MS: 5 ChangeByte-PersAutoDict-ChangeBit-EraseBytes-InsertByte- DE: "\x01\x00\x00\x00\xff\xff\xff\xff"-
+#419351	NEW    cov: 724 ft: 1803 corp: 618/516Kb lim: 1740 exec/s: 150 rss: 274Mb L: 1059/1581 MS: 3 PersAutoDict-PersAutoDict-CMP- DE: "GL_OES_fbo_render_mipmap"-"\x01\x00\x00\x00\xff\xff\xff\xff"-"\x0b\x00"-
+#421220	NEW    cov: 724 ft: 1812 corp: 619/517Kb lim: 1750 exec/s: 151 rss: 274Mb L: 1157/1581 MS: 4 ChangeByte-InsertRepeatedBytes-InsertRepeatedBytes-InsertRepeatedBytes-
+#421292	NEW    cov: 724 ft: 1813 corp: 620/518Kb lim: 1750 exec/s: 151 rss: 274Mb L: 1371/1581 MS: 2 ChangeByte-ChangeBinInt-
+#421756	NEW    cov: 724 ft: 1814 corp: 621/519Kb lim: 1750 exec/s: 151 rss: 274Mb L: 1371/1581 MS: 4 ChangeBit-PersAutoDict-CMP-CopyPart- DE: "!\x00\x00\x00"-"GL_ARB_vertex_buffer_"-
+#422958	NEW    cov: 724 ft: 1816 corp: 622/521Kb lim: 1760 exec/s: 151 rss: 274Mb L: 1231/1581 MS: 2 ChangeBit-CopyPart-
+#423210	NEW    cov: 725 ft: 1817 corp: 623/522Kb lim: 1760 exec/s: 151 rss: 274Mb L: 1037/1581 MS: 2 ChangeASCIIInt-PersAutoDict- DE: "\x00\x00\x00\x00"-
+#424165	REDUCE cov: 725 ft: 1817 corp: 623/522Kb lim: 1760 exec/s: 151 rss: 274Mb L: 1179/1581 MS: 5 InsertByte-InsertRepeatedBytes-EraseBytes-PersAutoDict-CopyPart- DE: ":\x02\x00\x00\x00\x00\x00\x00"-
+#424407	NEW    cov: 725 ft: 1818 corp: 624/523Kb lim: 1760 exec/s: 151 rss: 274Mb L: 1157/1581 MS: 2 PersAutoDict-CopyPart- DE: "3\x00\x00\x00"-
+#425257	REDUCE cov: 725 ft: 1818 corp: 624/523Kb lim: 1760 exec/s: 151 rss: 274Mb L: 1087/1581 MS: 5 CrossOver-PersAutoDict-PersAutoDict-ChangeBinInt-InsertByte- DE: "\x01\x00\x00%"-"\xff\xff\xff\x01"-
+#425483	REDUCE cov: 725 ft: 1819 corp: 625/523Kb lim: 1760 exec/s: 151 rss: 274Mb L: 606/1581 MS: 1 CMP- DE: "GL_ARB_vertex_buffer_obj"-
+#427579	NEW    cov: 725 ft: 1820 corp: 626/524Kb lim: 1780 exec/s: 151 rss: 274Mb L: 1159/1581 MS: 1 PersAutoDict- DE: "GL_ARB_imaging"-
+#427705	NEW    cov: 725 ft: 1821 corp: 627/526Kb lim: 1780 exec/s: 151 rss: 274Mb L: 1159/1581 MS: 1 PersAutoDict- DE: "\x01\x00\x00\x00\x00\x00\x04>"-
+#428712	REDUCE cov: 725 ft: 1825 corp: 628/527Kb lim: 1790 exec/s: 151 rss: 274Mb L: 1111/1581 MS: 2 ChangeByte-PersAutoDict- DE: "GL_EXT_multi_draw_arrays"-
+#430476	NEW    cov: 725 ft: 1826 corp: 629/528Kb lim: 1800 exec/s: 151 rss: 274Mb L: 1157/1581 MS: 4 CrossOver-ChangeByte-EraseBytes-InsertRepeatedBytes-
+#431425	NEW    cov: 725 ft: 1827 corp: 630/529Kb lim: 1800 exec/s: 151 rss: 274Mb L: 1419/1581 MS: 4 ChangeByte-InsertByte-PersAutoDict-InsertRepeatedBytes- DE: "\x01\x09\x16\xfc"-
+#432461	REDUCE cov: 725 ft: 1834 corp: 631/530Kb lim: 1810 exec/s: 151 rss: 274Mb L: 551/1581 MS: 1 ShuffleBytes-
+#433422	NEW    cov: 725 ft: 1837 corp: 632/531Kb lim: 1810 exec/s: 151 rss: 274Mb L: 1159/1581 MS: 1 PersAutoDict- DE: "GL_OES_required_internalfo"-
+#433581	REDUCE cov: 725 ft: 1837 corp: 632/531Kb lim: 1810 exec/s: 151 rss: 274Mb L: 1139/1581 MS: 4 InsertRepeatedBytes-EraseBytes-ChangeBit-PersAutoDict- DE: "3\x00"-
+#433598	NEW    cov: 725 ft: 1839 corp: 633/532Kb lim: 1810 exec/s: 151 rss: 274Mb L: 1091/1581 MS: 2 CopyPart-ChangeBit-
+#435551	REDUCE cov: 725 ft: 1839 corp: 633/532Kb lim: 1820 exec/s: 151 rss: 274Mb L: 537/1581 MS: 3 InsertRepeatedBytes-ChangeASCIIInt-EraseBytes-
+#436555	REDUCE cov: 725 ft: 1839 corp: 633/532Kb lim: 1820 exec/s: 151 rss: 274Mb L: 1087/1581 MS: 4 EraseBytes-ChangeByte-ChangeBit-InsertRepeatedBytes-
+#437389	REDUCE cov: 725 ft: 1839 corp: 633/532Kb lim: 1820 exec/s: 151 rss: 274Mb L: 1271/1581 MS: 4 EraseBytes-PersAutoDict-ChangeByte-PersAutoDict- DE: "\x00\x00\x00\x10"-"\x1d\x17\x0a\x00"-
+#437980	NEW    cov: 725 ft: 1840 corp: 634/533Kb lim: 1820 exec/s: 151 rss: 274Mb L: 1159/1581 MS: 1 CMP- DE: "\x01\x1a"-
+#438560	NEW    cov: 725 ft: 1842 corp: 635/534Kb lim: 1820 exec/s: 151 rss: 274Mb L: 1147/1581 MS: 5 InsertRepeatedBytes-CopyPart-InsertByte-ChangeBinInt-EraseBytes-
+#439312	REDUCE cov: 725 ft: 1842 corp: 635/534Kb lim: 1820 exec/s: 151 rss: 274Mb L: 518/1581 MS: 2 ChangeASCIIInt-EraseBytes-
+#439975	NEW    cov: 725 ft: 1843 corp: 636/535Kb lim: 1820 exec/s: 151 rss: 274Mb L: 1139/1581 MS: 3 ChangeASCIIInt-ChangeBit-ChangeBit-
+#440120	NEW    cov: 725 ft: 1844 corp: 637/536Kb lim: 1820 exec/s: 151 rss: 274Mb L: 1323/1581 MS: 5 ShuffleBytes-CopyPart-InsertByte-ChangeBinInt-CrossOver-
+#441812	NEW    cov: 725 ft: 1846 corp: 638/538Kb lim: 1830 exec/s: 152 rss: 274Mb L: 1159/1581 MS: 2 ShuffleBytes-PersAutoDict- DE: "^7\x02\x00"-
+#442153	NEW    cov: 725 ft: 1847 corp: 639/539Kb lim: 1830 exec/s: 152 rss: 274Mb L: 1295/1581 MS: 1 CopyPart-
+#445072	REDUCE cov: 725 ft: 1847 corp: 639/539Kb lim: 1850 exec/s: 152 rss: 274Mb L: 533/1581 MS: 4 ShuffleBytes-CMP-InsertRepeatedBytes-EraseBytes- DE: "\x00\x86"-
+#450713	REDUCE cov: 725 ft: 1848 corp: 640/540Kb lim: 1900 exec/s: 152 rss: 274Mb L: 1033/1581 MS: 1 PersAutoDict- DE: "\x01\x00\x003"-
+#450890	NEW    cov: 725 ft: 1850 corp: 641/541Kb lim: 1900 exec/s: 152 rss: 274Mb L: 1093/1581 MS: 2 InsertByte-InsertByte-
+#455302	REDUCE cov: 725 ft: 1850 corp: 641/541Kb lim: 1940 exec/s: 152 rss: 274Mb L: 551/1581 MS: 2 ShuffleBytes-EraseBytes-
+#457013	NEW    cov: 725 ft: 1852 corp: 642/542Kb lim: 1950 exec/s: 152 rss: 274Mb L: 1043/1581 MS: 1 ChangeBinInt-
+#457395	REDUCE cov: 725 ft: 1852 corp: 642/542Kb lim: 1950 exec/s: 152 rss: 274Mb L: 1157/1581 MS: 2 ShuffleBytes-EraseBytes-
+#458864	NEW    cov: 725 ft: 1854 corp: 643/543Kb lim: 1960 exec/s: 152 rss: 274Mb L: 1033/1581 MS: 4 EraseBytes-InsertByte-InsertRepeatedBytes-InsertRepeatedBytes-
+#459673	NEW    cov: 725 ft: 1856 corp: 644/544Kb lim: 1960 exec/s: 152 rss: 274Mb L: 1045/1581 MS: 4 InsertByte-ChangeBit-CopyPart-InsertByte-
+#461306	NEW    cov: 725 ft: 1858 corp: 645/545Kb lim: 1970 exec/s: 152 rss: 274Mb L: 1047/1581 MS: 3 CMP-ChangeBinInt-PersAutoDict- DE: "\x19\x02\x00\x00\x00\x00\x00\x00"-"\x02\x00\x00\x00"-
+#461435	NEW    cov: 725 ft: 1860 corp: 646/546Kb lim: 1970 exec/s: 152 rss: 274Mb L: 1047/1581 MS: 4 ChangeBinInt-InsertByte-ShuffleBytes-EraseBytes-
+#463334	NEW    cov: 725 ft: 1862 corp: 647/547Kb lim: 1980 exec/s: 152 rss: 274Mb L: 1067/1581 MS: 4 ChangeASCIIInt-ChangeBinInt-ShuffleBytes-PersAutoDict- DE: "\x00\x00\x00\x00\x00\x00\x00\x00"-
+#463449	REDUCE cov: 725 ft: 1862 corp: 647/547Kb lim: 1980 exec/s: 152 rss: 274Mb L: 530/1581 MS: 5 CopyPart-ShuffleBytes-ChangeByte-CopyPart-EraseBytes-
+#463530	NEW    cov: 725 ft: 1864 corp: 648/548Kb lim: 1980 exec/s: 152 rss: 274Mb L: 1159/1581 MS: 1 PersAutoDict- DE: "GL_ARB_transfo"-
+#466308	NEW    cov: 725 ft: 1866 corp: 649/549Kb lim: 2000 exec/s: 152 rss: 274Mb L: 1059/1581 MS: 3 ChangeASCIIInt-CopyPart-CMP- DE: "GL_OES_depth24"-
+#467915	NEW    cov: 725 ft: 1867 corp: 650/550Kb lim: 2010 exec/s: 152 rss: 274Mb L: 1141/1581 MS: 2 ChangeBit-CMP- DE: "*\x00"-
+#468187	NEW    cov: 725 ft: 1869 corp: 651/551Kb lim: 2010 exec/s: 152 rss: 274Mb L: 1295/1581 MS: 2 ChangeByte-CopyPart-
+#468564	NEW    cov: 725 ft: 1871 corp: 652/553Kb lim: 2010 exec/s: 152 rss: 274Mb L: 1055/1581 MS: 2 ChangeBit-PersAutoDict- DE: "\x03\x00\x00\x00\x00\x00\x00\x00"-
+#470546	NEW    cov: 725 ft: 1873 corp: 653/554Kb lim: 2020 exec/s: 152 rss: 274Mb L: 1177/1581 MS: 2 InsertByte-EraseBytes-
+#471222	NEW    cov: 725 ft: 1874 corp: 654/555Kb lim: 2020 exec/s: 152 rss: 274Mb L: 1043/1581 MS: 1 PersAutoDict- DE: "\x00\x00\x00\x00\x00\x00\x01\xc8"-
+#471261	REDUCE cov: 725 ft: 1874 corp: 654/555Kb lim: 2020 exec/s: 153 rss: 274Mb L: 1291/1581 MS: 4 InsertRepeatedBytes-ChangeASCIIInt-InsertByte-EraseBytes-
+#471537	NEW    cov: 725 ft: 1875 corp: 655/556Kb lim: 2020 exec/s: 153 rss: 274Mb L: 1157/1581 MS: 1 PersAutoDict- DE: "^7\x02\x00"-
+#471994	NEW    cov: 725 ft: 1876 corp: 656/557Kb lim: 2020 exec/s: 153 rss: 274Mb L: 1157/1581 MS: 2 CopyPart-PersAutoDict- DE: "\x02\x00\x00\x00\x00\x00\x00\x00"-
+#472059	REDUCE cov: 725 ft: 1876 corp: 656/557Kb lim: 2020 exec/s: 153 rss: 274Mb L: 517/1581 MS: 5 ChangeBit-ShuffleBytes-ChangeBit-EraseBytes-InsertRepeatedBytes-
+#472877	NEW    cov: 725 ft: 1879 corp: 657/559Kb lim: 2020 exec/s: 153 rss: 274Mb L: 1721/1721 MS: 3 PersAutoDict-ChangeByte-CopyPart- DE: "\x02\x00\x00\x00\x00\x00\x00\x00"-
+#473958	NEW    cov: 725 ft: 1880 corp: 658/559Kb lim: 2030 exec/s: 153 rss: 274Mb L: 618/1721 MS: 1 InsertRepeatedBytes-
+#474234	NEW    cov: 725 ft: 1881 corp: 659/560Kb lim: 2030 exec/s: 153 rss: 274Mb L: 1159/1721 MS: 1 PersAutoDict- DE: "\xff\xff\xff\xff\xff\xff\x01\x00"-
+#474502	REDUCE cov: 725 ft: 1883 corp: 660/562Kb lim: 2030 exec/s: 153 rss: 274Mb L: 1383/1721 MS: 3 ChangeBinInt-ChangeBinInt-InsertRepeatedBytes-
+#475133	REDUCE cov: 725 ft: 1883 corp: 660/562Kb lim: 2030 exec/s: 153 rss: 274Mb L: 518/1721 MS: 1 EraseBytes-
+#475165	REDUCE cov: 725 ft: 1883 corp: 660/562Kb lim: 2030 exec/s: 153 rss: 274Mb L: 523/1721 MS: 2 EraseBytes-CopyPart-
+#475556	NEW    cov: 725 ft: 1884 corp: 661/563Kb lim: 2030 exec/s: 153 rss: 274Mb L: 1063/1721 MS: 1 CMP- DE: "\x00\x00\x00\x00\x00\x00\x02\x00"-
+#476322	NEW    cov: 725 ft: 1886 corp: 662/564Kb lim: 2030 exec/s: 153 rss: 274Mb L: 1387/1721 MS: 1 CMP- DE: "\x01\x0d/\x96"-
+#478093	NEW    cov: 725 ft: 1887 corp: 663/565Kb lim: 2040 exec/s: 153 rss: 274Mb L: 1159/1721 MS: 1 CopyPart-
+#478895	NEW    cov: 725 ft: 1888 corp: 664/566Kb lim: 2040 exec/s: 153 rss: 274Mb L: 670/1721 MS: 2 CMP-InsertByte- DE: "GL_ARB_vertex_buffe"-
+#479360	REDUCE cov: 725 ft: 1888 corp: 664/566Kb lim: 2040 exec/s: 153 rss: 274Mb L: 1275/1721 MS: 5 CMP-InsertRepeatedBytes-ShuffleBytes-EraseBytes-InsertRepeatedBytes- DE: "\x01\x00\x00\x00\x00\x00\x00\x00"-
+#479899	NEW    cov: 725 ft: 1889 corp: 665/567Kb lim: 2040 exec/s: 153 rss: 274Mb L: 1157/1721 MS: 4 ShuffleBytes-ChangeBit-ChangeASCIIInt-PersAutoDict- DE: "\x00\x00\x00\x00\x00\x00\x01\xc8"-
+#480296	NEW    cov: 725 ft: 1890 corp: 666/568Kb lim: 2040 exec/s: 153 rss: 274Mb L: 1159/1721 MS: 2 ChangeBinInt-PersAutoDict- DE: "2\x00\x00\x00"-
+#480675	REDUCE cov: 725 ft: 1890 corp: 666/568Kb lim: 2040 exec/s: 153 rss: 274Mb L: 590/1721 MS: 4 InsertRepeatedBytes-CMP-InsertByte-EraseBytes- DE: "GL_ARB_vertex_"-
+#482208	REDUCE cov: 725 ft: 1890 corp: 666/568Kb lim: 2050 exec/s: 153 rss: 274Mb L: 1077/1721 MS: 3 EraseBytes-CopyPart-InsertRepeatedBytes-
+#482545	NEW    cov: 725 ft: 1891 corp: 667/569Kb lim: 2050 exec/s: 153 rss: 274Mb L: 1159/1721 MS: 2 ChangeBinInt-PersAutoDict- DE: "\xff\xff\xff\xff"-
+#482624	NEW    cov: 725 ft: 1893 corp: 668/570Kb lim: 2050 exec/s: 153 rss: 274Mb L: 1147/1721 MS: 4 CopyPart-ShuffleBytes-InsertByte-InsertRepeatedBytes-
+#482757	NEW    cov: 725 ft: 1895 corp: 669/571Kb lim: 2050 exec/s: 153 rss: 274Mb L: 1253/1721 MS: 3 ChangeBinInt-PersAutoDict-InsertRepeatedBytes- DE: "\x00\x00\x00\x03"-
+#485857	REDUCE cov: 725 ft: 1895 corp: 669/571Kb lim: 2072 exec/s: 153 rss: 274Mb L: 750/1721 MS: 5 ChangeBit-ChangeBinInt-ChangeBinInt-CopyPart-EraseBytes-
+#487953	REDUCE cov: 725 ft: 1895 corp: 669/571Kb lim: 2083 exec/s: 153 rss: 274Mb L: 1113/1721 MS: 1 EraseBytes-
+#488350	REDUCE cov: 725 ft: 1895 corp: 669/571Kb lim: 2083 exec/s: 153 rss: 274Mb L: 1421/1721 MS: 2 EraseBytes-CopyPart-
+#488424	REDUCE cov: 725 ft: 1895 corp: 669/571Kb lim: 2083 exec/s: 153 rss: 274Mb L: 1157/1721 MS: 4 InsertByte-ChangeBinInt-ChangeByte-CrossOver-
+#490143	NEW    cov: 726 ft: 1896 corp: 670/572Kb lim: 2094 exec/s: 153 rss: 274Mb L: 939/1721 MS: 4 CopyPart-ShuffleBytes-EraseBytes-PersAutoDict- DE: "GL_EXT_separate_shader_obj"-
+#490565	REDUCE cov: 727 ft: 1897 corp: 671/573Kb lim: 2094 exec/s: 153 rss: 274Mb L: 1081/1721 MS: 2 CMP-PersAutoDict- DE: "\xff\xff\xff2"-"\x0b\x00"-
+#491442	NEW    cov: 727 ft: 1898 corp: 672/574Kb lim: 2094 exec/s: 153 rss: 274Mb L: 606/1721 MS: 2 ChangeByte-ChangeBinInt-
+#493114	NEW    cov: 727 ft: 1900 corp: 673/575Kb lim: 2105 exec/s: 153 rss: 274Mb L: 1047/1721 MS: 2 EraseBytes-InsertByte-
+#493593	REDUCE cov: 727 ft: 1900 corp: 673/575Kb lim: 2105 exec/s: 153 rss: 274Mb L: 1095/1721 MS: 4 ShuffleBytes-InsertByte-ChangeByte-EraseBytes-
+#494669	NEW    cov: 727 ft: 1901 corp: 674/576Kb lim: 2105 exec/s: 153 rss: 274Mb L: 1037/1721 MS: 1 PersAutoDict- DE: "\x05\x00\x00\x00"-
+#495577	NEW    cov: 727 ft: 1902 corp: 675/578Kb lim: 2105 exec/s: 153 rss: 274Mb L: 2105/2105 MS: 3 EraseBytes-InsertRepeatedBytes-CrossOver-
+#496068	NEW    cov: 727 ft: 1903 corp: 676/579Kb lim: 2105 exec/s: 153 rss: 274Mb L: 1159/2105 MS: 1 PersAutoDict- DE: "\x00\x86"-
+#496174	REDUCE cov: 727 ft: 1903 corp: 676/579Kb lim: 2105 exec/s: 153 rss: 274Mb L: 811/2105 MS: 1 EraseBytes-
+#496231	REDUCE cov: 727 ft: 1903 corp: 676/579Kb lim: 2105 exec/s: 153 rss: 274Mb L: 518/2105 MS: 2 ShuffleBytes-EraseBytes-
+#496637	NEW    cov: 727 ft: 1905 corp: 677/580Kb lim: 2105 exec/s: 153 rss: 274Mb L: 1395/2105 MS: 1 CMP- DE: "\x01\x00\x00\x00\x00\x00\x02\x0e"-
+#496798	REDUCE cov: 727 ft: 1905 corp: 677/580Kb lim: 2105 exec/s: 153 rss: 274Mb L: 1101/2105 MS: 1 EraseBytes-
+#499966	NEW    cov: 727 ft: 1906 corp: 678/582Kb lim: 2127 exec/s: 153 rss: 274Mb L: 2127/2127 MS: 3 ChangeBit-PersAutoDict-CrossOver- DE: "\x1dg\x01\x00"-
+#500608	REDUCE cov: 727 ft: 1906 corp: 678/582Kb lim: 2127 exec/s: 153 rss: 274Mb L: 522/2127 MS: 2 CMP-EraseBytes- DE: "\xff\x19"-
+#501655	REDUCE cov: 727 ft: 1906 corp: 678/582Kb lim: 2127 exec/s: 153 rss: 274Mb L: 538/2127 MS: 2 ChangeBit-EraseBytes-
+#502201	NEW    cov: 727 ft: 1907 corp: 679/584Kb lim: 2127 exec/s: 153 rss: 274Mb L: 1159/2127 MS: 1 PersAutoDict- DE: "\x01\x0822"-
+#502532	NEW    cov: 727 ft: 1908 corp: 680/586Kb lim: 2127 exec/s: 153 rss: 274Mb L: 2127/2127 MS: 1 CrossOver-
+#503740	REDUCE cov: 727 ft: 1909 corp: 681/587Kb lim: 2138 exec/s: 153 rss: 274Mb L: 1171/2127 MS: 3 InsertRepeatedBytes-PersAutoDict-InsertByte- DE: "\x19\x02\x00\x00\x00\x00\x00\x00"-
+#504569	NEW    cov: 727 ft: 1910 corp: 682/588Kb lim: 2138 exec/s: 153 rss: 274Mb L: 1167/2127 MS: 4 ChangeBinInt-ChangeBit-InsertRepeatedBytes-InsertRepeatedBytes-
+#505639	NEW    cov: 727 ft: 1911 corp: 683/589Kb lim: 2138 exec/s: 153 rss: 274Mb L: 1159/2127 MS: 5 CMP-ChangeBit-PersAutoDict-ShuffleBytes-ChangeByte- DE: "\x94\x02\x00\x00\x00\x00\x00\x00"-"\x00\x86"-
+#507566	NEW    cov: 727 ft: 1913 corp: 684/591Kb lim: 2149 exec/s: 153 rss: 274Mb L: 2149/2149 MS: 2 InsertByte-CrossOver-
+#508338	NEW    cov: 727 ft: 1914 corp: 685/592Kb lim: 2149 exec/s: 153 rss: 274Mb L: 1037/2149 MS: 2 CMP-PersAutoDict- DE: "\x00\x00\x00\x00\x00\x00\x00\x00"-"\xff\xff\xff\x00"-
+#509120	NEW    cov: 727 ft: 1915 corp: 686/593Kb lim: 2149 exec/s: 153 rss: 274Mb L: 1178/2149 MS: 2 CrossOver-EraseBytes-
+#512407	NEW    cov: 727 ft: 1917 corp: 687/595Kb lim: 2171 exec/s: 153 rss: 274Mb L: 2155/2155 MS: 2 ShuffleBytes-InsertRepeatedBytes-
+#514828	REDUCE cov: 727 ft: 1917 corp: 687/595Kb lim: 2193 exec/s: 153 rss: 274Mb L: 533/2155 MS: 1 EraseBytes-
+#514907	REDUCE cov: 727 ft: 1917 corp: 687/595Kb lim: 2193 exec/s: 153 rss: 274Mb L: 1069/2155 MS: 4 ChangeByte-ChangeBinInt-ChangeBit-EraseBytes-
+#515252	REDUCE cov: 727 ft: 1917 corp: 687/595Kb lim: 2193 exec/s: 153 rss: 274Mb L: 550/2155 MS: 5 EraseBytes-InsertRepeatedBytes-CMP-EraseBytes-EraseBytes- DE: "\x01\x00\x00\x00\x00\x00\x02\x0a"-
+#516335	REDUCE cov: 727 ft: 1917 corp: 687/595Kb lim: 2193 exec/s: 153 rss: 274Mb L: 559/2155 MS: 3 ChangeBit-InsertByte-EraseBytes-
+#520290	REDUCE cov: 727 ft: 1917 corp: 687/595Kb lim: 2226 exec/s: 153 rss: 274Mb L: 1157/2155 MS: 5 ShuffleBytes-ShuffleBytes-ChangeASCIIInt-ChangeBinInt-EraseBytes-
+#520587	REDUCE cov: 727 ft: 1920 corp: 688/596Kb lim: 2226 exec/s: 153 rss: 274Mb L: 1051/2155 MS: 2 ShuffleBytes-ChangeBinInt-
+#522059	REDUCE cov: 727 ft: 1920 corp: 688/596Kb lim: 2237 exec/s: 153 rss: 274Mb L: 654/2155 MS: 2 ShuffleBytes-EraseBytes-
+#522082	NEW    cov: 727 ft: 1921 corp: 689/597Kb lim: 2237 exec/s: 153 rss: 274Mb L: 1039/2155 MS: 3 PersAutoDict-ChangeASCIIInt-EraseBytes- DE: "\x0b\x00"-
+#522793	REDUCE cov: 727 ft: 1921 corp: 689/597Kb lim: 2237 exec/s: 153 rss: 274Mb L: 1051/2155 MS: 1 EraseBytes-
+#523129	NEW    cov: 727 ft: 1924 corp: 690/598Kb lim: 2237 exec/s: 153 rss: 274Mb L: 1059/2155 MS: 1 CMP- DE: "\xf1\x07\x00\x00\x00\x00\x00\x00"-
+#523926	REDUCE cov: 727 ft: 1924 corp: 690/598Kb lim: 2237 exec/s: 153 rss: 274Mb L: 522/2155 MS: 2 PersAutoDict-EraseBytes- DE: "3\x00"-
+#524288	pulse  cov: 727 ft: 1924 corp: 690/598Kb lim: 2237 exec/s: 153 rss: 274Mb
+#524373	REDUCE cov: 727 ft: 1924 corp: 690/598Kb lim: 2237 exec/s: 153 rss: 274Mb L: 782/2155 MS: 2 ChangeByte-EraseBytes-
+#526429	NEW    cov: 727 ft: 1925 corp: 691/598Kb lim: 2248 exec/s: 153 rss: 274Mb L: 526/2155 MS: 1 CopyPart-
+#527385	REDUCE cov: 727 ft: 1925 corp: 691/598Kb lim: 2248 exec/s: 153 rss: 274Mb L: 1115/2155 MS: 1 EraseBytes-
+#527932	NEW    cov: 727 ft: 1927 corp: 692/599Kb lim: 2248 exec/s: 153 rss: 274Mb L: 1051/2155 MS: 2 CopyPart-PersAutoDict- DE: "\x00\x00\x00\x13"-
+#528019	REDUCE cov: 727 ft: 1927 corp: 692/599Kb lim: 2248 exec/s: 153 rss: 274Mb L: 1157/2155 MS: 2 EraseBytes-InsertByte-
+#530361	REDUCE cov: 727 ft: 1927 corp: 692/599Kb lim: 2270 exec/s: 153 rss: 274Mb L: 1131/2155 MS: 2 ChangeBinInt-EraseBytes-
+#531787	REDUCE cov: 727 ft: 1927 corp: 692/599Kb lim: 2281 exec/s: 153 rss: 274Mb L: 1177/2155 MS: 1 EraseBytes-
+#533767	NEW    cov: 727 ft: 1928 corp: 693/600Kb lim: 2292 exec/s: 153 rss: 274Mb L: 1147/2155 MS: 5 ShuffleBytes-CopyPart-ChangeBinInt-CMP-PersAutoDict- DE: "GL_ARB_vertex_buff"-"\x00\x00\x00\x00\x00\x00\x04\x0e"-
+#534152	NEW    cov: 727 ft: 1929 corp: 694/602Kb lim: 2292 exec/s: 153 rss: 274Mb L: 2149/2155 MS: 5 ChangeBinInt-ChangeByte-ShuffleBytes-CopyPart-CopyPart-
+#534799	REDUCE cov: 727 ft: 1929 corp: 694/602Kb lim: 2292 exec/s: 153 rss: 274Mb L: 598/2155 MS: 2 ChangeBinInt-EraseBytes-
+#539166	NEW    cov: 727 ft: 1934 corp: 695/603Kb lim: 2325 exec/s: 154 rss: 274Mb L: 1113/2155 MS: 2 CopyPart-CMP- DE: "\x01\x1c"-
+#540790	REDUCE cov: 727 ft: 1934 corp: 695/602Kb lim: 2336 exec/s: 154 rss: 274Mb L: 1141/2155 MS: 4 CrossOver-EraseBytes-ChangeBinInt-InsertRepeatedBytes-
+#540991	NEW    cov: 727 ft: 1935 corp: 696/603Kb lim: 2336 exec/s: 154 rss: 274Mb L: 1159/2155 MS: 1 ShuffleBytes-
+#541763	REDUCE cov: 727 ft: 1935 corp: 696/603Kb lim: 2336 exec/s: 154 rss: 274Mb L: 547/2155 MS: 2 ChangeByte-EraseBytes-
+#543092	NEW    cov: 727 ft: 1937 corp: 697/604Kb lim: 2347 exec/s: 154 rss: 274Mb L: 1091/2155 MS: 4 ChangeBit-ShuffleBytes-CMP-ChangeByte- DE: "\xff\xff\xff\x19"-
+#543499	REDUCE cov: 727 ft: 1937 corp: 697/604Kb lim: 2347 exec/s: 154 rss: 274Mb L: 555/2155 MS: 2 InsertRepeatedBytes-EraseBytes-
+#543593	NEW    cov: 727 ft: 1939 corp: 698/605Kb lim: 2347 exec/s: 154 rss: 274Mb L: 1095/2155 MS: 4 CMP-ChangeBit-CopyPart-PersAutoDict- DE: "GL_ARB_vertex_buf"-"^7\x02\x00"-
+#544400	NEW    cov: 727 ft: 1941 corp: 699/607Kb lim: 2347 exec/s: 154 rss: 274Mb L: 1159/2155 MS: 2 ChangeBit-PersAutoDict- DE: "GL_EXT_multi_draw_arrays"-
+#544598	NEW    cov: 727 ft: 1944 corp: 700/608Kb lim: 2347 exec/s: 154 rss: 274Mb L: 1063/2155 MS: 3 PersAutoDict-ShuffleBytes-PersAutoDict- DE: "\xff\xff\xff\xff\xff\xff\xff\xff"-"\xff\xff\xff\x06"-
+#545070	NEW    cov: 727 ft: 1946 corp: 701/609Kb lim: 2347 exec/s: 154 rss: 274Mb L: 1099/2155 MS: 2 ChangeByte-CMP- DE: "\x01\x00\x00\x00\x00\x00\x00\x00"-
+#551024	REDUCE cov: 727 ft: 1947 corp: 702/611Kb lim: 2402 exec/s: 154 rss: 274Mb L: 2282/2282 MS: 4 ChangeBinInt-EraseBytes-CrossOver-CopyPart-
+#551286	REDUCE cov: 727 ft: 1947 corp: 702/611Kb lim: 2402 exec/s: 154 rss: 274Mb L: 1321/2282 MS: 2 ShuffleBytes-EraseBytes-
+#552935	REDUCE cov: 727 ft: 1949 corp: 703/612Kb lim: 2413 exec/s: 154 rss: 274Mb L: 1253/2282 MS: 4 PersAutoDict-InsertRepeatedBytes-ChangeByte-InsertByte- DE: "!\x00\x00\x00"-
+#555375	NEW    cov: 727 ft: 1951 corp: 704/613Kb lim: 2435 exec/s: 154 rss: 274Mb L: 1737/2282 MS: 5 CopyPart-ShuffleBytes-ChangeBit-ShuffleBytes-InsertRepeatedBytes-
+#557720	NEW    cov: 727 ft: 1952 corp: 705/615Kb lim: 2457 exec/s: 154 rss: 274Mb L: 1711/2282 MS: 5 EraseBytes-EraseBytes-CMP-CrossOver-CrossOver- DE: "GL_ARB_vertex_buffer_ob"-
+#558867	NEW    cov: 727 ft: 1954 corp: 706/617Kb lim: 2468 exec/s: 154 rss: 274Mb L: 1423/2282 MS: 2 ChangeBinInt-ChangeByte-
+#558900	NEW    cov: 733 ft: 1960 corp: 707/618Kb lim: 2468 exec/s: 154 rss: 274Mb L: 1037/2282 MS: 3 ChangeASCIIInt-InsertRepeatedBytes-EraseBytes-
+#559282	NEW    cov: 733 ft: 1961 corp: 708/619Kb lim: 2468 exec/s: 154 rss: 274Mb L: 1159/2282 MS: 2 ShuffleBytes-PersAutoDict- DE: "GL_EXT_draw_buffers_indexe"-
+#561755	REDUCE cov: 733 ft: 1961 corp: 708/619Kb lim: 2490 exec/s: 154 rss: 274Mb L: 1043/2282 MS: 3 CMP-InsertByte-EraseBytes- DE: "GL_OES_EGL_sync"-
+#562233	REDUCE cov: 733 ft: 1961 corp: 708/618Kb lim: 2490 exec/s: 154 rss: 274Mb L: 1081/2282 MS: 3 EraseBytes-PersAutoDict-CMP- DE: "\x01\x1a"-"\x0b\x01\x00\x00\x00\x00\x00\x00"-
+#563463	NEW    cov: 733 ft: 1965 corp: 709/619Kb lim: 2501 exec/s: 154 rss: 274Mb L: 1237/2282 MS: 5 InsertByte-PersAutoDict-ChangeBinInt-InsertRepeatedBytes-CMP- DE: "\x02\x02\x00\x00\x00\x00\x00\x00"-"\x01\x00\x00\x04"-
+#564592	REDUCE cov: 733 ft: 1965 corp: 709/619Kb lim: 2512 exec/s: 154 rss: 274Mb L: 1087/2282 MS: 4 ChangeByte-ChangeASCIIInt-InsertRepeatedBytes-EraseBytes-
+#565374	NEW    cov: 733 ft: 1966 corp: 710/620Kb lim: 2512 exec/s: 154 rss: 274Mb L: 1159/2282 MS: 2 ChangeBinInt-CMP- DE: " \x01\x00\x00"-
+#567224	REDUCE cov: 733 ft: 1966 corp: 710/620Kb lim: 2523 exec/s: 154 rss: 274Mb L: 1039/2282 MS: 5 PersAutoDict-ChangeBinInt-ShuffleBytes-EraseBytes-InsertByte- DE: "\x00\x00\x00\x00"-
+#569125	NEW    cov: 733 ft: 1968 corp: 711/621Kb lim: 2534 exec/s: 154 rss: 274Mb L: 1093/2282 MS: 1 PersAutoDict- DE: "\x1d\x17\x0a\x00"-
+#569822	REDUCE cov: 733 ft: 1970 corp: 712/622Kb lim: 2534 exec/s: 154 rss: 274Mb L: 1171/2282 MS: 2 InsertByte-CrossOver-
+#569825	NEW    cov: 733 ft: 1974 corp: 713/623Kb lim: 2534 exec/s: 154 rss: 274Mb L: 1263/2282 MS: 3 CopyPart-PersAutoDict-CMP- DE: "\x01\x00\x00\x00\x00\x00\x00\x00"-"GL_OES_tessellation_shader"-
+#569896	NEW    cov: 733 ft: 1978 corp: 714/624Kb lim: 2534 exec/s: 154 rss: 274Mb L: 1121/2282 MS: 1 CMP- DE: "M\x02\x00\x00\x00\x00\x00\x00"-
+#571208	REDUCE cov: 733 ft: 1978 corp: 714/624Kb lim: 2545 exec/s: 154 rss: 274Mb L: 1033/2282 MS: 2 InsertByte-EraseBytes-
+#571889	NEW    cov: 733 ft: 1979 corp: 715/626Kb lim: 2545 exec/s: 154 rss: 274Mb L: 1719/2282 MS: 1 CMP- DE: "\x00\x00\x00\x00\x00\x00\x04\x9a"-
+#574280	REDUCE cov: 733 ft: 1979 corp: 715/626Kb lim: 2567 exec/s: 154 rss: 274Mb L: 1157/2282 MS: 1 EraseBytes-
+#575081	REDUCE cov: 733 ft: 1979 corp: 715/626Kb lim: 2567 exec/s: 154 rss: 274Mb L: 526/2282 MS: 1 EraseBytes-
+#575152	NEW    cov: 734 ft: 1980 corp: 716/627Kb lim: 2567 exec/s: 154 rss: 274Mb L: 1047/2282 MS: 1 PersAutoDict- DE: "\x02\x00\x00\x00"-
+#578073	REDUCE cov: 734 ft: 1980 corp: 716/626Kb lim: 2589 exec/s: 154 rss: 274Mb L: 1101/2282 MS: 1 CrossOver-
+#580673	REDUCE cov: 734 ft: 1982 corp: 717/628Kb lim: 2611 exec/s: 154 rss: 274Mb L: 2219/2282 MS: 5 ShuffleBytes-CrossOver-ChangeBinInt-EraseBytes-InsertRepeatedBytes-
+#585328	NEW    cov: 734 ft: 1989 corp: 718/630Kb lim: 2655 exec/s: 154 rss: 274Mb L: 2217/2282 MS: 5 ChangeASCIIInt-InsertByte-ChangeByte-ChangeByte-CopyPart-
+#585361	NEW    cov: 734 ft: 1991 corp: 719/632Kb lim: 2655 exec/s: 154 rss: 274Mb L: 1839/2282 MS: 3 InsertByte-ChangeASCIIInt-CopyPart-
+#586861	NEW    cov: 734 ft: 1993 corp: 720/633Kb lim: 2666 exec/s: 154 rss: 274Mb L: 1115/2282 MS: 5 CMP-ChangeBit-InsertByte-ChangeBinInt-InsertByte- DE: "\x013"-
+#588797	REDUCE cov: 734 ft: 1995 corp: 721/634Kb lim: 2677 exec/s: 154 rss: 274Mb L: 1045/2282 MS: 1 ChangeBinInt-
+#591108	NEW    cov: 734 ft: 1997 corp: 722/635Kb lim: 2699 exec/s: 154 rss: 274Mb L: 1049/2282 MS: 1 CMP- DE: "\xc2+\x11\x00"-
+#593352	REDUCE cov: 734 ft: 1997 corp: 722/635Kb lim: 2721 exec/s: 154 rss: 274Mb L: 1123/2282 MS: 4 ChangeBinInt-CopyPart-ShuffleBytes-EraseBytes-
+#593613	REDUCE cov: 734 ft: 1997 corp: 722/635Kb lim: 2721 exec/s: 154 rss: 274Mb L: 1634/2282 MS: 1 EraseBytes-
+#594588	NEW    cov: 735 ft: 1998 corp: 723/637Kb lim: 2721 exec/s: 154 rss: 274Mb L: 2097/2282 MS: 5 CMP-ShuffleBytes-ChangeBit-CopyPart-PersAutoDict- DE: "\x00\x00\x01\x07"-"\x01\x00\x00\x00"-
+#595567	NEW    cov: 735 ft: 2002 corp: 724/638Kb lim: 2721 exec/s: 154 rss: 274Mb L: 1453/2282 MS: 4 ChangeBit-CrossOver-ChangeByte-EraseBytes-
+#595583	REDUCE cov: 735 ft: 2002 corp: 724/638Kb lim: 2721 exec/s: 154 rss: 274Mb L: 549/2282 MS: 1 EraseBytes-
+#596023	REDUCE cov: 735 ft: 2002 corp: 724/638Kb lim: 2721 exec/s: 154 rss: 274Mb L: 1285/2282 MS: 5 ChangeBit-EraseBytes-ShuffleBytes-ChangeASCIIInt-PersAutoDict- DE: "\x00\x00\x00\x00\x00\x00\x00\x00"-
+#596083	NEW    cov: 735 ft: 2004 corp: 725/640Kb lim: 2721 exec/s: 154 rss: 274Mb L: 1455/2282 MS: 5 ChangeBit-InsertByte-ChangeBinInt-ChangeASCIIInt-InsertByte-
+#597183	NEW    cov: 735 ft: 2005 corp: 726/640Kb lim: 2721 exec/s: 154 rss: 274Mb L: 559/2282 MS: 5 ChangeByte-CopyPart-ChangeBinInt-CopyPart-PersAutoDict- DE: "\x96\x01\x00\x00\x00\x00\x00\x00"-
+#597386	NEW    cov: 735 ft: 2006 corp: 727/642Kb lim: 2721 exec/s: 154 rss: 274Mb L: 2227/2282 MS: 3 ShuffleBytes-ChangeBinInt-PersAutoDict- DE: "\x01\x02\x00\x00\x00\x00\x00\x00"-
+#598368	REDUCE cov: 735 ft: 2006 corp: 727/642Kb lim: 2721 exec/s: 154 rss: 274Mb L: 1111/2282 MS: 2 CopyPart-EraseBytes-
+#598533	NEW    cov: 735 ft: 2007 corp: 728/645Kb lim: 2721 exec/s: 154 rss: 274Mb L: 2721/2721 MS: 5 CMP-CopyPart-ShuffleBytes-CMP-CrossOver- DE: "@\xff\xff\xff"-"\xff\xff\xff\xff\xff\xff\xff\xff"-
+#600784	NEW    cov: 736 ft: 2008 corp: 729/646Kb lim: 2743 exec/s: 154 rss: 274Mb L: 1273/2721 MS: 1 CopyPart-
+#600879	REDUCE cov: 736 ft: 2008 corp: 729/646Kb lim: 2743 exec/s: 154 rss: 274Mb L: 1035/2721 MS: 5 ChangeASCIIInt-InsertByte-ChangeBinInt-ShuffleBytes-EraseBytes-
+#601540	NEW    cov: 736 ft: 2012 corp: 730/647Kb lim: 2743 exec/s: 154 rss: 274Mb L: 1267/2721 MS: 1 PersAutoDict- DE: "\xff\xff\xff\x02"-
+#601563	NEW    cov: 736 ft: 2013 corp: 731/649Kb lim: 2743 exec/s: 154 rss: 274Mb L: 1159/2721 MS: 3 CopyPart-ChangeByte-PersAutoDict- DE: "3\x00"-
+#601731	REDUCE cov: 736 ft: 2013 corp: 731/649Kb lim: 2743 exec/s: 154 rss: 274Mb L: 762/2721 MS: 3 ChangeByte-ChangeBinInt-EraseBytes-
+#603084	NEW    cov: 736 ft: 2015 corp: 732/650Kb lim: 2754 exec/s: 154 rss: 274Mb L: 1045/2721 MS: 3 ShuffleBytes-PersAutoDict-PersAutoDict- DE: "\x01\x0822"-":\x02\x00\x00\x00\x00\x00\x00"-
+#603571	NEW    cov: 736 ft: 2017 corp: 733/651Kb lim: 2754 exec/s: 154 rss: 274Mb L: 1205/2721 MS: 2 InsertRepeatedBytes-PersAutoDict- DE: "e\x02\x00\x00\x00\x00\x00\x00"-
+#604232	REDUCE cov: 736 ft: 2017 corp: 733/651Kb lim: 2754 exec/s: 154 rss: 274Mb L: 1091/2721 MS: 1 EraseBytes-
+#604944	REDUCE cov: 736 ft: 2017 corp: 733/651Kb lim: 2754 exec/s: 154 rss: 274Mb L: 598/2721 MS: 2 InsertByte-EraseBytes-
+#608768	NEW    cov: 736 ft: 2019 corp: 734/652Kb lim: 2787 exec/s: 154 rss: 274Mb L: 1207/2721 MS: 4 InsertByte-InsertRepeatedBytes-InsertByte-EraseBytes-
+#609397	REDUCE cov: 736 ft: 2019 corp: 734/652Kb lim: 2787 exec/s: 154 rss: 274Mb L: 547/2721 MS: 4 InsertRepeatedBytes-ChangeBit-CMP-EraseBytes- DE: "\x01\x90"-
+#610789	NEW    cov: 736 ft: 2020 corp: 735/653Kb lim: 2798 exec/s: 154 rss: 274Mb L: 1171/2721 MS: 2 ChangeASCIIInt-ChangeBit-
+#612929	REDUCE cov: 736 ft: 2020 corp: 735/653Kb lim: 2809 exec/s: 154 rss: 274Mb L: 1055/2721 MS: 5 EraseBytes-ChangeByte-PersAutoDict-CopyPart-InsertRepeatedBytes- DE: "GL_OES_surfaceless_context"-
+#613355	NEW    cov: 736 ft: 2022 corp: 736/654Kb lim: 2809 exec/s: 154 rss: 274Mb L: 1431/2721 MS: 1 CMP- DE: "\x01\x00\x00\x00\x00\x00\x02\x00"-
+#614096	NEW    cov: 736 ft: 2023 corp: 737/656Kb lim: 2809 exec/s: 154 rss: 274Mb L: 1715/2721 MS: 1 PersAutoDict- DE: "\xff\xff\xff\x00"-
+#614882	NEW    cov: 736 ft: 2024 corp: 738/657Kb lim: 2809 exec/s: 154 rss: 274Mb L: 1159/2721 MS: 1 PersAutoDict- DE: "GL_OES_texture_buffer"-
+#615409	REDUCE cov: 736 ft: 2024 corp: 738/657Kb lim: 2809 exec/s: 154 rss: 274Mb L: 1081/2721 MS: 2 InsertRepeatedBytes-EraseBytes-
+#617649	REDUCE cov: 736 ft: 2024 corp: 738/657Kb lim: 2831 exec/s: 154 rss: 274Mb L: 1147/2721 MS: 5 CopyPart-InsertByte-ChangeBinInt-ShuffleBytes-EraseBytes-
+#617870	REDUCE cov: 736 ft: 2024 corp: 738/657Kb lim: 2831 exec/s: 154 rss: 274Mb L: 1031/2721 MS: 1 EraseBytes-
+#618155	REDUCE cov: 736 ft: 2024 corp: 738/657Kb lim: 2831 exec/s: 154 rss: 274Mb L: 570/2721 MS: 5 ChangeBinInt-CopyPart-EraseBytes-ChangeASCIIInt-InsertByte-
+#618796	NEW    cov: 736 ft: 2025 corp: 739/658Kb lim: 2831 exec/s: 154 rss: 274Mb L: 1175/2721 MS: 1 PersAutoDict- DE: "\x00\x00\x00\x00"-
+#619846	REDUCE cov: 736 ft: 2025 corp: 739/658Kb lim: 2831 exec/s: 154 rss: 274Mb L: 1113/2721 MS: 5 ChangeByte-EraseBytes-PersAutoDict-ShuffleBytes-InsertRepeatedBytes- DE: "GL_ARB_transform_feedback"-
+#621425	REDUCE cov: 736 ft: 2025 corp: 739/658Kb lim: 2842 exec/s: 154 rss: 274Mb L: 553/2721 MS: 4 InsertRepeatedBytes-ChangeBinInt-CopyPart-EraseBytes-
+#621644	NEW    cov: 736 ft: 2026 corp: 740/660Kb lim: 2842 exec/s: 154 rss: 274Mb L: 2189/2721 MS: 4 ChangeASCIIInt-CopyPart-InsertByte-CMP- DE: "\x00\x00\x00\x00\x00\x00\x04;"-
+#623945	REDUCE cov: 736 ft: 2028 corp: 741/661Kb lim: 2864 exec/s: 154 rss: 274Mb L: 1035/2721 MS: 1 ChangeBinInt-
+#624281	REDUCE cov: 736 ft: 2028 corp: 741/661Kb lim: 2864 exec/s: 154 rss: 274Mb L: 666/2721 MS: 1 EraseBytes-
+#626771	REDUCE cov: 736 ft: 2028 corp: 741/661Kb lim: 2886 exec/s: 154 rss: 274Mb L: 2171/2721 MS: 5 EraseBytes-ChangeBit-ChangeBit-PersAutoDict-CopyPart- DE: "\xff\xff\xff2"-
+#628736	NEW    cov: 736 ft: 2029 corp: 742/662Kb lim: 2897 exec/s: 154 rss: 274Mb L: 1157/2721 MS: 5 ChangeASCIIInt-ShuffleBytes-ShuffleBytes-ShuffleBytes-ChangeBinInt-
+#630001	REDUCE cov: 736 ft: 2029 corp: 742/662Kb lim: 2908 exec/s: 154 rss: 274Mb L: 1765/2721 MS: 5 ShuffleBytes-ChangeBinInt-CopyPart-ChangeBinInt-EraseBytes-
+#630573	REDUCE cov: 737 ft: 2030 corp: 743/663Kb lim: 2908 exec/s: 154 rss: 274Mb L: 627/2721 MS: 2 InsertRepeatedBytes-ShuffleBytes-
+#631047	REDUCE cov: 737 ft: 2030 corp: 743/663Kb lim: 2908 exec/s: 154 rss: 274Mb L: 555/2721 MS: 4 ShuffleBytes-InsertByte-ChangeBinInt-EraseBytes-
+#631215	NEW    cov: 737 ft: 2032 corp: 744/663Kb lim: 2908 exec/s: 154 rss: 274Mb L: 622/2721 MS: 3 ChangeBit-InsertByte-InsertRepeatedBytes-
+#632874	REDUCE cov: 737 ft: 2034 corp: 745/666Kb lim: 2919 exec/s: 154 rss: 274Mb L: 2919/2919 MS: 4 ChangeASCIIInt-InsertByte-CopyPart-CrossOver-
+#633782	REDUCE cov: 737 ft: 2034 corp: 745/665Kb lim: 2919 exec/s: 154 rss: 274Mb L: 999/2919 MS: 3 CMP-CMP-EraseBytes- DE: "\xff\xff\xff\xff\xff\xff\x0ag"-"\x00\x00\x00\x00\x00\x00\x0bY"-
+#637278	NEW    cov: 737 ft: 2035 corp: 746/667Kb lim: 2952 exec/s: 154 rss: 274Mb L: 1159/2919 MS: 1 PersAutoDict- DE: "GL_OES_copy_image"-
+#638145	REDUCE cov: 737 ft: 2035 corp: 746/667Kb lim: 2952 exec/s: 154 rss: 274Mb L: 1053/2919 MS: 2 PersAutoDict-EraseBytes- DE: "\xff\xff\xff\xff"-
+#638352	NEW    cov: 737 ft: 2037 corp: 747/668Kb lim: 2952 exec/s: 154 rss: 274Mb L: 1079/2919 MS: 2 PersAutoDict-PersAutoDict- DE: "\x10\x01\x00\x00"-"\x00\x00\x00\x00\x00\x00\x00\xe5"-
+#639049	REDUCE cov: 737 ft: 2039 corp: 748/669Kb lim: 2952 exec/s: 154 rss: 274Mb L: 1051/2919 MS: 2 ChangeByte-ChangeByte-
+#643375	REDUCE cov: 737 ft: 2039 corp: 748/669Kb lim: 2985 exec/s: 154 rss: 274Mb L: 2125/2919 MS: 1 EraseBytes-
+#643611	REDUCE cov: 737 ft: 2039 corp: 748/669Kb lim: 2985 exec/s: 154 rss: 274Mb L: 1049/2919 MS: 1 EraseBytes-
+#644269	REDUCE cov: 737 ft: 2039 corp: 748/668Kb lim: 2985 exec/s: 154 rss: 274Mb L: 1429/2919 MS: 3 ChangeByte-ChangeByte-CrossOver-
+#645280	REDUCE cov: 737 ft: 2039 corp: 748/668Kb lim: 2985 exec/s: 154 rss: 274Mb L: 1157/2919 MS: 1 EraseBytes-
+#646146	REDUCE cov: 737 ft: 2039 corp: 748/668Kb lim: 2985 exec/s: 154 rss: 274Mb L: 721/2919 MS: 1 EraseBytes-
+#649333	NEW    cov: 737 ft: 2045 corp: 749/669Kb lim: 3007 exec/s: 154 rss: 274Mb L: 1063/2919 MS: 2 ShuffleBytes-InsertRepeatedBytes-
+#650164	NEW    cov: 737 ft: 2047 corp: 750/671Kb lim: 3007 exec/s: 154 rss: 274Mb L: 2943/2943 MS: 1 PersAutoDict- DE: "GL_ARB_vertex_buffer_obj"-
+#650495	REDUCE cov: 737 ft: 2047 corp: 750/671Kb lim: 3007 exec/s: 154 rss: 274Mb L: 685/2943 MS: 1 EraseBytes-
+#651141	NEW    cov: 737 ft: 2048 corp: 751/672Kb lim: 3007 exec/s: 154 rss: 274Mb L: 1159/2943 MS: 1 CopyPart-
+#651712	NEW    cov: 737 ft: 2050 corp: 752/673Kb lim: 3007 exec/s: 154 rss: 274Mb L: 1061/2943 MS: 1 InsertRepeatedBytes-
+#655329	NEW    cov: 737 ft: 2052 corp: 753/674Kb lim: 3040 exec/s: 154 rss: 274Mb L: 1159/2943 MS: 2 ChangeByte-PersAutoDict- DE: "\xff\xff\xff\xff\xff\xff\xff\\"-
+#656990	REDUCE cov: 737 ft: 2052 corp: 753/674Kb lim: 3051 exec/s: 154 rss: 274Mb L: 1029/2943 MS: 1 EraseBytes-
+#657346	REDUCE cov: 737 ft: 2052 corp: 753/674Kb lim: 3051 exec/s: 154 rss: 274Mb L: 1083/2943 MS: 1 EraseBytes-
+#658708	NEW    cov: 737 ft: 2054 corp: 754/675Kb lim: 3062 exec/s: 154 rss: 274Mb L: 1063/2943 MS: 2 ChangeBit-ChangeASCIIInt-
+#659639	NEW    cov: 737 ft: 2058 corp: 755/676Kb lim: 3062 exec/s: 154 rss: 274Mb L: 1071/2943 MS: 1 CMP- DE: "\x00\x00\x00\x00\x00\x00\x04\xe5"-
+#660475	NEW    cov: 737 ft: 2059 corp: 756/678Kb lim: 3062 exec/s: 154 rss: 274Mb L: 1159/2943 MS: 1 ShuffleBytes-
+#661320	REDUCE cov: 737 ft: 2059 corp: 756/677Kb lim: 3062 exec/s: 154 rss: 274Mb L: 605/2943 MS: 5 ChangeBit-ShuffleBytes-ChangeByte-EraseBytes-InsertByte-
+#661419	REDUCE cov: 737 ft: 2059 corp: 756/677Kb lim: 3062 exec/s: 154 rss: 274Mb L: 1093/2943 MS: 4 PersAutoDict-EraseBytes-ChangeByte-CMP- DE: "\x01\x00\x00\x00\x00\x00\x00\x00"-"\x16\x00\x00\x00"-
+#663426	REDUCE cov: 737 ft: 2059 corp: 756/677Kb lim: 3073 exec/s: 154 rss: 274Mb L: 537/2943 MS: 2 ChangeBinInt-EraseBytes-
+#665738	REDUCE cov: 737 ft: 2059 corp: 756/676Kb lim: 3095 exec/s: 154 rss: 274Mb L: 1697/2943 MS: 2 ChangeASCIIInt-EraseBytes-
+#665909	NEW    cov: 737 ft: 2061 corp: 757/678Kb lim: 3095 exec/s: 154 rss: 274Mb L: 1187/2943 MS: 1 InsertRepeatedBytes-
+#665990	REDUCE cov: 737 ft: 2061 corp: 757/678Kb lim: 3095 exec/s: 154 rss: 274Mb L: 1157/2943 MS: 1 EraseBytes-
+#666857	NEW    cov: 737 ft: 2064 corp: 758/679Kb lim: 3095 exec/s: 154 rss: 274Mb L: 1075/2943 MS: 2 ChangeBit-PersAutoDict- DE: "\xff\x03\x97\x14"-
+#667384	NEW    cov: 739 ft: 2070 corp: 759/680Kb lim: 3095 exec/s: 154 rss: 274Mb L: 1063/2943 MS: 2 ChangeASCIIInt-ChangeByte-
+#667467	REDUCE cov: 739 ft: 2070 corp: 759/680Kb lim: 3095 exec/s: 154 rss: 274Mb L: 1037/2943 MS: 3 CopyPart-ShuffleBytes-EraseBytes-
+#667896	NEW    cov: 739 ft: 2077 corp: 760/681Kb lim: 3095 exec/s: 154 rss: 274Mb L: 1081/2943 MS: 4 ChangeBinInt-CMP-ShuffleBytes-InsertByte- DE: "GL_KHR_robustness"-
+#668302	REDUCE cov: 739 ft: 2084 corp: 761/681Kb lim: 3095 exec/s: 154 rss: 274Mb L: 686/2943 MS: 1 InsertByte-
+#669956	REDUCE cov: 739 ft: 2084 corp: 761/681Kb lim: 3106 exec/s: 154 rss: 274Mb L: 538/2943 MS: 4 InsertRepeatedBytes-ShuffleBytes-ShuffleBytes-EraseBytes-
+#670495	REDUCE cov: 739 ft: 2084 corp: 761/680Kb lim: 3106 exec/s: 154 rss: 274Mb L: 1167/2943 MS: 4 ShuffleBytes-InsertRepeatedBytes-EraseBytes-InsertRepeatedBytes-
+#671108	REDUCE cov: 739 ft: 2084 corp: 761/680Kb lim: 3106 exec/s: 154 rss: 274Mb L: 1190/2943 MS: 3 ChangeByte-ChangeByte-EraseBytes-
+#671201	REDUCE cov: 739 ft: 2084 corp: 761/680Kb lim: 3106 exec/s: 154 rss: 274Mb L: 1075/2943 MS: 3 EraseBytes-ChangeBit-InsertRepeatedBytes-
+#672107	NEW    cov: 739 ft: 2086 corp: 762/681Kb lim: 3106 exec/s: 154 rss: 274Mb L: 1083/2943 MS: 1 CMP- DE: "GL_OES_texture_float"-
+#672322	REDUCE cov: 739 ft: 2086 corp: 762/681Kb lim: 3106 exec/s: 154 rss: 274Mb L: 1037/2943 MS: 5 ChangeASCIIInt-InsertByte-ShuffleBytes-CopyPart-EraseBytes-
+#673639	REDUCE cov: 739 ft: 2086 corp: 762/681Kb lim: 3117 exec/s: 154 rss: 274Mb L: 1157/2943 MS: 2 EraseBytes-InsertByte-
+#674795	NEW    cov: 739 ft: 2088 corp: 763/682Kb lim: 3128 exec/s: 154 rss: 274Mb L: 1063/2943 MS: 1 ChangeByte-
+#675487	NEW    cov: 739 ft: 2090 corp: 764/683Kb lim: 3128 exec/s: 154 rss: 274Mb L: 1091/2943 MS: 2 ChangeBit-CMP- DE: "\x00\x00\x00\x00\x00\x00\x06&"-
+#676228	REDUCE cov: 739 ft: 2090 corp: 764/683Kb lim: 3128 exec/s: 154 rss: 274Mb L: 549/2943 MS: 1 EraseBytes-
+#677241	REDUCE cov: 739 ft: 2090 corp: 764/683Kb lim: 3128 exec/s: 154 rss: 274Mb L: 814/2943 MS: 3 ChangeASCIIInt-ShuffleBytes-EraseBytes-
+#677525	REDUCE cov: 739 ft: 2090 corp: 764/683Kb lim: 3128 exec/s: 154 rss: 274Mb L: 531/2943 MS: 4 CMP-PersAutoDict-ChangeBinInt-EraseBytes- DE: "\x07\x00"-"\xd2\x15"-
+#678481	REDUCE cov: 739 ft: 2090 corp: 764/683Kb lim: 3128 exec/s: 154 rss: 274Mb L: 1035/2943 MS: 1 EraseBytes-
+#678656	REDUCE cov: 739 ft: 2090 corp: 764/683Kb lim: 3128 exec/s: 154 rss: 274Mb L: 1126/2943 MS: 5 PersAutoDict-ChangeASCIIInt-ChangeBit-EraseBytes-CrossOver- DE: "\xff\xff\xff\x0a"-
+#678830	REDUCE cov: 739 ft: 2090 corp: 764/683Kb lim: 3128 exec/s: 154 rss: 274Mb L: 1215/2943 MS: 4 CMP-ChangeBit-InsertRepeatedBytes-EraseBytes- DE: "\xf8?\x14\x00"-
+#680293	NEW    cov: 739 ft: 2092 corp: 765/686Kb lim: 3139 exec/s: 154 rss: 274Mb L: 3139/3139 MS: 3 EraseBytes-CopyPart-CrossOver-
+#680679	REDUCE cov: 739 ft: 2092 corp: 765/686Kb lim: 3139 exec/s: 155 rss: 274Mb L: 1355/3139 MS: 1 EraseBytes-
+#682130	REDUCE cov: 739 ft: 2092 corp: 765/686Kb lim: 3150 exec/s: 154 rss: 274Mb L: 606/3139 MS: 1 EraseBytes-
+#683222	REDUCE cov: 739 ft: 2092 corp: 765/686Kb lim: 3150 exec/s: 155 rss: 274Mb L: 1029/3139 MS: 2 ChangeBinInt-EraseBytes-
+#683483	REDUCE cov: 739 ft: 2092 corp: 765/686Kb lim: 3150 exec/s: 155 rss: 274Mb L: 547/3139 MS: 1 CrossOver-
+#684325	REDUCE cov: 739 ft: 2092 corp: 765/685Kb lim: 3150 exec/s: 155 rss: 274Mb L: 566/3139 MS: 2 CMP-EraseBytes- DE: "\x06\x00\x00\x00"-
+#686001	NEW    cov: 739 ft: 2095 corp: 766/687Kb lim: 3161 exec/s: 154 rss: 274Mb L: 1107/3139 MS: 1 EraseBytes-
+#686124	NEW    cov: 740 ft: 2096 corp: 767/688Kb lim: 3161 exec/s: 154 rss: 274Mb L: 1049/3139 MS: 3 ChangeByte-ChangeASCIIInt-EraseBytes-
+#686813	NEW    cov: 741 ft: 2097 corp: 768/689Kb lim: 3161 exec/s: 155 rss: 274Mb L: 1762/3139 MS: 4 ChangeBinInt-InsertByte-PersAutoDict-CopyPart- DE: "\x00\x00\x00\x13"-
+#687878	REDUCE cov: 741 ft: 2098 corp: 769/692Kb lim: 3161 exec/s: 154 rss: 274Mb L: 3161/3161 MS: 5 CopyPart-ChangeBinInt-CopyPart-CrossOver-CrossOver-
+#687944	NEW    cov: 741 ft: 2099 corp: 770/693Kb lim: 3161 exec/s: 154 rss: 274Mb L: 1113/3161 MS: 1 ChangeBinInt-
+#688986	REDUCE cov: 741 ft: 2099 corp: 770/693Kb lim: 3161 exec/s: 154 rss: 274Mb L: 1047/3161 MS: 2 CrossOver-EraseBytes-
+#690878	REDUCE cov: 741 ft: 2099 corp: 770/693Kb lim: 3172 exec/s: 154 rss: 274Mb L: 675/3161 MS: 2 CMP-EraseBytes- DE: "\x03\x00\x00\x00\x00\x00\x00\x00"-
+#692291	NEW    cov: 741 ft: 2101 corp: 771/694Kb lim: 3183 exec/s: 155 rss: 274Mb L: 1043/3161 MS: 3 ChangeBinInt-ChangeBit-PersAutoDict- DE: "\x00\x00\x00\x00\x00\x00\x00\xe5"-
+#692921	REDUCE cov: 741 ft: 2101 corp: 771/694Kb lim: 3183 exec/s: 155 rss: 274Mb L: 1145/3161 MS: 5 ChangeBinInt-ChangeASCIIInt-ShuffleBytes-InsertRepeatedBytes-CrossOver-
+#692978	REDUCE cov: 741 ft: 2101 corp: 771/694Kb lim: 3183 exec/s: 155 rss: 274Mb L: 1069/3161 MS: 2 ChangeBit-EraseBytes-
+#693481	NEW    cov: 741 ft: 2102 corp: 772/696Kb lim: 3183 exec/s: 155 rss: 274Mb L: 1157/3161 MS: 3 InsertRepeatedBytes-ChangeByte-EraseBytes-
+#695052	REDUCE cov: 741 ft: 2102 corp: 772/696Kb lim: 3194 exec/s: 155 rss: 274Mb L: 1057/3161 MS: 1 CrossOver-
+#695439	REDUCE cov: 741 ft: 2102 corp: 772/695Kb lim: 3194 exec/s: 155 rss: 274Mb L: 1389/3161 MS: 2 InsertByte-EraseBytes-
+#695530	REDUCE cov: 741 ft: 2102 corp: 772/695Kb lim: 3194 exec/s: 155 rss: 274Mb L: 1039/3161 MS: 1 EraseBytes-
+#695586	NEW    cov: 741 ft: 2103 corp: 773/696Kb lim: 3194 exec/s: 155 rss: 274Mb L: 602/3161 MS: 1 InsertRepeatedBytes-
+#695714	REDUCE cov: 741 ft: 2103 corp: 773/696Kb lim: 3194 exec/s: 155 rss: 274Mb L: 545/3161 MS: 3 EraseBytes-ChangeBit-InsertByte-
+#695765	REDUCE cov: 741 ft: 2103 corp: 773/696Kb lim: 3194 exec/s: 155 rss: 274Mb L: 570/3161 MS: 1 EraseBytes-
+#697169	NEW    cov: 741 ft: 2106 corp: 774/697Kb lim: 3205 exec/s: 154 rss: 274Mb L: 1099/3161 MS: 4 InsertRepeatedBytes-ChangeASCIIInt-EraseBytes-InsertByte-
+#697392	REDUCE cov: 741 ft: 2109 corp: 775/700Kb lim: 3205 exec/s: 155 rss: 274Mb L: 3205/3205 MS: 3 EraseBytes-PersAutoDict-CrossOver- DE: "\x07\x00"-
+#700809	REDUCE cov: 741 ft: 2109 corp: 775/700Kb lim: 3238 exec/s: 155 rss: 274Mb L: 1107/3205 MS: 2 ChangeBit-EraseBytes-
+#701083	NEW    cov: 742 ft: 2110 corp: 776/701Kb lim: 3238 exec/s: 155 rss: 274Mb L: 1830/3205 MS: 4 CMP-ChangeBinInt-InsertRepeatedBytes-CopyPart- DE: "\xff\x14\x0a\xb0"-
+#701672	REDUCE cov: 742 ft: 2110 corp: 776/701Kb lim: 3238 exec/s: 155 rss: 274Mb L: 1514/3205 MS: 4 PersAutoDict-EraseBytes-InsertRepeatedBytes-InsertRepeatedBytes- DE: "GL_OES_surfaceless_context"-
+#702473	REDUCE cov: 742 ft: 2110 corp: 776/701Kb lim: 3238 exec/s: 155 rss: 274Mb L: 1057/3205 MS: 1 EraseBytes-
+#703309	REDUCE cov: 742 ft: 2110 corp: 776/700Kb lim: 3238 exec/s: 155 rss: 274Mb L: 1401/3205 MS: 1 EraseBytes-
+#703670	REDUCE cov: 742 ft: 2110 corp: 776/700Kb lim: 3238 exec/s: 155 rss: 274Mb L: 618/3205 MS: 1 EraseBytes-
+#706537	REDUCE cov: 742 ft: 2110 corp: 776/700Kb lim: 3260 exec/s: 155 rss: 274Mb L: 1237/3205 MS: 2 CrossOver-InsertRepeatedBytes-
+#710342	NEW    cov: 742 ft: 2111 corp: 777/703Kb lim: 3293 exec/s: 155 rss: 274Mb L: 3207/3207 MS: 5 PersAutoDict-InsertByte-InsertByte-ChangeASCIIInt-ChangeBinInt- DE: "\x00\x00\x01\x07"-
+#711002	REDUCE cov: 742 ft: 2111 corp: 777/703Kb lim: 3293 exec/s: 155 rss: 274Mb L: 1029/3207 MS: 5 CMP-CMP-CMP-EraseBytes-InsertRepeatedBytes- DE: "\x86\x04\x00\x00\x00\x00\x00\x00"-"\xff\xff\xff\xff\xff\xff\x01f"-"\x01\x00\x00\x00\x00\x00\x04\x87"-
+#713001	NEW    cov: 742 ft: 2112 corp: 778/705Kb lim: 3304 exec/s: 155 rss: 274Mb L: 1309/3207 MS: 4 ShuffleBytes-ShuffleBytes-PersAutoDict-ChangeBinInt- DE: "\x00\x00\x00\x00\x00\x00\x02\x0e"-
+==169600== ERROR: libFuzzer: out-of-memory (malloc(3657433136))
+   To change the out-of-memory limit use -rss_limit_mb=<N>
+
+    #0 0x52bf01 in __sanitizer_print_stack_trace (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x52bf01)
+    #1 0x477058 in fuzzer::PrintStackTrace() (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x477058)
+    #2 0x45b385 in fuzzer::Fuzzer::HandleMalloc(unsigned long) (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x45b385)
+    #3 0x45b29a in fuzzer::MallocHook(void const volatile*, unsigned long) (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x45b29a)
+    #4 0x532227 in __sanitizer::RunMallocHooks(void const*, unsigned long) (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x532227)
+    #5 0x4ac8e1 in __asan::Allocator::Allocate(unsigned long, unsigned long, __sanitizer::BufferedStackTrace*, __asan::AllocType, bool) (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x4ac8e1)
+    #6 0x4ad055 in __asan::asan_posix_memalign(void**, unsigned long, unsigned long, __sanitizer::BufferedStackTrace*) (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x4ad055)
+    #7 0x523ecb in posix_memalign (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x523ecb)
+    #8 0x7f6e02ce9924  (/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so+0x7fe924)
+    #9 0x7f6e02692539  (/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so+0x1a7539)
+    #10 0x7f6e02714c2e  (/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so+0x229c2e)
+    #11 0x7f6e0271736f  (/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so+0x22c36f)
+    #12 0x5a19e9 in vrend_renderer_resource_create (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x5a19e9)
+    #13 0x626db0 in virgl_renderer_resource_create_internal (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x626db0)
+    #14 0x553484 in LLVMFuzzerTestOneInput (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x553484)
+    #15 0x45d861 in fuzzer::Fuzzer::ExecuteCallback(unsigned char const*, unsigned long) (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x45d861)
+    #16 0x45cfa5 in fuzzer::Fuzzer::RunOne(unsigned char const*, unsigned long, bool, fuzzer::InputInfo*, bool*) (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x45cfa5)
+    #17 0x45f247 in fuzzer::Fuzzer::MutateAndTestOne() (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x45f247)
+    #18 0x45ff45 in fuzzer::Fuzzer::Loop(std::__Fuzzer::vector<fuzzer::SizedFile, fuzzer::fuzzer_allocator<fuzzer::SizedFile> >&) (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x45ff45)
+    #19 0x44e8fe in fuzzer::FuzzerDriver(int*, char***, int (*)(unsigned char const*, unsigned long)) (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x44e8fe)
+    #20 0x477742 in main (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x477742)
+    #21 0x7f6e076ed0b2 in __libc_start_main /build/glibc-eX1tMB/glibc-2.31/csu/../csu/libc-start.c:308:16
+    #22 0x42369d in _start (/home/fuzzing/Desktop/virglrenderer-master/build/src/virgl_fuzzer+0x42369d)
+
+MS: 3 CopyPart-CopyPart-EraseBytes-; base unit: 408b51026591e47b9e12902b2d91066874d5fce0
+artifact_prefix='./'; Test unit written to ./oom-7b972a118844178c615efe0f6b1a38989d1ef08d
+SUMMARY: libFuzzer: out-of-memory

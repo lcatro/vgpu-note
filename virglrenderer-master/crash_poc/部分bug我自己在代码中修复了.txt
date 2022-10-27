@@ -1,0 +1,5 @@
+crash_vrend_decode_clear_texture
+crash_vrend_decode_set_shader_images
+crash_vrend_renderer_get_meminfo
+oom_vrend_renderer_resource_create
+oom_vrend_renderer_resource_create_2
